@@ -23,6 +23,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------- | ---------------- |
 | [Multi-value][multi-value]         | Andreas Rossberg |
 | [Reference Types][reference_types] | Andreas Rossberg |
+| [Tail call][tail_call]             | Andreas Rossberg |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -30,21 +31,21 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------------------------------------------------- | ---------------- |
 | [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg    |
 | [WebAssembly specification][webassembly_specification]                                               | Andreas Rossberg |
+| [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith        |
+| [Threads][threads]                                                                                   | Ben Smith        |
 
 ### Phase 1 - Feature Proposal (CG)
 
 | Proposal                                                                                         | Champion                    |
 | ------------------------------------------------------------------------------------------------ | --------------------------- |
-| [Bulk memory operations][bulk_memory_operations]                                                 | Ben Smith                   |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg            |
 | [ECMAScript module integration][ecmascript_module_integration]                                   | Lin Clark                   |
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                  |
 | [Fixed-width SIMD][fixed-width_simd]                                                             | Peter Jensen and Arun Etm   |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg            |
 | [Host bindings][host_bindings]                                                                   | Brad Nelson and Luke Wagner |
-| [Tail call][tail_call]                                                                           | Andreas Rossberg            |
-| [Threads][threads]                                                                               | Ben Smith                   |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit           |
+| [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg            |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -52,7 +53,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------- | ---------------- |
 | [Unmanaged closures][unmanaged_closures]                   | Mark Miller      |
 | [Web Content Security Policy][web_content_security_policy] |                  |
-| [WebAssembly C and C++ API][wasm_c_api]                    | Andreas Rossberg |
 
 ### Contributing new proposals
 
