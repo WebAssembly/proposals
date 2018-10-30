@@ -43,7 +43,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                  |
 | [Fixed-width SIMD][fixed-width_simd]                                                             | Peter Jensen and Arun Etm   |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg            |
-| [Host bindings][host_bindings]                                                                   | Brad Nelson and Luke Wagner |
+| [Host bindings][host_bindings]                                                                   | Luke Wagner                 |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit           |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg            |
 
