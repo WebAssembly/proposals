@@ -53,6 +53,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------- | ---------------- |
 | [Unmanaged closures][unmanaged_closures]                   | Mark Miller      |
 | [Web Content Security Policy][web_content_security_policy] |                  |
+| [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman       |
 
 ### Contributing new proposals
 
@@ -78,3 +79,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [wasm_c_api]: https://github.com/rossberg/wasm-c-api
 [web_content_security_policy]: https://github.com/WebAssembly/content-security-policy/blob/master/proposals/CSP.md
 [webassembly_specification]: https://github.com/WebAssembly/spec
+[funclets]: https://github.com/WebAssembly/funclets
