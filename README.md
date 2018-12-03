@@ -41,7 +41,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg            |
 | [ECMAScript module integration][ecmascript_module_integration]                                   | Lin Clark                   |
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                  |
-| [Fixed-width SIMD][fixed-width_simd]                                                             | Peter Jensen and Arun Etm   |
+| [Fixed-width SIMD][fixed-width_simd]                                                             | Peter Jensen and Arun Purushan   |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg            |
 | [Host bindings][host_bindings]                                                                   | Luke Wagner                 |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit           |
