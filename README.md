@@ -62,7 +62,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [bulk_memory_operations]: https://github.com/webassembly/bulk-memory-operations
 [custom_annotation_syntax_in_the_text_format]: https://github.com/WebAssembly/annotations/blob/master/proposals/annotations/Overview.md
 [ecmascript_module_integration]: https://github.com/webassembly/esm-integration
-[exception_handling]: https://github.com/webassembly/exception-handling/blob/master/proposals/Level-1.md
+[exception_handling]: https://github.com/WebAssembly/exception-handling/blob/master/proposals/Exceptions.md
 [fixed-width_simd]: https://github.com/webassembly/simd/blob/master/proposals/simd/SIMD.md
 [garbage_collection]: https://github.com/webassembly/gc/blob/master/proposals/gc/Overview.md
 [host_bindings]: https://github.com/webassembly/host-bindings
