@@ -51,7 +51,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                   | Champion         |
 | ---------------------------------------------------------- | ---------------- |
-| [Typed Fucntion References][function_references]           | Andreas Rossberg |
+| [Typed Function References][function_references]           | Andreas Rossberg |
 | [Unmanaged closures][unmanaged_closures]                   | Mark Miller      |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman       |
