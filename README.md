@@ -65,7 +65,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [ecmascript_module_integration]: https://github.com/webassembly/esm-integration
 [exception_handling]: https://github.com/WebAssembly/exception-handling/blob/master/proposals/Exceptions.md
 [fixed-width_simd]: https://github.com/webassembly/simd/blob/master/proposals/simd/SIMD.md
-[function_references]: https://github.com/WebAssembly/function_references
+[function_references]: https://github.com/WebAssembly/function-references
 [garbage_collection]: https://github.com/webassembly/gc/blob/master/proposals/gc/Overview.md
 [host_bindings]: https://github.com/webassembly/host-bindings
 [import_export_of_mutable_globals]: https://github.com/WebAssembly/mutable-global
