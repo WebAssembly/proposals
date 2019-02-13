@@ -78,7 +78,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [threads]: https://github.com/webassembly/threads/blob/master/proposals/threads/Overview.md
 [type_reflection_for_webassembly_javascript_api]: https://github.com/webassembly/js-types/blob/master/proposals/js-types/Overview.md
 [unmanaged_closures]: https://github.com/WebAssembly/proposals/issues/6
-[wasm_c_api]: https://github.com/rossberg/wasm-c-api
+[wasm_c_api]: https://github.com/WebAssembly/wasm-c-api
 [web_content_security_policy]: https://github.com/WebAssembly/content-security-policy/blob/master/proposals/CSP.md
 [webassembly_specification]: https://github.com/WebAssembly/spec
 [funclets]: https://github.com/WebAssembly/funclets
