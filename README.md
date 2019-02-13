@@ -4,9 +4,10 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 ## Standardized proposals
 
-| Proposal                                                             | Champion  |
-| -------------------------------------------------------------------- | --------- |
-| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith |
+| Proposal                                                             | Champion         |
+| -------------------------------------------------------------------- | ---------------- |
+| [WebAssembly specification][webassembly_specification]               | Andreas Rossberg |
+| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        |
 
 ## Active proposals
 
@@ -30,7 +31,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | Proposal                                                                                             | Champion         |
 | ---------------------------------------------------------------------------------------------------- | ---------------- |
 | [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg    |
-| [WebAssembly specification][webassembly_specification]                                               | Andreas Rossberg |
 | [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith        |
 | [Threads][threads]                                                                                   | Ben Smith        |
 
