@@ -1,4 +1,4 @@
-# [WebAssembly](https://github.com/WebAssembly/spec) proposals
+# [WebAssembly][webassembly_specification] proposals
 
 Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
 
@@ -6,7 +6,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                             | Champion         |
 | -------------------------------------------------------------------- | ---------------- |
-| [WebAssembly specification][webassembly_specification]               | Andreas Rossberg |
 | [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        |
 
 ## Active proposals
