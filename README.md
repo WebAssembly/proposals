@@ -38,7 +38,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | Proposal                                                                                         | Champion                         |
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg                 |
-| [ECMAScript module integration][ecmascript_module_integration]                                   | Lin Clark                        |
+| [ECMAScript module integration][ecmascript_module_integration]                                   | Lin Clark & Daniel Ehrenberg     |
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                       |
 | [Fixed-width SIMD][fixed-width_simd]                                                             | Peter Jensen and Arun Purushan   |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
