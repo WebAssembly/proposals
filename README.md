@@ -28,17 +28,17 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
-| Proposal                                                                                             | Champion         |
-| ---------------------------------------------------------------------------------------------------- | ---------------- |
-| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg    |
-| [Threads][threads]                                                                                   | Ben Smith        |
+| Proposal                                                                                             | Champion                     |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------- |
+| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg                |
+| [Threads][threads]                                                                                   | Ben Smith                    |
+| [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg |
 
 ### Phase 1 - Feature Proposal (CG)
 
 | Proposal                                                                                         | Champion                         |
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg                 |
-| [ECMAScript module integration][ecmascript_module_integration]                                   | Lin Clark & Daniel Ehrenberg     |
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                       |
 | [Fixed-width SIMD][fixed-width_simd]                                                             | Peter Jensen and Arun Purushan   |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
