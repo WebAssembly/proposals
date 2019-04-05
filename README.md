@@ -42,7 +42,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                       |
 | [Fixed-width SIMD][fixed-width_simd]                                                             | Peter Jensen and Arun Purushan   |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
-| [Host bindings][host_bindings]                                                                   | Luke Wagner                      |
+| [Web IDL Bindings][webidl_bindings]                                                              | Luke Wagner                      |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 
@@ -66,7 +66,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [fixed-width_simd]: https://github.com/webassembly/simd/blob/master/proposals/simd/SIMD.md
 [function_references]: https://github.com/WebAssembly/function-references
 [garbage_collection]: https://github.com/webassembly/gc/blob/master/proposals/gc/Overview.md
-[host_bindings]: https://github.com/webassembly/host-bindings
+[webidl_bindings]: https://github.com/WebAssembly/webidl-bindings/blob/master/proposals/webidl-bindings/Explainer.md
 [import_export_of_mutable_globals]: https://github.com/WebAssembly/mutable-global
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
 [non-trapping_float-to-int_conversions]: https://github.com/WebAssembly/nontrapping-float-to-int-conversions
