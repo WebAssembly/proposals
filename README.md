@@ -1,16 +1,11 @@
 # [WebAssembly][webassembly_specification] proposals
 
-* [Inactive Proposals](inactive-proposals.md)
-
-Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
-
-## Standardized proposals
-
-| Proposal                                                             | Champion         |
-| -------------------------------------------------------------------- | ---------------- |
-| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        |
+- [Finished Proposals](finished-proposals.md)
+- [Inactive Proposals](inactive-proposals.md)
 
 ## Active proposals
+
+Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
 
 ### Phase 4 - Standardize the Feature (WG)
 
@@ -68,7 +63,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [function_references]: https://github.com/WebAssembly/function-references
 [garbage_collection]: https://github.com/webassembly/gc/blob/master/proposals/gc/Overview.md
 [webidl_bindings]: https://github.com/WebAssembly/webidl-bindings/blob/master/proposals/webidl-bindings/Explainer.md
-[import_export_of_mutable_globals]: https://github.com/WebAssembly/mutable-global
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
 [non-trapping_float-to-int_conversions]: https://github.com/WebAssembly/nontrapping-float-to-int-conversions
 [multi-value]: https://github.com/WebAssembly/multi-value
