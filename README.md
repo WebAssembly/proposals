@@ -1,14 +1,11 @@
 # [WebAssembly][webassembly_specification] proposals
 
-Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
-
-## Standardized proposals
-
-| Proposal                                                             | Champion         |
-| -------------------------------------------------------------------- | ---------------- |
-| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        |
+- [Finished Proposals](finished-proposals.md)
+- [Inactive Proposals](inactive-proposals.md)
 
 ## Active proposals
+
+Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
 
 ### Phase 4 - Standardize the Feature (WG)
 
@@ -51,7 +48,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | Proposal                                                   | Champion         |
 | ---------------------------------------------------------- | ---------------- |
 | [Typed Function References][function_references]           | Andreas Rossberg |
-| [Unmanaged closures][unmanaged_closures]                   | Mark Miller      |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman       |
 
@@ -67,7 +63,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [function_references]: https://github.com/WebAssembly/function-references
 [garbage_collection]: https://github.com/webassembly/gc/blob/master/proposals/gc/Overview.md
 [webidl_bindings]: https://github.com/WebAssembly/webidl-bindings/blob/master/proposals/webidl-bindings/Explainer.md
-[import_export_of_mutable_globals]: https://github.com/WebAssembly/mutable-global
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
 [non-trapping_float-to-int_conversions]: https://github.com/WebAssembly/nontrapping-float-to-int-conversions
 [multi-value]: https://github.com/WebAssembly/multi-value
@@ -76,7 +71,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [tail_call]: https://github.com/webassembly/tail-call
 [threads]: https://github.com/webassembly/threads/blob/master/proposals/threads/Overview.md
 [type_reflection_for_webassembly_javascript_api]: https://github.com/webassembly/js-types/blob/master/proposals/js-types/Overview.md
-[unmanaged_closures]: https://github.com/WebAssembly/proposals/issues/6
 [wasm_c_api]: https://github.com/WebAssembly/wasm-c-api
 [web_content_security_policy]: https://github.com/WebAssembly/content-security-policy/blob/master/proposals/CSP.md
 [webassembly_specification]: https://github.com/WebAssembly/spec
