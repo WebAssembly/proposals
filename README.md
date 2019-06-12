@@ -42,12 +42,12 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Web IDL Bindings][webidl_bindings]                                                              | Luke Wagner                      |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
+| [Typed Function References][function_references]                                                 | Andreas Rossberg                 |
 
 ### Phase 0 - Pre-Proposal (CG)
 
 | Proposal                                                   | Champion         |
 | ---------------------------------------------------------- | ---------------- |
-| [Typed Function References][function_references]           | Andreas Rossberg |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman       |
 
