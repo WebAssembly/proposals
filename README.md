@@ -48,6 +48,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                   | Champion         |
 | ---------------------------------------------------------- | ---------------- |
+| [Type Imports][type-imports]                               | Andreas Rossberg |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman       |
 
@@ -61,6 +62,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [exception_handling]: https://github.com/WebAssembly/exception-handling/blob/master/proposals/Exceptions.md
 [fixed-width_simd]: https://github.com/webassembly/simd/blob/master/proposals/simd/SIMD.md
 [function_references]: https://github.com/WebAssembly/function-references
+[type-imports]: https://github.com/WebAssembly/proposal-type-imports
 [garbage_collection]: https://github.com/webassembly/gc/blob/master/proposals/gc/Overview.md
 [webidl_bindings]: https://github.com/WebAssembly/webidl-bindings/blob/master/proposals/webidl-bindings/Explainer.md
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
