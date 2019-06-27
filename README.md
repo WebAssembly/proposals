@@ -38,6 +38,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg                 |
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                       |
+| [Type Imports][type-imports]                                                                     | Andreas Rossberg         |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Web IDL Bindings][webidl_bindings]                                                              | Luke Wagner                      |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
@@ -61,6 +62,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [exception_handling]: https://github.com/WebAssembly/exception-handling/blob/master/proposals/Exceptions.md
 [fixed-width_simd]: https://github.com/webassembly/simd/blob/master/proposals/simd/SIMD.md
 [function_references]: https://github.com/WebAssembly/function-references
+[type-imports]: https://github.com/WebAssembly/proposal-type-imports
 [garbage_collection]: https://github.com/webassembly/gc/blob/master/proposals/gc/Overview.md
 [webidl_bindings]: https://github.com/WebAssembly/webidl-bindings/blob/master/proposals/webidl-bindings/Explainer.md
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
