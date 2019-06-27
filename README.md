@@ -38,6 +38,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg                 |
 | [Exception handling][exception_handling]                                                         | Heejin Ahn                       |
+| [Type Imports][type-imports]                                                                     | Andreas Rossberg         |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Web IDL Bindings][webidl_bindings]                                                              | Luke Wagner                      |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
@@ -48,7 +49,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                   | Champion         |
 | ---------------------------------------------------------- | ---------------- |
-| [Type Imports][type-imports]                               | Andreas Rossberg |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman       |
 
