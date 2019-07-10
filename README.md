@@ -44,6 +44,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Typed Function References][function_references]                                                 | Andreas Rossberg                 |
+| [Feature Detection][feature_detection]                                                           | Thomas Lively                    |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -77,3 +78,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [web_content_security_policy]: https://github.com/WebAssembly/content-security-policy/blob/master/proposals/CSP.md
 [webassembly_specification]: https://github.com/WebAssembly/spec
 [funclets]: https://github.com/WebAssembly/funclets
+[feature_detection]: https://github.com/WebAssembly/feature-detection
