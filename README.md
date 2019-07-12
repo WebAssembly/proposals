@@ -45,6 +45,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Typed Function References][function_references]                                                 | Andreas Rossberg                 |
 | [Feature Detection][feature_detection]                                                           | Thomas Lively                    |
+| [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -79,3 +80,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [webassembly_specification]: https://github.com/WebAssembly/spec
 [funclets]: https://github.com/WebAssembly/funclets
 [feature_detection]: https://github.com/WebAssembly/feature-detection
+[extended-name-section]: https://github.com/AndrewScheidecker/wasm-extended-name-section/blob/master/proposals/extended-name-section/Overview.md
