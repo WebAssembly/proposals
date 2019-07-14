@@ -80,4 +80,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [webassembly_specification]: https://github.com/WebAssembly/spec
 [funclets]: https://github.com/WebAssembly/funclets
 [feature_detection]: https://github.com/WebAssembly/feature-detection
-[extended-name-section]: https://github.com/AndrewScheidecker/wasm-extended-name-section/blob/master/proposals/extended-name-section/Overview.md
+[extended-name-section]: https://github.com/WebAssembly/extended-name-section/blob/master/proposals/extended-name-section/Overview.md
