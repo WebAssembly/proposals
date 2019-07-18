@@ -30,7 +30,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg                  |
 | [Threads][threads]                                                                                   | Ben Smith                      |
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg   |
-| [Fixed-width SIMD][fixed-width_simd]                                                                 | Peter Jensen and Arun Purushan |
+| [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan |
 
 ### Phase 1 - Feature Proposal (CG)
 
