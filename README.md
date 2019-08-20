@@ -49,11 +49,11 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 ### Phase 0 - Pre-Proposal (CG)
 
-| Proposal                                                   | Champion         |
-| ---------------------------------------------------------- | ---------------- |
-| [Web Content Security Policy][web_content_security_policy] | Ben Titzer       |
-| [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman       |
-| [Module Types][module_types]                               | Luke Wagner      |
+| Proposal                                                   | Champion                         |
+| ---------------------------------------------------------- | -------------------------------- |
+| [Web Content Security Policy][web_content_security_policy] | Ben Titzer                       |
+| [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
+| [Module Types][module_types]                               | Luke Wagner and Andreas Rossberg |
 
 ### Contributing new proposals
 
