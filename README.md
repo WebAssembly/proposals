@@ -53,6 +53,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------- | -------------------------------- |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer                       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
+| [Multiple memories][multi-memory]                          | Andreas Rossberg                       |
 | [Module Types][module_types]                               | Luke Wagner and Andreas Rossberg |
 
 ### Contributing new proposals
@@ -71,6 +72,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
 [non-trapping_float-to-int_conversions]: https://github.com/WebAssembly/nontrapping-float-to-int-conversions
 [multi-value]: https://github.com/WebAssembly/multi-value
+[multi-memory]: https://github.com/WebAssembly/multi-memory
 [reference_types]: https://github.com/WebAssembly/reference-types
 [sign-extension_operators]: https://github.com/WebAssembly/sign-extension-ops/blob/master/proposals/sign-extension-ops/Overview.md
 [tail_call]: https://github.com/webassembly/tail-call
