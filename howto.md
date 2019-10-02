@@ -137,7 +137,7 @@ Add the proposal to the list of active proposals by creating a respective PR.
    2. Create a PR
 
 
-## Setting up GitHub IO and Travis CI
+## Setting up Travis and GitHub Page
 
 This step makes sure that every commit runs through Travis continuous integration tests. The spec CI scripts also automatically rebuild the spec document and publish it on the repo’s github.io page.
 
