@@ -170,7 +170,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    6. Click "Add key"
 
-3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#readme), if you do not have it already.
+3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#readme), if you do not have it already
 
 4. If you are using 2FA on GitHub and (like I) can’t figure out how to use something like YubiKey with the Travis command line client, you may need to generate a GitHub token to perform the Travis login in the next step:
 
@@ -191,12 +191,12 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
       travis login --org
       ```
 
-   2. Otherwise, if you have created a GitHub token in the previous step, run:
+   2. Otherwise, if you have created a GitHub token `<<gh-token>>` in the previous step, run:
       ```
       travis login --org --github-token <<gh-token>>
       ```
 
-   3. If this is the first time you log into Travis like that, you may have to accept the request through the Travis web site:
+   3. If this is the first time you log into Travis from the command line, you may have to accept the request through the Travis web site:
 
       1. Go to https://travis-ci.org/
 
@@ -222,8 +222,6 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
       where `<<label>>` is some hex value
 
 7. Add encryption label to Travis configuration:
-
-# take note of $encrypted_<label>_key
 
    1. Edit `.travis.yml`
 
