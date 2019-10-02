@@ -29,7 +29,7 @@ You need admin rights for the GitHub WebAsssembly organisation to execute this s
 
    5. Click "Create repository”
 
-3. If you are a maintainer and not the champion, add the champion as a maintainer:
+3. If you are a maintainer and not the champion, make the champion an admin for this repo:
 
    1. Click "Add teams and collaborators”
 
