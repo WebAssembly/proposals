@@ -64,7 +64,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       git add proposals/<<proposal>>/Overview.md
       ```
 
-   2. Edit `proposals/<<proposal>>/Overview.md`, e.g., with as follows:
+   2. Edit `proposals/<<proposal>>/Overview.md`, e.g., with contents as follows:
       ```
       # Multiple Bulklets Proposal
 
