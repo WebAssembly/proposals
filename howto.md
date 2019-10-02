@@ -6,7 +6,7 @@ First, you need to get the CG on board.
 
 1. Present the proposal at a [CG meeting](https://WebAssembly/meetings).
 
-2. Have a poll for moving it to stage 0.
+2. Have a successful poll for moving it to stage 0.
 
 
 ## 1. Creating the Repository
