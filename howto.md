@@ -101,7 +101,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
       Original `README` from upstream repository follows…
       ```
-      where `<<Title>>` is the title picked for the repository and <<Feature Description>> a healf-sentence summary
+      where `<<Title>>` is the title picked for the repository and `<<Feature Description>>` a healf-sentence summary
 
 4. Adjust spec doc front matters:
 
