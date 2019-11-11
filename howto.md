@@ -92,7 +92,8 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       # <<Title>> Proposal for WebAssembly
 
       This repository is a clone of [github.com/WebAssembly/spec/](https://github.com/WebAssembly/spec/).
-      It is meant for discussion, prototype specification and implementation of a proposal to add support for returning multiple values to WebAssembly.
+      It is meant for discussion, prototype specification and implementation of a proposal to
+      add support for <<Feature Description>> to WebAssembly.
 
       * See the [overview](proposals/<<proposal>>/Overview.md) for a summary of the proposal.
 
@@ -100,7 +101,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
       Original `README` from upstream repository follows…
       ```
-      where `<<Title>>` is the title picked for the repository
+      where `<<Title>>` is the title picked for the repository and <<Feature Description>> a healf-sentence summary
 
 4. Adjust spec doc front matters:
 
