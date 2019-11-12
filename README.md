@@ -25,12 +25,13 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
-| Proposal                                                                                             | Champion                       |
-| ---------------------------------------------------------------------------------------------------- | ------------------------------ |
-| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg                  |
-| [Threads][threads]                                                                                   | Ben Smith                      |
-| [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg   |
-| [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan |
+| Proposal                                                                                             | Champion                               |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg                          |
+| [Threads][threads]                                                                                   | Ben Smith                              |
+| [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
+| [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
+| [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -53,7 +54,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------- | -------------------------------- |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer                       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
-| [Multiple memories][multi-memory]                          | Andreas Rossberg                       |
 | [Module Types][module_types]                               | Luke Wagner and Andreas Rossberg |
 
 ### Contributing new proposals
