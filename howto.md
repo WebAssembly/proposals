@@ -246,7 +246,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    2. Click “Edit” next to title
 
-   3. Enter “Website": `http://webassembly.github.io/<<proposal>>/`
+   3. Enter “Website": `https://webassembly.github.io/<<proposal>>/`
 
    4. Click "Save"
 
