@@ -271,7 +271,54 @@ Once in a while you will need to merge in changes from the main spec repo.
       ```
       git push
       ```
+      
+If the merge conflicts are complex, you may want to have it reviewed. In that case:
 
+1. Merge upstream:
+
+   1. Run:
+      ```
+      git checkout -b  <<branch name>>
+      git fetch upstream
+      git merge upstream/master
+      ```
+      
+   2. Resolve merge conflicts
+   
+   3. Run:
+      ```
+      git commit -m "Merge from upstream spec"
+      git push
+      ```
+
+2. Create a nicer diff:
+
+   The GitHub UI will display this as a list of all the changes added from the spec to this repo, which is not very easy to review. Instead, you can create a diff between this repo and the spec [merge base](https://git-scm.com/docs/git-merge-base).
+   
+   1. Run:
+      ```
+      git diff upstream/master..origin/<<branch name>> > <<branch name>>.diff
+      ```
+      
+   2. Go to gist.github.com
+   
+   3. Paste the contents of `<<branch name>>.diff` into the edit box
+   
+   4. Name the file `<<branch name>>.diff`. This will make the diff have proper syntax highlighting.
+   
+   5. Click "Create public gist"
+   
+   6. Copy the URL
+   
+3. Open a new pull request
+
+   1. Go to `https://github.com/WebAssembly/<<proposal>>/compare`
+   
+   2. Click the right branch button and choose `<<branch name>>`
+   
+   3. Click "Create pull request"
+   
+   4. Fill out the details, and make sure to include the URL of your gist
 
 ## Progressing a Proposal Stages
 
