@@ -32,14 +32,14 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
 | [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
+| [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 
 ### Phase 1 - Feature Proposal (CG)
 
 | Proposal                                                                                         | Champion                         |
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg                 |
-| [Exception handling][exception_handling]                                                         | Heejin Ahn                       |
-| [Type Imports][type-imports]                                                                     | Andreas Rossberg         |
+| [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Interface Types][interface_types]                                                               | Luke Wagner                      |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
