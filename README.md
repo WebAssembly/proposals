@@ -9,16 +9,16 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 ### Phase 4 - Standardize the Feature (WG)
 
-| Proposal                                                                       | Champion   |
-| ------------------------------------------------------------------------------ | ---------- |
-| [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman |
-| [Sign-extension operators][sign-extension_operators]                           | Ben Smith  |
+| Proposal                                                                       | Champion         |
+| ------------------------------------------------------------------------------ | ---------------- |
+| [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       |
+| [Sign-extension operators][sign-extension_operators]                           | Ben Smith        |
+| [Multi-value][multi-value]                                                     | Andreas Rossberg |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                                                             | Champion                     |
 | ---------------------------------------------------------------------------------------------------- | ---------------------------- |
-| [Multi-value][multi-value]                                                                           | Andreas Rossberg             |
 | [Reference Types][reference_types]                                                                   | Andreas Rossberg             |
 | [Tail call][tail_call]                                                                               | Andreas Rossberg             |
 | [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith                    |
