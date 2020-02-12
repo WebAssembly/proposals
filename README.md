@@ -17,12 +17,13 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
-| Proposal                                                                                             | Champion                     |
-| ---------------------------------------------------------------------------------------------------- | ---------------------------- |
-| [Reference Types][reference_types]                                                                   | Andreas Rossberg             |
-| [Tail call][tail_call]                                                                               | Andreas Rossberg             |
-| [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith                    |
-| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau |
+| Proposal                                                                                             | Champion                               |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| [Reference Types][reference_types]                                                                   | Andreas Rossberg                       |
+| [Tail call][tail_call]                                                                               | Andreas Rossberg                       |
+| [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith                              |
+| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           |
+| [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -30,7 +31,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Threads][threads]                                                                                   | Ben Smith                              |
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
-| [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 
