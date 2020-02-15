@@ -33,12 +33,12 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
+| [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
 
 ### Phase 1 - Feature Proposal (CG)
 
 | Proposal                                                                                         | Champion                         |
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
-| [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg                 |
 | [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Interface Types][interface_types]                                                               | Luke Wagner                      |
