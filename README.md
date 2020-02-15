@@ -33,6 +33,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
+| [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -42,7 +43,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Interface Types][interface_types]                                                               | Luke Wagner                      |
-| [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Typed Function References][function_references]                                                 | Andreas Rossberg                 |
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
