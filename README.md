@@ -24,6 +24,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith                              |
 | [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           |
 | [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
+| [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -31,7 +32,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Threads][threads]                                                                                   | Ben Smith                              |
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
-| [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 
 ### Phase 1 - Feature Proposal (CG)
