@@ -33,13 +33,13 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Threads][threads]                                                                                   | Ben Smith                              |
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
+| [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 
 ### Phase 1 - Feature Proposal (CG)
 
 | Proposal                                                                                         | Champion                         |
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
-| [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]       | Andreas Rossberg                 |
 | [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Interface Types][interface_types]                                                               | Luke Wagner                      |
