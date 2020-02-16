@@ -24,6 +24,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith                              |
 | [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           |
 | [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
+| [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -31,9 +32,9 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Threads][threads]                                                                                   | Ben Smith                              |
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
-| [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
+| [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -42,7 +43,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Interface Types][interface_types]                                                               | Luke Wagner                      |
-| [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api] | Till Schneidereit                |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Typed Function References][function_references]                                                 | Andreas Rossberg                 |
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
