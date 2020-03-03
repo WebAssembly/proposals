@@ -47,6 +47,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Typed Function References][function_references]                                                 | Andreas Rossberg                 |
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
 | [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
+| [Memory64][memory64]                                                                             | Ben Smith                        |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -87,3 +88,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [extended-name-section]: https://github.com/WebAssembly/extended-name-section
 [module_types]: https://github.com/WebAssembly/module-types
 [constant-time]: https://github.com/WebAssembly/constant-time
+[memory64]: https://github.com/WebAssembly/memory64
