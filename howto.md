@@ -148,7 +148,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    1. Run:
       ```
-      ssh-keygen -t rsa -b 4096 -C “"
+      ssh-keygen -t rsa -b 4096 -C ""
       ```
 
    2. Save to: `deploy_key`
@@ -213,6 +213,12 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
       ```
       travis encrypt-file deploy_key
       ```
+      
+      Note: There is a bug in travis version 1.8.11 where this command will fail with the error:
+      ```
+      wrong number of arguments (given 1, expected 2)
+      ```
+      See https://github.com/travis-ci/travis.rb/issues/711.
 
    2. Confirm override with `yes`
 
