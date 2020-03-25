@@ -11,7 +11,7 @@ First, you need to get the CG on board.
 
 ## 1. Creating the Repository
 
-You need admin rights for the GitHub WebAsssembly organisation to execute this step. If you don’t have that, you will need to ask one of the [maintainers](https://github.com/orgs/WebAssembly/teams/core/members) to do it for you.
+You need admin rights for the GitHub WebAsssembly organisation to execute this step. If you don’t have that, you will need to ask one of the maintainers (@binji, @rossberg, @lukewagner) to do it for you.
 
 1. Pick a repository name for the proposal, e.g., `multi-bulklets`
 
