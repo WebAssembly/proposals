@@ -69,11 +69,8 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [garbage_collection]: https://github.com/WebAssembly/gc
 [interface_types]: https://github.com/WebAssembly/interface-types
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
-[non-trapping_float-to-int_conversions]: https://github.com/WebAssembly/nontrapping-float-to-int-conversions
-[multi-value]: https://github.com/WebAssembly/multi-value
 [multi-memory]: https://github.com/WebAssembly/multi-memory
 [reference_types]: https://github.com/WebAssembly/reference-types
-[sign-extension_operators]: https://github.com/WebAssembly/sign-extension-ops
 [tail_call]: https://github.com/WebAssembly/tail-call
 [threads]: https://github.com/webassembly/threads
 [type_reflection_for_webassembly_javascript_api]: https://github.com/WebAssembly/js-types
