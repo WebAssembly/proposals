@@ -11,9 +11,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                                       | Champion         |
 | ------------------------------------------------------------------------------ | ---------------- |
-| [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       |
-| [Sign-extension operators][sign-extension_operators]                           | Ben Smith        |
-| [Multi-value][multi-value]                                                     | Andreas Rossberg |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
