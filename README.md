@@ -39,7 +39,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
-| [Interface Types][interface_types]                                                               | Luke Wagner                      |
+| [Interface Types][interface_types]                                                               | Luke Wagner and Francis McCabe                     |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Typed Function References][function_references]                                                 | Andreas Rossberg                 |
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
