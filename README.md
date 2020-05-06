@@ -45,6 +45,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
 | [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
 | [Memory64][memory64]                                                                             | Ben Smith                        |
+| [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -83,3 +84,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [module_types]: https://github.com/WebAssembly/module-types
 [constant-time]: https://github.com/WebAssembly/constant-time
 [memory64]: https://github.com/WebAssembly/memory64
+[flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
