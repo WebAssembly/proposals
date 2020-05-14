@@ -55,7 +55,16 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       git merge upstream/master
       ```
 
-2. Create Overview:
+2. If your proposal has dependencies on another active proposal, whose repository is named `<<parent-proposal>>`, then add that as an additional remote repository:
+
+   1. Run:
+      ```
+      git remote add <<parent-proposal> https://github.com/WebAssembly/<<parent-proposal>>.git
+      git fetch <<parent-proposal>>
+      git merge <<parent-proposal>>/master
+      ```
+
+3. Create Overview:
 
    1. Run
       ```
@@ -83,7 +92,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       Here is a sketch of what we wanna add.
       ```
 
-3. Adjust toplevel readme:
+4. Adjust toplevel readme:
 
    1. Edit `README.md`, replacing the first line with the following:
       ```
@@ -103,20 +112,25 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       ```
       where `<<Title>>` is the title picked for the repository and `<<Feature Description>>` a healf-sentence summary
 
-4. Adjust spec doc front matters:
+5. Adjust spec doc front matters:
 
    1. Edit `document/core/index.rst`, changing the Release line to say:
       ```
          | Release |release| + <<proposal>> (Draft, |today|)
       ```
 
-5. Adjust links in spec:
+   2. If your proposal has another proposal as a dependency, then the Release line should include that as well:
+      ```
+         | Release |release| + <<parent-proposal>> + <<proposal>> (Draft, |today|)
+      ```
+
+6. Adjust links in spec:
 
    1. Edit `document/core/util/macros.def`
 
       * in the paths defining `WasmDraft` and `WasmIssues`, replace `.../spec/…` with `…/<<proposal>>/…` (4 places)
 
-6. Commit (`README.md`, `proposals/<<proposal>>/Overview.md`, `document/core/index.rst`, `document/core/util/macros.def`):
+7. Commit (`README.md`, `proposals/<<proposal>>/Overview.md`, `document/core/index.rst`, `document/core/util/macros.def`):
 
    1. Run:
       ```
@@ -260,6 +274,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 ## Syncing with Upstream Changes
 
 Once in a while you will need to merge in changes from the main spec repo.
+(Merging changes from possible parent proposals works the same way, but with `upstream` replaced by `<<parent-proposal>>`.)
 
 1. Merge upstream:
 
@@ -280,51 +295,71 @@ Once in a while you will need to merge in changes from the main spec repo.
       
 If the merge conflicts are complex, you may want to have it reviewed. In that case:
 
-1. Merge upstream:
+1. Merge upstream with code review:
 
-   1. Run:
+   1. Make sure you are on the `master` branch
+
+   2. Pick a new `<<branch-name>>` for performing the merge and run:
       ```
-      git checkout -b  <<branch name>>
+      git checkout -b <<branch-name>>
       git fetch upstream
       git merge upstream/master
       ```
       
-   2. Resolve merge conflicts
+   3. Resolve merge conflicts
    
-   3. Run:
+   4. Run:
       ```
       git commit -m "Merge from upstream spec"
       git push
       ```
 
-2. Create a nicer diff:
+   5. Create a nicer diff:
 
-   The GitHub UI will display this as a list of all the changes added from the spec to this repo, which is not very easy to review. Instead, you can create a diff between this repo and the spec [merge base](https://git-scm.com/docs/git-merge-base).
+      The GitHub UI will display this as a list of all the changes added from the spec to this repo, which is not very easy to review. Instead, you can create a diff between this repo and the spec [merge base](https://git-scm.com/docs/git-merge-base).
    
-   1. Run:
-      ```
-      git diff upstream/master..origin/<<branch name>> > <<branch name>>.diff
-      ```
+      1. Run:
+         ```
+         git diff upstream/master..origin/<<branch-name>> > <<branch-name>>.diff
+         ```
       
-   2. Go to gist.github.com
+      2. Go to gist.github.com
    
-   3. Paste the contents of `<<branch name>>.diff` into the edit box
+      3. Paste the contents of `<<branch-name>>.diff` into the edit box
    
-   4. Name the file `<<branch name>>.diff`. This will make the diff have proper syntax highlighting.
+      4. Name the file `<<branch-name>>.diff`.
+         This will make the diff have proper syntax highlighting.
    
-   5. Click "Create public gist"
+      5. Click "Create public gist"
    
-   6. Copy the URL
+      6. Copy the URL
    
-3. Open a new pull request
+   6. Create a new pull request
 
-   1. Go to `https://github.com/WebAssembly/<<proposal>>/compare`
+      1. Go to `https://github.com/WebAssembly/<<proposal>>/compare`
    
-   2. Click the right branch button and choose `<<branch name>>`
+      2. Click the right branch button and choose `<<branch-name>>`
    
-   3. Click "Create pull request"
+      3. Click "Create pull request"
    
-   4. Fill out the details, and make sure to include the URL of your gist
+      4. Fill out the details, and make sure to include the URL of your gist
+
+   7. Once approved, commit
+
+      1. Do **not** use GitHub's "Squash and merge" option for committing upstream changes!
+         That will ruin the history and reiterate all merge conflicts the next time.
+
+      2. Instead, select "Merge pull request" in GitHub!
+
+      3. Alternatively, you can push manually:
+         ```
+         git checkout master
+         git rebase <<branch-name>>
+         git push
+         ```
+         This assumes that `master` has not changed in the mean time.
+         If it has, you will have to merge `master` into `<<branch-name>>` first.
+
 
 ## Progressing a Proposal Stages
 
