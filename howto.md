@@ -372,10 +372,12 @@ When the CG agrees to advance a proposal, update its status by creating a respec
 Once a proposal has progressed to Stage 5, it is ready to be merged into the main spec.
 Before doing so:
 
-1. Sync with upstream changes, as described above
+1. Make sure that all possible parent proposals have been merged.
 
-2. Undo the changes to `README.md`, `document/core/index.rst`, and `document/core/util/macros.def` that have been made when populating the repo
+2. Sync with upstream changes, as described above.
 
-3. Make sure that Travis is green
+3. Undo the changes to `README.md`, `document/core/index.rst`, and `document/core/util/macros.def` that have been made when populating the repo.
 
-4. Make sure that the changes to the document are rendered correctly
+4. Make sure that Travis is green.
+
+5. Make sure that the changes to the document are rendered correctly.
