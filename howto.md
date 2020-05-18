@@ -59,7 +59,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
    1. Run:
       ```
-      git remote add <<parent-proposal> https://github.com/WebAssembly/<<parent-proposal>>.git
+      git remote add <<parent-proposal>> https://github.com/WebAssembly/<<parent-proposal>>.git
       git fetch <<parent-proposal>>
       git merge <<parent-proposal>>/master
       ```
@@ -354,7 +354,7 @@ If the merge conflicts are complex, you may want to have it reviewed. In that ca
       3. Alternatively, you can push manually:
          ```
          git checkout master
-         git rebase <<branch-name>>
+         git merge --ff-only <<branch-name>>
          git push
          ```
          This assumes that `master` has not changed in the mean time.
