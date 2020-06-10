@@ -19,7 +19,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Reference Types][reference_types]                                                                   | Andreas Rossberg                       |
 | [Tail call][tail_call]                                                                               | Andreas Rossberg                       |
 | [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith                              |
-| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           |
 | [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
@@ -69,7 +68,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [type-imports]: https://github.com/WebAssembly/proposal-type-imports
 [garbage_collection]: https://github.com/WebAssembly/gc
 [interface_types]: https://github.com/WebAssembly/interface-types
-[javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
 [multi-memory]: https://github.com/WebAssembly/multi-memory
 [reference_types]: https://github.com/WebAssembly/reference-types
 [tail_call]: https://github.com/WebAssembly/tail-call
