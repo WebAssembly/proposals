@@ -11,14 +11,14 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                                       | Champion         |
 | ------------------------------------------------------------------------------ | ---------------- |
+| [Reference Types][reference_types]                                             | Andreas Rossberg |
+| [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                                                             | Champion                               |
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| [Reference Types][reference_types]                                                                   | Andreas Rossberg                       |
 | [Tail call][tail_call]                                                                               | Andreas Rossberg                       |
-| [Bulk memory operations][bulk_memory_operations]                                                     | Ben Smith                              |
 | [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
@@ -31,7 +31,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
-| [Typed Function References][function_references]                                                     | Andreas Rossberg                      |
+| [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -39,12 +39,13 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
-| [Interface Types][interface_types]                                                               | Luke Wagner and Francis McCabe                     |
+| [Interface Types][interface_types]                                                               | Luke Wagner and Francis McCabe   |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
 | [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
 | [Memory64][memory64]                                                                             | Ben Smith                        |
 | [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
+| [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -83,3 +84,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [constant-time]: https://github.com/WebAssembly/constant-time
 [memory64]: https://github.com/WebAssembly/memory64
 [flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
+[numeric-values-in-wat]: https://github.com/echamudi/numeric-values-in-data-segments-wasm-proposal
