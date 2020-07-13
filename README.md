@@ -46,6 +46,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Memory64][memory64]                                                                             | Ben Smith                        |
 | [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
+| [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -84,4 +85,5 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [constant-time]: https://github.com/WebAssembly/constant-time
 [memory64]: https://github.com/WebAssembly/memory64
 [flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
-[numeric-values-in-wat]: https://github.com/echamudi/numeric-values-in-data-segments-wasm-proposal
+[numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
+[instrument-tracing]: https://github.com/WebAssembly/instrument-tracing
