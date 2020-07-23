@@ -47,7 +47,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
-| [Dispatch Tags][dispatch-tags]                                                                   | Ross Tate                        |
+| [Call Tags][call-tags]                                                                           | Ross Tate                        |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -88,4 +88,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
 [numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
 [instrument-tracing]: https://github.com/WebAssembly/instrument-tracing
-[dispatch-tags]: https://github.com/WebAssembly/dispatch-tags
+[call-tags]: https://github.com/WebAssembly/call-tags
