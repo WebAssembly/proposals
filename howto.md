@@ -349,7 +349,7 @@ If the merge conflicts are complex, you may want to have it reviewed. In that ca
       1. Do **not** use GitHub's "Squash and merge" option for committing upstream changes!
          That will ruin the history and reiterate all merge conflicts the next time.
 
-      2. Instead, select "Merge pull request" in GitHub!
+      2. Instead, select "Merge pull request" (or "Create a merge commit") in GitHub!
 
          ![Select "Create a merge commit" from the dropdown](/create-merge-commit.png)
 
