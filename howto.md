@@ -350,6 +350,7 @@ If the merge conflicts are complex, you may want to have it reviewed. In that ca
          That will ruin the history and reiterate all merge conflicts the next time.
 
       2. Instead, select "Merge pull request" in GitHub!
+         ![Select "Create a merge commit" from the dropdown](/create-merge-commit.png)
 
       3. Alternatively, you can push manually:
          ```
