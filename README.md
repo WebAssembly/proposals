@@ -43,7 +43,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
 | [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
-| [Memory64][memory64]                                                                             | Ben Smith                        |
+| [Memory64][memory64]                                                                             | Wouter van Oortmerssen           |
 | [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
