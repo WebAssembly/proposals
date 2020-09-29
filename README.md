@@ -32,6 +32,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
+| [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -43,11 +44,11 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
 | [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
-| [Memory64][memory64]                                                                             | Wouter van Oortmerssen           |
 | [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
 | [Call Tags][call-tags]                                                                           | Ross Tate                        |
+| [Relaxed dead code validation][relaxed-dead-code-validation]                                     | Conrad Watt and Ross Tate        |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -57,6 +58,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
 | [Module Types][module_types]                               | Luke Wagner and Andreas Rossberg |
 | [Constant Time][constant-time]                             | John Renner, Hovav Shacham, Deian Stefan, Conrad Watt|
+
 
 ### Contributing new proposals
 
@@ -89,3 +91,5 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
 [instrument-tracing]: https://github.com/WebAssembly/instrument-tracing
 [call-tags]: https://github.com/WebAssembly/call-tags
+[relaxed-dead-code-validation]: https://github.com/WebAssembly/design/issues/1379
+
