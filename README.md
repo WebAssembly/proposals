@@ -91,5 +91,5 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
 [instrument-tracing]: https://github.com/WebAssembly/instrument-tracing
 [call-tags]: https://github.com/WebAssembly/call-tags
-[relaxed-dead-code-validation]: https://github.com/WebAssembly/design/issues/1379
+[relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
 
