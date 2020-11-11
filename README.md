@@ -56,7 +56,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------- | -------------------------------- |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer                       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
-| [Module Types][module_types]                               | Luke Wagner and Andreas Rossberg |
+| [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg |
 | [Constant Time][constant-time]                             | John Renner, Hovav Shacham, Deian Stefan, Conrad Watt|
 
 
@@ -84,7 +84,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [funclets]: https://github.com/WebAssembly/funclets
 [conditional_sections]: https://github.com/WebAssembly/conditional-sections
 [extended-name-section]: https://github.com/WebAssembly/extended-name-section
-[module_types]: https://github.com/WebAssembly/module-types
+[module_linking]: https://github.com/WebAssembly/module-linking
 [constant-time]: https://github.com/WebAssembly/constant-time
 [memory64]: https://github.com/WebAssembly/memory64
 [flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
