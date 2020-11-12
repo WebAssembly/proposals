@@ -185,9 +185,9 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    6. Click "Add key"
 
-3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#readme), if you do not have it already
+3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#installation), if you do not have it already
 
-4. If you are using 2FA on GitHub and (like I) can’t figure out how to use something like YubiKey with the Travis command line client, you may need to generate a GitHub token to perform the Travis login in the next step:
+4. If you are using 2FA on GitHub and (like me) can’t figure out how to use something like YubiKey with the Travis command line client, you may need to generate a GitHub token to perform the Travis login in the next step:
 
    1. Go to https://github.com/settings/tokens
 
@@ -246,25 +246,30 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    1. Edit `.travis.yml`
 
-   2. Change definition of `env/global/ENCRYPTION_LABEL` to `<<label>>`
+   2. Change definition of `env/global/ENCRYPTION_LABEL` to `<<label>>`:
+   ```
+   env:
+     global:
+       - ENCRYPTION_LABEL: "<<label>>"
+   ```
 
 8. Commit (`deploy_key.enc`, `.travis.yml`):
 
    1. Run:
       ```
-      git commit -a -m”Setup Travis”
+      git commit -am "Set up Travis"
       git push
       ```
 
 9. Watch build progress at `https://travis-ci.org/WebAssembly/<<proposal>>/builds`
 
-   1. You may need to click “Activate”
+   1. You may need to turn on builds at `https://travis-ci.org/organizations/WebAssembly/repositories`
 
 10. Point repository to GitHub IO
 
    1. Go to `https://github.com/WebAssembly/<<proposal>>`
 
-   2. Click “Edit” next to title
+   2. Click the settings icon next to “About” on the right of the page
 
    3. Enter “Website": `https://webassembly.github.io/<<proposal>>/`
 
