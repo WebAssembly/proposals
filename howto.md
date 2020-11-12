@@ -32,7 +32,7 @@ You need admin rights for the GitHub WebAsssembly organisation to execute this s
 3. If you are a maintainer and not the champion, make the champion an admin for this repo:
 
    1. Click "Settings”
-   
+
    2. Go to the "Manage Access" settings
 
    3. Click "Invite teams or people" and enter the champion’s GitHub user name
