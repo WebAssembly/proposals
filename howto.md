@@ -6,7 +6,7 @@ First, you need to get the CG on board.
 
 1. Present the proposal at a [CG meeting](https://WebAssembly/meetings).
 
-2. Have a successful poll for moving it to stage 0.
+2. Have a successful poll for moving it to phase 1.
 
 
 ## 1. Creating the Repository
@@ -31,13 +31,13 @@ You need admin rights for the GitHub WebAsssembly organisation to execute this s
 
 3. If you are a maintainer and not the champion, make the champion an admin for this repo:
 
-   1. Click "Add teams and collaborators”
+   1. Click "Settings”
 
-   2. Enter champion’s GitHub user name next to “Add collaborator"
+   2. Go to the "Manage Access" settings
 
-   3. Click “Add collaborator"
+   3. Click "Invite teams or people" and enter the champion’s GitHub user name
 
-   4. Set their permission level to “Admin”
+   4. Select the "Admin" role and add the champion to the repository
 
 
 ## Populating the Repository
@@ -68,7 +68,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
    1. Run
       ```
-      mkdir -P proposals/<<proposal>>
+      mkdir proposals/<<proposal>>
       touch proposals/<<proposal>>/Overview.md
       git add proposals/<<proposal>>/Overview.md
       ```
@@ -134,7 +134,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
    1. Run:
       ```
-      git commit -a -m”Inital setup and overview”
+      git commit -am "Inital setup and overview"
       git push
       ```
 
