@@ -49,6 +49,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
 | [Call Tags][call-tags]                                                                           | Ross Tate                        |
+| [Branch hinting][branch-hinting]                                                                 | Yuri Iozzelli                    |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -92,4 +93,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [instrument-tracing]: https://github.com/WebAssembly/instrument-tracing
 [call-tags]: https://github.com/WebAssembly/call-tags
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
-
+[branch-hinting]: https://github.com/yuri91/branch-hinting
