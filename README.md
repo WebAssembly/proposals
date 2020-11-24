@@ -33,7 +33,8 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 | [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
-| [Relaxed dead code validation][relaxed-dead-code-validation]                                     | Conrad Watt and Ross Tate        |
+| [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
+| [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -46,7 +47,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
 | [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
 | [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
-| [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
 | [Call Tags][call-tags]                                                                           | Ross Tate                        |
 | [Branch Hinting][branch-hinting]                                                                 | Yuri Iozzelli                    |
