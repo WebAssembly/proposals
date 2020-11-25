@@ -49,6 +49,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                     | Ezzat Chamudi                    |
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
 | [Call Tags][call-tags]                                                                           | Ross Tate                        |
+| [Module Linking][module_linking]                                                                 | Luke Wagner and Andreas Rossberg |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -56,7 +57,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------- | -------------------------------- |
 | [Web Content Security Policy][web_content_security_policy] | Ben Titzer                       |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
-| [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg |
 | [Constant Time][constant-time]                             | John Renner, Hovav Shacham, Deian Stefan, Conrad Watt|
 
 
