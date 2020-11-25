@@ -6,7 +6,7 @@ First, you need to get the CG on board.
 
 1. Present the proposal at a [CG meeting](https://WebAssembly/meetings).
 
-2. Have a successful poll for moving it to stage 0.
+2. Have a successful poll for moving it to phase 1.
 
 
 ## 1. Creating the Repository
@@ -31,13 +31,13 @@ You need admin rights for the GitHub WebAsssembly organisation to execute this s
 
 3. If you are a maintainer and not the champion, make the champion an admin for this repo:
 
-   1. Click "Add teams and collaborators”
+   1. Click "Settings”
 
-   2. Enter champion’s GitHub user name next to “Add collaborator"
+   2. Go to the "Manage Access" settings
 
-   3. Click “Add collaborator"
+   3. Click "Invite teams or people" and enter the champion’s GitHub user name
 
-   4. Set their permission level to “Admin”
+   4. Select the "Admin" role and add the champion to the repository
 
 
 ## Populating the Repository
@@ -68,7 +68,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
    1. Run
       ```
-      mkdir -P proposals/<<proposal>>
+      mkdir proposals/<<proposal>>
       touch proposals/<<proposal>>/Overview.md
       git add proposals/<<proposal>>/Overview.md
       ```
@@ -134,7 +134,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
    1. Run:
       ```
-      git commit -a -m”Inital setup and overview”
+      git commit -am "Inital setup and overview"
       git push
       ```
 
@@ -185,9 +185,9 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    6. Click "Add key"
 
-3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#readme), if you do not have it already
+3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#installation), if you do not have it already
 
-4. If you are using 2FA on GitHub and (like I) can’t figure out how to use something like YubiKey with the Travis command line client, you may need to generate a GitHub token to perform the Travis login in the next step:
+4. If you are using 2FA on GitHub and (like me) can’t figure out how to use something like YubiKey with the Travis command line client, you may need to generate a GitHub token to perform the Travis login in the next step:
 
    1. Go to https://github.com/settings/tokens
 
@@ -246,25 +246,30 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    1. Edit `.travis.yml`
 
-   2. Change definition of `env/global/ENCRYPTION_LABEL` to `<<label>>`
+   2. Change definition of `env/global/ENCRYPTION_LABEL` to `<<label>>`:
+   ```
+   env:
+     global:
+       - ENCRYPTION_LABEL: "<<label>>"
+   ```
 
 8. Commit (`deploy_key.enc`, `.travis.yml`):
 
    1. Run:
       ```
-      git commit -a -m”Setup Travis”
+      git commit -am "Set up Travis"
       git push
       ```
 
 9. Watch build progress at `https://travis-ci.org/WebAssembly/<<proposal>>/builds`
 
-   1. You may need to click “Activate”
+   1. You may need to turn on builds at `https://travis-ci.org/organizations/WebAssembly/repositories`
 
 10. Point repository to GitHub IO
 
    1. Go to `https://github.com/WebAssembly/<<proposal>>`
 
-   2. Click “Edit” next to title
+   2. Click the settings icon next to “About” on the right of the page
 
    3. Enter “Website": `https://webassembly.github.io/<<proposal>>/`
 
