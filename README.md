@@ -44,7 +44,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
 | [Interface Types][interface_types]                                                               | Luke Wagner and Francis McCabe   |
 | [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
-| [Conditional Sections][conditional_sections]                                                     | Thomas Lively                    |
+| [Feature Detection][feature_detection]                                                           | Thomas Lively                    |
 | [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
 | [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
@@ -69,6 +69,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [custom_annotation_syntax_in_the_text_format]: https://github.com/WebAssembly/annotations
 [ecmascript_module_integration]: https://github.com/WebAssembly/esm-integration
 [exception_handling]: https://github.com/WebAssembly/exception-handling
+[feature_detection]: https://github.com/WebAssembly/feature-detection
 [fixed-width_simd]: https://github.com/webassembly/simd
 [function_references]: https://github.com/WebAssembly/function-references
 [type-imports]: https://github.com/WebAssembly/proposal-type-imports
@@ -83,7 +84,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [web_content_security_policy]: https://github.com/WebAssembly/content-security-policy
 [webassembly_specification]: https://github.com/WebAssembly/spec
 [funclets]: https://github.com/WebAssembly/funclets
-[conditional_sections]: https://github.com/WebAssembly/conditional-sections
 [extended-name-section]: https://github.com/WebAssembly/extended-name-section
 [module_linking]: https://github.com/WebAssembly/module-linking
 [constant-time]: https://github.com/WebAssembly/constant-time
