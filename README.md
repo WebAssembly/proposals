@@ -95,4 +95,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [call-tags]: https://github.com/WebAssembly/call-tags
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
 [branch-hinting]: https://github.com/WebAssembly/branch-hinting
-[const-expressions]: https://github.com/WebAssembly/extended-constant-expressions
+[extended-const]: https://github.com/WebAssembly/extended-const
