@@ -51,6 +51,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Call Tags][call-tags]                                                                           | Ross Tate                        |
 | [Module Linking][module_linking]                                                                 | Luke Wagner and Andreas Rossberg |
 | [Branch Hinting][branch-hinting]                                                                 | Yuri Iozzelli                    |
+| [Extended Constant Expressions][extended-const]                                               | Sam Clegg                        |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -94,4 +95,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [call-tags]: https://github.com/WebAssembly/call-tags
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
 [branch-hinting]: https://github.com/WebAssembly/branch-hinting
-
+[extended-const]: https://github.com/WebAssembly/extended-const
