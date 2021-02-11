@@ -57,7 +57,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                   | Champion                         |
 | ---------------------------------------------------------- | -------------------------------- |
-| [Web Content Security Policy][web_content_security_policy] | Ben Titzer                       |
+| [Web Content Security Policy][web_content_security_policy] | Francis McCabe                   |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
 | [Constant Time][constant-time]                             | John Renner, Hovav Shacham, Deian Stefan, Conrad Watt|
 
