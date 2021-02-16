@@ -13,15 +13,16 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ------------------------------------------------------------------------------ | ---------------- |
 | [Reference Types][reference_types]                                             | Andreas Rossberg |
 | [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        |
+| [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                                                             | Champion                               |
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Tail call][tail_call]                                                                               | Andreas Rossberg                       |
-| [Fixed-width SIMD][fixed-width_simd]                                                                 | Deepti Gandluri and Arun Purushan      |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
+| [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -32,7 +33,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
-| [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
 
@@ -51,13 +51,13 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Call Tags][call-tags]                                                                           | Ross Tate                        |
 | [Module Linking][module_linking]                                                                 | Luke Wagner and Andreas Rossberg |
 | [Branch Hinting][branch-hinting]                                                                 | Yuri Iozzelli                    |
-| [Extended Constant Expressions][extended-const]                                               | Sam Clegg                        |
+| [Extended Constant Expressions][extended-const]                                                  | Sam Clegg                        |
+| [Web Content Security Policy][web_content_security_policy]                                       | Francis McCabe                   |
 
 ### Phase 0 - Pre-Proposal (CG)
 
 | Proposal                                                   | Champion                         |
 | ---------------------------------------------------------- | -------------------------------- |
-| [Web Content Security Policy][web_content_security_policy] | Francis McCabe                   |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
 | [Constant Time][constant-time]                             | John Renner, Hovav Shacham, Deian Stefan, Conrad Watt|
 
