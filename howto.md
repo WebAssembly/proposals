@@ -185,7 +185,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    6. Click "Add key"
 
-3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#installation), if you do not have it already.
+3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#installation), if you do not have it already
 
 4. If you are using 2FA on GitHub and (like me) can’t figure out how to use something like YubiKey with the Travis command line client, you may need to generate a GitHub token to perform the Travis login in the next step:
 
@@ -238,7 +238,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
       ```
       wrong number of arguments (given 1, expected 2)
       ```
-      See `https://github.com/travis-ci/travis.rb/issues/711`.
+      See `https://github.com/travis-ci/travis.rb/issues/711`. Version 1.10.0 seems to work fine.
 
    2. Confirm override with `yes`
 
