@@ -275,7 +275,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    3. Click "Activate repository"
 
-9. Watch build progress at `https://travis-ci.org/WebAssembly/<<proposal>>/builds`
+10. Watch build progress at `https://travis-ci.org/WebAssembly/<<proposal>>/builds`
 
    1. You may have to retrigger the build:
 
@@ -283,7 +283,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
       2. Select "Trigger build"
       3. Click “Trigger custom build” (you can leave the text boxes empty)
 
-10. Point repository to GitHub IO
+11. Point repository to GitHub IO
 
    1. Go to `https://github.com/WebAssembly/<<proposal>>`
 
