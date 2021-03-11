@@ -195,7 +195,13 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    3. Enter “Description”, e.g., `Setup token`
 
-   4. Check the authorisation boxes specified at https://docs.travis-ci.com/user/github-oauth-scopes/#travis-ci-for-open-source-projects
+   4. Check the authorisation boxes specified at `https://docs.travis-ci.com/user/github-oauth-scopes/#travis-ci-for-open-source-projects`
+
+      1. The following seem to suffice:
+
+         * `repo/*`
+         * `admin:org/read:org`
+         * `user/user:email`
 
    5. Take note of the generated token string
 
@@ -213,9 +219,9 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
 
    3. If this is the first time you log into Travis from the command line, you may have to accept the request through the Travis web site:
 
-      1. Go to https://travis-ci.org/
+      1. Go to `https://travis-ci.org/account/preferences`
 
-      2. Log in with your GitHub account
+      2. Log in with your GitHub account, if necessary
 
       3. Accept the request
 
@@ -232,7 +238,7 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
       ```
       wrong number of arguments (given 1, expected 2)
       ```
-      See https://github.com/travis-ci/travis.rb/issues/711.
+      See `https://github.com/travis-ci/travis.rb/issues/711`. Version 1.10.0 seems to work fine.
 
    2. Confirm override with `yes`
 
@@ -261,11 +267,23 @@ Note: Our Travis setup loosely follows the recipe decribed at https://gist.githu
       git push
       ```
 
-9. Watch build progress at `https://travis-ci.org/WebAssembly/<<proposal>>/builds`
+9. Turn on builds for the new repository
 
-   1. You may need to turn on builds at `https://travis-ci.org/organizations/WebAssembly/repositories`
+   1. Go to `https://travis-ci.org/organizations/WebAssembly/repositories`
 
-10. Point repository to GitHub IO
+   2. Select "Current" tab
+
+   3. Click "Activate repository"
+
+10. Watch build progress at `https://travis-ci.org/WebAssembly/<<proposal>>/builds`
+
+   1. You may have to retrigger the build:
+
+      1. Click on "More options" pull down
+      2. Select "Trigger build"
+      3. Click “Trigger custom build” (you can leave the text boxes empty)
+
+11. Point repository to GitHub IO
 
    1. Go to `https://github.com/WebAssembly/<<proposal>>`
 
