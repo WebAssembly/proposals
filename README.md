@@ -53,6 +53,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Branch Hinting][branch-hinting]                                                                 | Yuri Iozzelli                    |
 | [Extended Constant Expressions][extended-const]                                                  | Sam Clegg                        |
 | [Web Content Security Policy][web_content_security_policy]                                       | Francis McCabe                   |
+| [Relaxed SIMD][relaxed-simd]                                                                     | Marat Dukhan & Zhi An Ng         |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -96,3 +97,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
 [branch-hinting]: https://github.com/WebAssembly/branch-hinting
 [extended-const]: https://github.com/WebAssembly/extended-const
+[relaxed-simd]: https://github.com/WebAssembly/relaxed-simd
