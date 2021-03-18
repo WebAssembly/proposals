@@ -35,6 +35,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
+| [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -50,7 +51,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
 | [Call Tags][call-tags]                                                                           | Ross Tate                        |
 | [Module Linking][module_linking]                                                                 | Luke Wagner and Andreas Rossberg |
-| [Branch Hinting][branch-hinting]                                                                 | Yuri Iozzelli                    |
 | [Extended Constant Expressions][extended-const]                                                  | Sam Clegg                        |
 | [Web Content Security Policy][web_content_security_policy]                                       | Francis McCabe                   |
 | [Relaxed SIMD][relaxed-simd]                                                                     | Marat Dukhan & Zhi An Ng         |
