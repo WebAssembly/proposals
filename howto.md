@@ -4,7 +4,7 @@
 
 First, you need to get the CG on board.
 
-1. Present the proposal at a [CG meeting](https://WebAssembly/meetings).
+1. Present the proposal at a [CG meeting](https://github.com/WebAssembly/meetings).
 
 2. Have a successful poll for moving it to phase 1.
 
