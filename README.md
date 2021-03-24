@@ -65,7 +65,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/master/Contributing.md) for the most up-to-date information on contributing proposals to standard.
 
-[bulk_memory_operations]: https://github.com/WebAssembly/bulk-memory-operations
 [custom_annotation_syntax_in_the_text_format]: https://github.com/WebAssembly/annotations
 [ecmascript_module_integration]: https://github.com/WebAssembly/esm-integration
 [exception_handling]: https://github.com/WebAssembly/exception-handling
@@ -76,7 +75,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [garbage_collection]: https://github.com/WebAssembly/gc
 [interface_types]: https://github.com/WebAssembly/interface-types
 [multi-memory]: https://github.com/WebAssembly/multi-memory
-[reference_types]: https://github.com/WebAssembly/reference-types
 [tail_call]: https://github.com/WebAssembly/tail-call
 [threads]: https://github.com/webassembly/threads
 [type_reflection_for_webassembly_javascript_api]: https://github.com/WebAssembly/js-types
