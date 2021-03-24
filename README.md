@@ -11,8 +11,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                                       | Champion         |
 | ------------------------------------------------------------------------------ | ---------------- |
-| [Reference Types][reference_types]                                             | Andreas Rossberg |
-| [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        |
 | [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan |
 
 ### Phase 3 - Implementation Phase (CG + WG)

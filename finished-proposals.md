@@ -9,6 +9,8 @@ Finished proposals are proposals that have reached phase 4, and are included in 
 | [Sign-extension operators][sign-extension_operators]                           | Ben Smith        | [WG-03-11][] |
 | [Multi-value][multi-value]                                                     | Andreas Rossberg | [WG-03-11][] |
 | [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG-06-09][]
+| [Reference Types][reference_types]                                             | Andreas Rossberg | [WG-02-10-2021][] |
+| [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        | [WG-02-10-2021][] |
 
 See also the [active proposals](README.md) and [inactive proposals](inactive-proposals.md) documents.
 
@@ -20,3 +22,4 @@ See also the [active proposals](README.md) and [inactive proposals](inactive-pro
 [wg-06-06]: https://github.com/WebAssembly/meetings/blob/master/main/2018/WG-06-06.md#discussion-on-status-of-the-working-draft
 [WG-03-11]: https://github.com/WebAssembly/meetings/blob/master/main/2020/WG-03-11.md
 [WG-06-09]: https://lists.w3.org/Archives/Public/public-webassembly/2020Jun/0000.html
+[WG-02-10-2021]: https://github.com/WebAssembly/meetings/blob/master/main/2021/WG-02-10.md
