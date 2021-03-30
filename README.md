@@ -52,6 +52,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Extended Constant Expressions][extended-const]                                                  | Sam Clegg                        |
 | [Web Content Security Policy][web_content_security_policy]                                       | Francis McCabe                   |
 | [Relaxed SIMD][relaxed-simd]                                                                     | Marat Dukhan & Zhi An Ng         |
+| [Stack Switching][stack-switching]                                                               | Francis McCabe & Sam Lindley     |
 
 ### Phase 0 - Pre-Proposal (CG)
 
