@@ -95,3 +95,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [branch-hinting]: https://github.com/WebAssembly/branch-hinting
 [extended-const]: https://github.com/WebAssembly/extended-const
 [relaxed-simd]: https://github.com/WebAssembly/relaxed-simd
+[stack-switching]: https://github.com/WebAssembly/stack-switching
