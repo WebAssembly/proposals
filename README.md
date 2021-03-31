@@ -26,7 +26,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 | Proposal                                                                                             | Champion                               |
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| [Threads][threads]                                                                                   | Ben Smith                              |
+| [Threads][threads]                                                                                   | Conrad Watt                            |
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
