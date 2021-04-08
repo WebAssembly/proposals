@@ -64,7 +64,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       git merge <<parent-proposal>>/master
       ```
 
-Note: If you connect to github using SSH, and run into authentication failures, use the [SSH url](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories#about-remote-repositories) for the repository instead of the HTTPS url above.
+   Note: If you connect to github using SSH, and run into authentication failures, use the [SSH url](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories#about-remote-repositories) for the repository instead of the HTTPS url above.
 
 3. Create Overview:
 
