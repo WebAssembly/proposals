@@ -114,25 +114,24 @@ Note: If you connect to github using SSH, and run into authentication failures, 
       ```
       where `<<Title>>` is the title picked for the repository and `<<Feature Description>>` a healf-sentence summary
 
-5. Adjust spec doc front matters:
+5. Adjust document configuration:
 
-   1. Edit `document/core/index.rst`, changing the Release line to say:
+   1. Edit `document/core/conf.py`, changing the line defining `proposal` to say:
       ```
-         | Release |release| + <<proposal>> (Draft, |today|)
-      ```
-
-   2. If your proposal has another proposal as a dependency, then the Release line should include that as well:
-      ```
-         | Release |release| + <<parent-proposal>> + <<proposal>> (Draft, |today|)
+      proposal = '<<proposal>>'
       ```
 
-6. Adjust links in spec:
+   2. If your proposal has another proposal as a dependency, then it should be included as well:
+      ```
+      proposal = '<<parent-proposal>> + <<proposal>>'
+      ```
 
-   1. Edit `document/core/util/macros.def`
+   3. Change the line defining `repo` to say:
+      ```
+      repo = '<<proposal>>'
+      ```
 
-      * in the paths defining `WasmDraft` and `WasmIssues`, replace `.../spec/…` with `…/<<proposal>>/…` (4 places)
-
-7. Commit (`README.md`, `proposals/<<proposal>>/Overview.md`, `document/core/index.rst`, `document/core/util/macros.def`):
+6. Commit (`README.md`, `proposals/<<proposal>>/Overview.md`, `document/core/conf.py`):
 
    1. Run:
       ```
@@ -403,7 +402,7 @@ Before doing so:
 
 2. Sync with upstream changes, as described above.
 
-3. Undo the changes to `README.md`, `document/core/index.rst`, and `document/core/util/macros.def` that have been made when populating the repo.
+3. Undo the changes to `README.md` and `document/core/conf.py` that have been made when populating the repo.
 
 4. Make sure that Travis is green.
 
