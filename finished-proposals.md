@@ -11,6 +11,7 @@ Finished proposals are proposals that have reached phase 4, and are included in 
 | [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG-06-09][]
 | [Reference Types][reference_types]                                             | Andreas Rossberg | [WG-02-10-2021][] |
 | [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        | [WG-02-10-2021][] |
+| [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan | WG-07-14-2021 |
 
 See also the [active proposals](README.md) and [inactive proposals](inactive-proposals.md) documents.
 
@@ -21,6 +22,7 @@ See also the [active proposals](README.md) and [inactive proposals](inactive-pro
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
 [reference_types]: https://github.com/WebAssembly/reference-types
 [bulk_memory_operations]: https://github.com/WebAssembly/bulk-memory-operations
+[fixed-width_simd]: https://github.com/webassembly/simd
 [wg-06-06]: https://github.com/WebAssembly/meetings/blob/master/main/2018/WG-06-06.md#discussion-on-status-of-the-working-draft
 [WG-03-11]: https://github.com/WebAssembly/meetings/blob/master/main/2020/WG-03-11.md
 [WG-06-09]: https://lists.w3.org/Archives/Public/public-webassembly/2020Jun/0000.html
