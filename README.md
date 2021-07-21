@@ -37,29 +37,29 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 ### Phase 1 - Feature Proposal (CG)
 
-| Proposal                                                                                         | Champion                         |
-| ------------------------------------------------------------------------------------------------ | -------------------------------- |
-| [Type Imports][type-imports]                                                                     | Andreas Rossberg                 |
-| [Garbage collection][garbage_collection]                                                         | Andreas Rossberg                 |
-| [Interface Types][interface_types]                                                               | Luke Wagner and Francis McCabe   |
-| [WebAssembly C and C++ API][wasm_c_api]                                                          | Andreas Rossberg                 |
-| [Feature Detection][feature_detection]                                                           | Thomas Lively                    |
-| [Extended Name Section][extended-name-section]                                                   | Andrew Scheidecker               |
-| [Flexible Vectors][flexible-vectors]                                                             | Petr Penzin                      |
-| [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
-| [Call Tags][call-tags]                                                                           | Ross Tate                        |
-| [Module Linking][module_linking]                                                                 | Luke Wagner and Andreas Rossberg |
-| [Extended Constant Expressions][extended-const]                                                  | Sam Clegg                        |
-| [Web Content Security Policy][web_content_security_policy]                                       | Francis McCabe                   |
-| [Relaxed SIMD][relaxed-simd]                                                                     | Marat Dukhan & Zhi An Ng         |
-| [Stack Switching][stack-switching]                                                               | Francis McCabe & Sam Lindley     |
+| Proposal                                                   | Champion                                                                          |
+|------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [Type Imports][type-imports]                               | Andreas Rossberg                                                                  |
+| [Garbage collection][garbage_collection]                   | Andreas Rossberg                                                                  |
+| [Interface Types][interface_types]                         | Luke Wagner and Francis McCabe                                                    |
+| [WebAssembly C and C++ API][wasm_c_api]                    | Andreas Rossberg                                                                  |
+| [Feature Detection][feature_detection]                     | Thomas Lively                                                                     |
+| [Extended Name Section][extended-name-section]             | Andrew Scheidecker                                                                |
+| [Flexible Vectors][flexible-vectors]                       | Petr Penzin                                                                       |
+| [Instrument and Tracing Technology][instrument-tracing]    | Richard Winterton                                                                 |
+| [Call Tags][call-tags]                                     | Ross Tate                                                                         |
+| [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
+| [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
+| [Web Content Security Policy][web_content_security_policy] | Francis McCabe                                                                    |
+| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng                                                          |
+| [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
+| [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 
 ### Phase 0 - Pre-Proposal (CG)
 
 | Proposal                                                   | Champion                         |
 | ---------------------------------------------------------- | -------------------------------- |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
-| [Constant Time][constant-time]                             | John Renner, Hovav Shacham, Deian Stefan, Conrad Watt|
 
 
 ### Contributing new proposals
