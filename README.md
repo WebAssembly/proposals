@@ -7,6 +7,12 @@
 
 Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
 
+### Phase 5 - The Feature is Standardized (WG)
+
+| Proposal                                                                       | Champion         |
+| ------------------------------------------------------------------------------ | ---------------- |
+| [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan |
+
 ### Phase 4 - Standardize the Feature (WG)
 
 | Proposal                                                                       | Champion         |
@@ -69,6 +75,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [ecmascript_module_integration]: https://github.com/WebAssembly/esm-integration
 [exception_handling]: https://github.com/WebAssembly/exception-handling
 [feature_detection]: https://github.com/WebAssembly/feature-detection
+[fixed-width_simd]: https://github.com/webassembly/simd
 [function_references]: https://github.com/WebAssembly/function-references
 [type-imports]: https://github.com/WebAssembly/proposal-type-imports
 [garbage_collection]: https://github.com/WebAssembly/gc
