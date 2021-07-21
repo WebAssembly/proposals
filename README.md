@@ -21,6 +21,7 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
 | [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
+| [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -28,12 +29,12 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Threads][threads]                                                                                   | Conrad Watt                            |
 | [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
-| [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
 | [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
+| [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -46,7 +47,6 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 | [Feature Detection][feature_detection]                     | Thomas Lively                                                                     |
 | [Extended Name Section][extended-name-section]             | Andrew Scheidecker                                                                |
 | [Flexible Vectors][flexible-vectors]                       | Petr Penzin                                                                       |
-| [Instrument and Tracing Technology][instrument-tracing]    | Richard Winterton                                                                 |
 | [Call Tags][call-tags]                                     | Ross Tate                                                                         |
 | [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
 | [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
