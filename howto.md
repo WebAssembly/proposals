@@ -153,147 +153,25 @@ Add the proposal to the list of active proposals by creating a respective PR.
    2. Create a PR
 
 
-## Setting up Travis and GitHub Page
+## Setting up CI and GitHub Pages
 
-This step makes sure that every commit runs through Travis continuous integration tests. The spec CI scripts also automatically rebuild the spec document and publish it on the repo’s github.io page.
+This step makes sure that every commit runs through continuous integration tests. The spec CI scripts also automatically rebuild the spec document and publish it on the repo’s github.io page.
 
-Note: Our Travis setup loosely follows the recipe decribed at https://gist.github.com/domenic/ec8b0fc8ab45f39403dd#get-encrypted-credentials
+CI is currently done with Github Actions ([documentation](https://docs.github.com/en/actions)). When you merge from the upstream spec directory, git should also pull in yml files in `.github/workflows` that specify the CI behavior. These files should automatically set up CI actions that run on both commit and on pull requests.
 
-1. Generate new deploy key:
+While the CI action will automatically build the spec document and push it to the `gh-pages` branch, you may also need to configure the repository to publish this branch to the web:
 
-   1. Run:
-      ```
-      ssh-keygen -t rsa -b 4096 -C ""
-      ```
+ 1. Click "Settings”.
 
-   2. Save to: `deploy_key`
+ 2. Go to the "Pages" settings.
 
-   3. Enter empty pass phrase (twice)
+ 3. Under "Source", click the drop-down button and choose the `gh-pages` branch.
 
-   This generates files `deploy_key` and `deploy_key.pub`
+ 4. Click "Save".
 
-2. Add deploy key to repository:
+This should publish the document to `https://webassembly.github.io/<<proposal>>`.
 
-   1. Go to `https://github.com/WebAssembly/<<proposal>>/settings/keys`
-
-   2. Click "Add deploy key"
-
-   3. Enter “Title": `Travis CI`
-
-   4. Enter “Key": `<<contents of deploy_key.pub>>`
-
-   5. Check "Allow write access"
-
-   6. Click "Add key"
-
-3. Install the [Travis Command Line Client](https://github.com/travis-ci/travis.rb#installation), if you do not have it already
-
-4. If you are using 2FA on GitHub and (like me) can’t figure out how to use something like YubiKey with the Travis command line client, you may need to generate a GitHub token to perform the Travis login in the next step:
-
-   1. Go to https://github.com/settings/tokens
-
-   2. Click "Generate new token"
-
-   3. Enter “Description”, e.g., `Setup token`
-
-   4. Check the authorisation boxes specified at `https://docs.travis-ci.com/user/github-oauth-scopes/#travis-ci-for-open-source-projects`
-
-      1. The following seem to suffice:
-
-         * `repo/*`
-         * `admin:org/read:org`
-         * `user/user:email`
-
-   5. Take note of the generated token string
-
-5. Log into Travis from command line:
-
-   1. If you don’t have GitHub 2FA activated or know how it works, run:
-      ```
-      travis login --org
-      ```
-
-   2. Otherwise, if you have created a GitHub token `<<gh-token>>` in the previous step, run:
-      ```
-      travis login --org --github-token <<gh-token>>
-      ```
-
-   3. If this is the first time you log into Travis from the command line, you may have to accept the request through the Travis web site:
-
-      1. Go to `https://travis-ci.org/account/preferences`
-
-      2. Log in with your GitHub account, if necessary
-
-      3. Accept the request
-
-      4. Repeat the travis command line login
-
-6. Encrypt deploy key:
-
-   1. Run:
-      ```
-      travis encrypt-file deploy_key
-      ```
-      
-      Note: There is a bug in travis version 1.8.11 where this command will fail with the error:
-      ```
-      wrong number of arguments (given 1, expected 2)
-      ```
-      See `https://github.com/travis-ci/travis.rb/issues/711`. Version 1.10.0 seems to work fine.
-
-   2. Confirm override with `yes`
-
-   3. The output includes a line like
-      ```
-      openssl aes-256-cbc -K $encrypted_<<label>>_key -iv $encrypted_<<label>>_iv -in deploy_key.enc -out deploy_key -d
-      ```
-      where `<<label>>` is some hex value
-
-7. Add encryption label to Travis configuration:
-
-   1. Edit `.travis.yml`
-
-   2. Change definition of `env/global/ENCRYPTION_LABEL` to `<<label>>`:
-   ```
-   env:
-     global:
-       - ENCRYPTION_LABEL: "<<label>>"
-   ```
-
-8. Commit (`deploy_key.enc`, `.travis.yml`):
-
-   1. Run:
-      ```
-      git commit -am "Set up Travis"
-      git push
-      ```
-
-9. Turn on builds for the new repository
-
-   1. Go to `https://travis-ci.org/organizations/WebAssembly/repositories`
-
-   2. Select "Current" tab
-
-   3. Click "Activate repository"
-
-10. Watch build progress at `https://travis-ci.org/WebAssembly/<<proposal>>/builds`
-
-   1. You may have to retrigger the build:
-
-      1. Click on "More options" pull down
-      2. Select "Trigger build"
-      3. Click “Trigger custom build” (you can leave the text boxes empty)
-
-11. Point repository to GitHub IO
-
-   1. Go to `https://github.com/WebAssembly/<<proposal>>`
-
-   2. Click the settings icon next to “About” on the right of the page
-
-   3. Enter “Website": `https://webassembly.github.io/<<proposal>>/`
-
-   4. Click "Save"
-
+On some pull requests, there may be an additional approval needed from a user with write-access to run the CI actions. See the [documentation page](https://docs.github.com/en/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks) on this for details.
 
 ## Syncing with Upstream Changes
 
