@@ -69,8 +69,11 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | ---------------------------------------------------------- | -------------------------------- |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
 
+## Implementation status
 
-### Contributing new proposals
+Roadmap is available on https://webassembly.org/roadmap/
+
+## Contributing new proposals
 
 Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/master/Contributing.md) for the most up-to-date information on contributing proposals to standard.
 
