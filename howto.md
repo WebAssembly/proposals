@@ -35,7 +35,7 @@ You need admin rights for the GitHub WebAsssembly organisation to execute this s
 
    2. Go to the "Manage Access" settings
 
-   3. Click "Invite teams or people" and enter the champion’s GitHub user name
+   3. Click "Add people" and enter the champion’s GitHub user name
 
    4. Select the "Admin" role and add the champion to the repository
 
@@ -98,7 +98,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
    1. Edit `README.md`, replacing the first line with the following:
       ```
-      [![Build Status](https://travis-ci.org/WebAssembly/<<proposal>>.svg?branch=master)](https://travis-ci.org/WebAssembly/<<proposal>>)
+      ![Build Status](https://github.com/WebAssembly/<<proposal>>/actions/workflows/main.yml/badge.svg)
 
       # <<Title>> Proposal for WebAssembly
 
@@ -110,7 +110,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
       * See the [modified spec](https://webassembly.github.io/<<proposal>>/) for details.
 
-      Original `README` from upstream repository follows…
+      Original `README` from upstream repository follows...
       ```
       where `<<Title>>` is the title picked for the repository and `<<Feature Description>>` a healf-sentence summary
 
