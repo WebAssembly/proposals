@@ -21,7 +21,7 @@ See also the [active proposals](README.md) and [inactive proposals](inactive-pro
 [javascript_bigint_to_webassembly_i64_integration]: https://github.com/WebAssembly/JS-BigInt-integration
 [reference_types]: https://github.com/WebAssembly/reference-types
 [bulk_memory_operations]: https://github.com/WebAssembly/bulk-memory-operations
-[wg-06-06]: https://github.com/WebAssembly/meetings/blob/master/main/2018/WG-06-06.md#discussion-on-status-of-the-working-draft
-[WG-03-11]: https://github.com/WebAssembly/meetings/blob/master/main/2020/WG-03-11.md
+[wg-06-06]: https://github.com/WebAssembly/meetings/blob/main/main/2018/WG-06-06.md#discussion-on-status-of-the-working-draft
+[WG-03-11]: https://github.com/WebAssembly/meetings/blob/main/main/2020/WG-03-11.md
 [WG-06-09]: https://lists.w3.org/Archives/Public/public-webassembly/2020Jun/0000.html
-[WG-02-10-2021]: https://github.com/WebAssembly/meetings/blob/master/main/2021/WG-02-10.md
+[WG-02-10-2021]: https://github.com/WebAssembly/meetings/blob/main/main/2021/WG-02-10.md

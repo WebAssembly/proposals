@@ -5,7 +5,7 @@
 
 ## Active proposals
 
-Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
+Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/main/process/phases.md).
 
 ### Phase 5 - The Feature is Standardized (WG)
 
@@ -75,7 +75,7 @@ Roadmap is available on https://webassembly.org/roadmap/
 
 ## Contributing new proposals
 
-Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/master/Contributing.md) for the most up-to-date information on contributing proposals to standard.
+Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/main/Contributing.md) for the most up-to-date information on contributing proposals to standard.
 
 [custom_annotation_syntax_in_the_text_format]: https://github.com/WebAssembly/annotations
 [ecmascript_module_integration]: https://github.com/WebAssembly/esm-integration
