@@ -52,7 +52,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       cd <<proposal>>
       git remote add upstream https://github.com/WebAssembly/spec.git
       git fetch upstream
-      git merge upstream/master
+      git merge upstream/main
       ```
 
 2. If your proposal has dependencies on another active proposal, whose repository is named `<<parent-proposal>>`, then add that as an additional remote repository:
@@ -61,7 +61,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       ```
       git remote add <<parent-proposal>> https://github.com/WebAssembly/<<parent-proposal>>.git
       git fetch <<parent-proposal>>
-      git merge <<parent-proposal>>/master
+      git merge <<parent-proposal>>/main
       ```
 
    Note: If you connect to github using SSH, and run into authentication failures, use the [SSH url](https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories#about-remote-repositories) for the repository instead of the HTTPS url above.
@@ -180,12 +180,12 @@ Once in a while you will need to merge in changes from the main spec repo.
 
 1. Merge upstream:
 
-   1. Make sure you are on the `master` branch
+   1. Make sure you are on the `main` branch
 
    2. Run:
       ```
       git fetch upstream
-      git merge upstream/master
+      git merge upstream/main
       ```
 
    3. Resolve merge conflicts if necessary
@@ -199,13 +199,13 @@ If the merge conflicts are complex, you may want to have it reviewed. In that ca
 
 1. Merge upstream with code review:
 
-   1. Make sure you are on the `master` branch
+   1. Make sure you are on the `main` branch
 
    2. Pick a new `<<branch-name>>` for performing the merge and run:
       ```
       git checkout -b <<branch-name>>
       git fetch upstream
-      git merge upstream/master
+      git merge upstream/main
       ```
       
    3. Resolve merge conflicts
@@ -222,7 +222,7 @@ If the merge conflicts are complex, you may want to have it reviewed. In that ca
    
       1. Run:
          ```
-         git diff upstream/master..origin/<<branch-name>> > <<branch-name>>.diff
+         git diff upstream/main..origin/<<branch-name>> > <<branch-name>>.diff
          ```
       
       2. Go to gist.github.com
@@ -257,12 +257,12 @@ If the merge conflicts are complex, you may want to have it reviewed. In that ca
 
       3. Alternatively, you can push manually:
          ```
-         git checkout master
+         git checkout main
          git merge --ff-only <<branch-name>>
          git push
          ```
-         This assumes that `master` has not changed in the mean time.
-         If it has, you will have to merge `master` into `<<branch-name>>` first.
+         This assumes that `main` has not changed in the mean time.
+         If it has, you will have to merge `main` into `<<branch-name>>` first.
 
 
 ## Progressing a Proposal Stages
