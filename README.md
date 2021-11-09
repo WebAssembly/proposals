@@ -43,6 +43,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
 | [Instrument and Tracing Technology][instrument-tracing]                                              | Richard Winterton                      |
+| [Relaxed SIMD][relaxed-simd]                                                                         | Marat Dukhan & Zhi An Ng               |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -58,7 +59,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Call Tags][call-tags]                                     | Ross Tate                                                                         |
 | [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
 | [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
-| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng                                                          |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
