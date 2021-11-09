@@ -29,6 +29,8 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
 | [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
+| [Web Content Security Policy][web_content_security_policy]                                           | Francis McCabe                         |
+| [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -40,7 +42,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
-| [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
 | [Instrument and Tracing Technology][instrument-tracing]                                              | Richard Winterton                      |
 | [Relaxed SIMD][relaxed-simd]                                                                         | Marat Dukhan & Zhi An Ng               |
 
@@ -58,10 +59,9 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Call Tags][call-tags]                                     | Ross Tate                                                                         |
 | [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
 | [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
-| [Web Content Security Policy][web_content_security_policy] | Francis McCabe                                                                    |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
-| [JS Promise Integration][js-promise-integration]            | Ross Tate and Francis McCabe                                                      |
+| [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
 
 ### Phase 0 - Pre-Proposal (CG)
 
