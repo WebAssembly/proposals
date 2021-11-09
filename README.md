@@ -5,7 +5,7 @@
 
 ## Active proposals
 
-Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/master/process/phases.md).
+Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/main/process/phases.md).
 
 ### Phase 5 - The Feature is Standardized (WG)
 
@@ -30,6 +30,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Web Content Security Policy][web_content_security_policy]                                           | Francis McCabe                         |
+| [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -41,8 +42,8 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
-| [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
-| [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
+| [Instrument and Tracing Technology][instrument-tracing]                                              | Richard Winterton                      |
+| [Relaxed SIMD][relaxed-simd]                                                                         | Marat Dukhan & Zhi An Ng               |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -58,7 +59,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Call Tags][call-tags]                                     | Ross Tate                                                                         |
 | [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
 | [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
-| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng                                                          |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
@@ -75,7 +75,7 @@ Roadmap is available on https://webassembly.org/roadmap/
 
 ## Contributing new proposals
 
-Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/master/Contributing.md) for the most up-to-date information on contributing proposals to standard.
+Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/main/Contributing.md) for the most up-to-date information on contributing proposals to standard.
 
 [custom_annotation_syntax_in_the_text_format]: https://github.com/WebAssembly/annotations
 [ecmascript_module_integration]: https://github.com/WebAssembly/esm-integration
