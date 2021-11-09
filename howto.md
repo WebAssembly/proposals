@@ -285,3 +285,21 @@ Before doing so:
 4. Make sure that Travis is green.
 
 5. Make sure that the changes to the document are rendered correctly.
+
+After merging, archive the proposal repository:
+
+1. Go to "Settings" -> "Options"
+
+2. Click "Archive repository" and follow instructions.
+
+Finally, update the proposals list:
+
+Add the proposal to the list of active proposals by creating a respective PR.
+
+1. Go to https://github.com/WebAssembly/proposals
+
+2. Edit `README.md` and `finished-proposals.md`:
+
+   1. Move the proposal from the former to the latter.
+
+   2. Create a PR
