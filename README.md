@@ -30,6 +30,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Web Content Security Policy][web_content_security_policy]                                           | Francis McCabe                         |
+| [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -41,8 +42,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
-| [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
-| [Instrument and Tracing Technology][instrument-tracing]                                          | Richard Winterton                |
+| [Instrument and Tracing Technology][instrument-tracing]                                              | Richard Winterton                      |
 
 ### Phase 1 - Feature Proposal (CG)
 
