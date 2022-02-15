@@ -43,13 +43,13 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
 | [Instrument and Tracing Technology][instrument-tracing]                                              | Richard Winterton                      |
 | [Relaxed SIMD][relaxed-simd]                                                                         | Marat Dukhan & Zhi An Ng               |
+| [Garbage collection][garbage_collection]                                                             | Andreas Rossberg                       |
 
 ### Phase 1 - Feature Proposal (CG)
 
 | Proposal                                                   | Champion                                                                          |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [Type Imports][type-imports]                               | Andreas Rossberg                                                                  |
-| [Garbage collection][garbage_collection]                   | Andreas Rossberg                                                                  |
 | [Interface Types][interface_types]                         | Luke Wagner and Francis McCabe                                                    |
 | [WebAssembly C and C++ API][wasm_c_api]                    | Andreas Rossberg                                                                  |
 | [Feature Detection][feature_detection]                     | Thomas Lively                                                                     |
