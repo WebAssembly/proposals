@@ -36,7 +36,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | Proposal                                                                                             | Champion                               |
 | ---------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | [Threads][threads]                                                                                   | Conrad Watt                            |
-| [ECMAScript module integration][ecmascript_module_integration]                                       | Lin Clark & Daniel Ehrenberg           |
+| [ECMAScript module integration][ecmascript_module_integration]                                       | Asumu Takikawa & Ms2ger                |
 | [Type Reflection for WebAssembly JavaScript API][type_reflection_for_webassembly_javascript_api]     | Till Schneidereit                      |
 | [Typed Function References][function_references]                                                     | Andreas Rossberg                       |
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
