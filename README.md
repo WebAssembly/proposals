@@ -30,6 +30,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Web Content Security Policy][web_content_security_policy]                                           | Francis McCabe                         |
 | [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
+| [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -57,7 +58,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Flexible Vectors][flexible-vectors]                       | Petr Penzin                                                                       |
 | [Call Tags][call-tags]                                     | Ross Tate                                                                         |
 | [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
-| [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
