@@ -61,6 +61,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
+| [JS Customization for GC Objects][gc-js-customization]     | Asumu Takikawa                                                                    |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -106,3 +107,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [relaxed-simd]: https://github.com/WebAssembly/relaxed-simd
 [stack-switching]: https://github.com/WebAssembly/stack-switching
 [js-promise-integration]: https://github.com/WebAssembly/js-promise-integration
+[gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
