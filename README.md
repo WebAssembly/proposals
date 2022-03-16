@@ -61,13 +61,13 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
+| [JS Customization for GC Objects][gc-js-customization]     | Asumu Takikawa                                                                    |
 
 ### Phase 0 - Pre-Proposal (CG)
 
 | Proposal                                                   | Champion                         |
 | ---------------------------------------------------------- | -------------------------------- |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets]| Dan Gohman                       |
-| [JS Customization for GC Objects][gc-js-customization]     | Asumu Takikawa                   |
 
 ## Implementation status
 
