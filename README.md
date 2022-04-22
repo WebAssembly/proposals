@@ -45,6 +45,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Instrument and Tracing Technology][instrument-tracing]                                              | Richard Winterton                      |
 | [Relaxed SIMD][relaxed-simd]                                                                         | Marat Dukhan & Zhi An Ng               |
 | [Garbage collection][garbage_collection]                                                             | Andreas Rossberg                       |
+| [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -60,7 +61,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
-| [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
 | [JS Customization for GC Objects][gc-js-customization]     | Asumu Takikawa                                                                    |
 
 ### Phase 0 - Pre-Proposal (CG)
