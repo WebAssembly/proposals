@@ -30,7 +30,8 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Web Content Security Policy][web_content_security_policy]                                           | Francis McCabe                         |
 | [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
-| [Extended Constant Expressions][extended-const]            | Sam Clegg                                                                         |
+| [Extended Constant Expressions][extended-const]                                                      | Sam Clegg                              |
+| [Relaxed SIMD][relaxed-simd]                                                                         | Marat Dukhan & Zhi An Ng               |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -43,7 +44,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed dead code validation][relaxed-dead-code-validation]                                         | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]                                         | Ezzat Chamudi                          |
 | [Instrument and Tracing Technology][instrument-tracing]                                              | Richard Winterton                      |
-| [Relaxed SIMD][relaxed-simd]                                                                         | Marat Dukhan & Zhi An Ng               |
 | [Garbage collection][garbage_collection]                                                             | Andreas Rossberg                       |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe                                                      |
 
@@ -62,6 +62,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Customization for GC Objects][gc-js-customization]     | Asumu Takikawa                                                                    |
+| [Memory control][memory-control]                           | Deepti Gandluri                                                                   |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -108,3 +109,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [stack-switching]: https://github.com/WebAssembly/stack-switching
 [js-promise-integration]: https://github.com/WebAssembly/js-promise-integration
 [gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
+[memory-control]: https://github.com/WebAssembly/memory-control
