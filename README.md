@@ -63,6 +63,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Customization for GC Objects][gc-js-customization]     | Asumu Takikawa                                                                    |
 | [Memory control][memory-control]                           | Deepti Gandluri                                                                   |
+| [Reference-Typed Strings][stringref]                       | Andy Wingo                                                                        |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -110,3 +111,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [js-promise-integration]: https://github.com/WebAssembly/js-promise-integration
 [gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
 [memory-control]: https://github.com/WebAssembly/memory-control
+[stringref]: https://github.com/WebAssembly/stringref
