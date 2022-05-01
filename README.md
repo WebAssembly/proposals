@@ -52,13 +52,12 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | Proposal                                                   | Champion                                                                          |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [Type Imports][type-imports]                               | Andreas Rossberg                                                                  |
-| [Interface Types][interface_types]                         | Luke Wagner and Francis McCabe                                                    |
+| [Component Model][component-model]                         | Luke Wagner                                                                       |
 | [WebAssembly C and C++ API][wasm_c_api]                    | Andreas Rossberg                                                                  |
 | [Feature Detection][feature_detection]                     | Thomas Lively                                                                     |
 | [Extended Name Section][extended-name-section]             | Andrew Scheidecker                                                                |
 | [Flexible Vectors][flexible-vectors]                       | Petr Penzin                                                                       |
 | [Call Tags][call-tags]                                     | Ross Tate                                                                         |
-| [Module Linking][module_linking]                           | Luke Wagner and Andreas Rossberg                                                  |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                             | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Customization for GC Objects][gc-js-customization]     | Asumu Takikawa                                                                    |
@@ -86,7 +85,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [function_references]: https://github.com/WebAssembly/function-references
 [type-imports]: https://github.com/WebAssembly/proposal-type-imports
 [garbage_collection]: https://github.com/WebAssembly/gc
-[interface_types]: https://github.com/WebAssembly/interface-types
+[component-model]: https://github.com/WebAssembly/component-model
 [multi-memory]: https://github.com/WebAssembly/multi-memory
 [tail_call]: https://github.com/WebAssembly/tail-call
 [threads]: https://github.com/webassembly/threads
@@ -96,7 +95,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [webassembly_specification]: https://github.com/WebAssembly/spec
 [funclets]: https://github.com/WebAssembly/funclets
 [extended-name-section]: https://github.com/WebAssembly/extended-name-section
-[module_linking]: https://github.com/WebAssembly/module-linking
 [constant-time]: https://github.com/WebAssembly/constant-time
 [memory64]: https://github.com/WebAssembly/memory64
 [flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
