@@ -26,7 +26,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Tail call][tail_call]                                                                               | Andreas Rossberg                       |
 | [Multiple memories][multi-memory]                                                                    | Andreas Rossberg                       |
 | [Custom Annotation Syntax in the Text Format][custom_annotation_syntax_in_the_text_format]           | Andreas Rossberg                       |
-| [Memory64][memory64]                                                                                 | Wouter van Oortmerssen                 |
+| [Memory64][memory64]                                                                                 | Sam Clegg                              |
 | [Exception handling][exception_handling]                                                             | Heejin Ahn                             |
 | [Web Content Security Policy][web_content_security_policy]                                           | Francis McCabe                         |
 | [Branch Hinting][branch-hinting]                                                                     | Yuri Iozzelli                          |
