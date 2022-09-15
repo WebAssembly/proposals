@@ -69,8 +69,8 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 | Proposal                                                    | Champion                         |
 | ----------------------------------------------------------- | -------------------------------- |
-| [Funclets: Flexible Intraprocedural Control Flow][funclets] | Dan Gohman                       |
-| [JS Customization of GC Objects][gc-js-customization]       | Asumu Takikawa                   |
+|    [Funclets: Flexible Intraprocedural Control Flow][funclets] | Dan Gohman                    |
+| ✅ [~~JS Customization of GC Objects~~][gc-js-customization]| ~~Asumu Takikawa~~               |  
  
 ## Implementation status
 
