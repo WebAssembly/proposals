@@ -72,7 +72,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Funclets: Flexible Intraprocedural Control Flow][funclets] | Dan Gohman                       |
 | [JS Customization of GC Objects][gc-js-customization]       |                                  |
 
-
 ## Implementation status
 
 Roadmap is available on https://webassembly.org/roadmap/
@@ -110,6 +109,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [relaxed-simd]: https://github.com/WebAssembly/relaxed-simd
 [stack-switching]: https://github.com/WebAssembly/stack-switching
 [js-promise-integration]: https://github.com/WebAssembly/js-promise-integration
+[gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
 [memory-control]: https://github.com/WebAssembly/memory-control
 [stringref]: https://github.com/WebAssembly/stringref
-[gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
