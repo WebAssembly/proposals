@@ -54,7 +54,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Type Imports][type-imports]                           | Andreas Rossberg                                                                  |
 | [Component Model][component-model]                     | Luke Wagner                                                                       |
 | [WebAssembly C and C++ API][wasm_c_api]                | Andreas Rossberg                                                                  |
-| [Feature Detection][feature_detection]                 | Thomas Lively                                                                     |
 | [Extended Name Section][extended-name-section]         | Andrew Scheidecker                                                                |
 | [Flexible Vectors][flexible-vectors]                   | Petr Penzin                                                                       |
 | [Call Tags][call-tags]                                 | Ross Tate                                                                         |
