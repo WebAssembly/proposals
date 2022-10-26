@@ -42,7 +42,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Threads][threads]                                             | Conrad Watt                  |
 | [ECMAScript module integration][ecmascript_module_integration] | Asumu Takikawa & Ms2ger      |
 | [Type Reflection for WebAssembly JavaScript API][js-types]     | Till Schneidereit            |
-| [Typed Function References][function_references]               | Andreas Rossberg             |
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
