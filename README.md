@@ -32,6 +32,8 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Branch Hinting][branch-hinting]                           | Yuri Iozzelli             |
 | [Extended Constant Expressions][extended-const]            | Sam Clegg                 |
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng  |
+| [Typed Function References][function_references]           | Andreas Rossberg          |
+| [Garbage collection][garbage_collection]                   | Andreas Rossberg          |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -44,7 +46,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
-| [Garbage collection][garbage_collection]                       | Andreas Rossberg             |
 | [JS Promise Integration][js-promise-integration]               | Ross Tate and Francis McCabe |
 
 ### Phase 1 - Feature Proposal (CG)
