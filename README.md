@@ -21,20 +21,21 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
-| Proposal                                                   | Champion                  |
-| -----------------------------------------------------------| ------------------------- |
-| [Tail call][tail_call]                                     | Andreas Rossberg          |
-| [Multiple memories][multi-memory]                          | Andreas Rossberg          |
-| [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg          |
-| [Memory64][memory64]                                       | Sam Clegg                 |
-| [Exception handling][exception_handling]                   | Heejin Ahn                |
-| [Web Content Security Policy][content-security-policy]     | Francis McCabe            |
-| [Branch Hinting][branch-hinting]                           | Yuri Iozzelli             |
-| [Extended Constant Expressions][extended-const]            | Sam Clegg                 |
-| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng  |
-| [Typed Function References][function_references]           | Andreas Rossberg          |
-| [Garbage collection][garbage_collection]                   | Andreas Rossberg          |
-| [Threads][threads]                                         | Conrad Watt               |
+| Proposal                                                   | Champion                     |
+| -----------------------------------------------------------| ---------------------------- |
+| [Tail call][tail_call]                                     | Andreas Rossberg             |
+| [Multiple memories][multi-memory]                          | Andreas Rossberg             |
+| [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg             |
+| [Memory64][memory64]                                       | Sam Clegg                    |
+| [Exception handling][exception_handling]                   | Heejin Ahn                   |
+| [Web Content Security Policy][content-security-policy]     | Francis McCabe               |
+| [Branch Hinting][branch-hinting]                           | Yuri Iozzelli                |
+| [Extended Constant Expressions][extended-const]            | Sam Clegg                    |
+| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng     |
+| [Typed Function References][function_references]           | Andreas Rossberg             |
+| [Garbage collection][garbage_collection]                   | Andreas Rossberg             |
+| [Threads][threads]                                         | Conrad Watt                  |
+| [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -45,7 +46,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
-| [JS Promise Integration][js-promise-integration]               | Ross Tate and Francis McCabe |
 
 ### Phase 1 - Feature Proposal (CG)
 
