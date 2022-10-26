@@ -34,12 +34,12 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng  |
 | [Typed Function References][function_references]           | Andreas Rossberg          |
 | [Garbage collection][garbage_collection]                   | Andreas Rossberg          |
+| [Threads][threads]                                         | Conrad Watt               |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
 | Proposal                                                       | Champion                     |
 | ---------------------------------------------------------------| -----------------------------|
-| [Threads][threads]                                             | Conrad Watt                  |
 | [ECMAScript module integration][ecmascript_module_integration] | Asumu Takikawa & Ms2ger      |
 | [Type Reflection for WebAssembly JavaScript API][js-types]     | Till Schneidereit            |
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
