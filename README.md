@@ -68,7 +68,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 | Proposal                                                    | Champion                         |
 | ----------------------------------------------------------- | -------------------------------- |
-| [Funclets: Flexible Intraprocedural Control Flow][funclets] | Dan Gohman                       |
 
 ## Implementation status
 
@@ -93,7 +92,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [wasm_c_api]: https://github.com/WebAssembly/wasm-c-api
 [content-security-policy]: https://github.com/WebAssembly/content-security-policy
 [webassembly_specification]: https://github.com/WebAssembly/spec
-[funclets]: https://github.com/WebAssembly/funclets
 [extended-name-section]: https://github.com/WebAssembly/extended-name-section
 [constant-time]: https://github.com/WebAssembly/constant-time
 [memory64]: https://github.com/WebAssembly/memory64
