@@ -9,7 +9,7 @@ Inactive proposals are proposals that at one point were presented to the communi
 | [Feature Detection][feature_detection]   | Thomas Lively    | Withdrawn for lack of consensus                                        |
 | [Module Linking][module_linking]         | Luke Wagner and Andreas Rossberg | Suspended in favor of the [Component Model][component_model] |
 | [Interface Types][interface_types]       | Luke Wagner and Francis McCabe | Suspended in favor of the [Component Model][component_model] |
-| [Funclets: Flexible Intraprocedural Control Flow][funclets] | Dan Gohman  | Withdrawn in favor of multiloop[multiloop-1][multiloop-2]    |
+| [Funclets: Flexible Intraprocedural Control Flow][funclets] | Dan Gohman  | Withdrawn in favor of multiloop[1][multiloop-1][2][multiloop-2] |
 
 
 See also the [active proposals](README.md) and [finished proposals](finished-proposals.md) documents.
