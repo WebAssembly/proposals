@@ -62,6 +62,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [JS Customization for GC Objects][gc-js-customization] | Asumu Takikawa                                                                    |
 | [Memory control][memory-control]                       | Deepti Gandluri                                                                   |
 | [Reference-Typed Strings][stringref]                   | Andy Wingo                                                                        |
+| [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
 
 
 ### Phase 0 - Pre-Proposal (CG)
@@ -108,3 +109,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
 [memory-control]: https://github.com/WebAssembly/memory-control
 [stringref]: https://github.com/WebAssembly/stringref
+[profiles]: https://github.com/WebAssembly/profiles
