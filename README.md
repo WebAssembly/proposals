@@ -36,13 +36,13 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Garbage collection][garbage_collection]                   | Andreas Rossberg             |
 | [Threads][threads]                                         | Conrad Watt                  |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe |
+| [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                  |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
 | Proposal                                                       | Champion                     |
 | ---------------------------------------------------------------| -----------------------------|
 | [ECMAScript module integration][ecmascript_module_integration] | Asumu Takikawa & Ms2ger      |
-| [Type Reflection for WebAssembly JavaScript API][js-types]     | Till Schneidereit            |
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
