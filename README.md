@@ -16,14 +16,14 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 ### Phase 4 - Standardize the Feature (WG)
 
-| Proposal                                                   | Champion        |
-| -----------------------------------------------------------| --------------- |
+| Proposal                                                   | Champion         |
+| -----------------------------------------------------------| ---------------- |
+| [Tail call][tail_call]                                     | Andreas Rossberg |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                   | Champion                     |
 | -----------------------------------------------------------| ---------------------------- |
-| [Tail call][tail_call]                                     | Andreas Rossberg             |
 | [Multiple memories][multi-memory]                          | Andreas Rossberg             |
 | [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg             |
 | [Memory64][memory64]                                       | Sam Clegg                    |
