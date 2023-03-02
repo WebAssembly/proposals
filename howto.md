@@ -131,7 +131,19 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       repo = '<<proposal>>'
       ```
 
-6. Commit (`README.md`, `proposals/<<proposal>>/Overview.md`, `document/core/conf.py`):
+6. Turn off running tests with node.js in CI:
+
+   1. Edit `.github/workflows/main.yml`, changine the line saying
+      ```
+      - run: cd interpreter && opam exec make JS=node all
+      ```
+      to
+      ```
+      - run: cd interpreter && opam exec make all
+      ```
+      Note: You can revert this once the proposal has been implemented in V8 and downstreamed to node.js, but that can take a long time.
+
+8. Commit (`README.md`, `proposals/<<proposal>>/Overview.md`, `document/core/conf.py`):
 
    1. Run:
       ```
