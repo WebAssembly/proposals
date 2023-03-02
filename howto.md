@@ -141,7 +141,8 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
       ```
       - run: cd interpreter && opam exec make all
       ```
-      Note: You can revert this once the proposal has been implemented in V8 and downstreamed to node.js, but that can take a long time.
+
+   Note: You can revert this once the proposal has been implemented in V8 and downstreamed to node.js, but that can take a long time.
 
 8. Commit (`README.md`, `proposals/<<proposal>>/Overview.md`, `document/core/conf.py`):
 
