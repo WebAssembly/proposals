@@ -96,7 +96,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
 4. Adjust toplevel readme:
 
-   1. Edit `README.md`, replacing the first line with the following:
+   1. Edit `README.md`, replacing the first two lines with the following:
       ```
       [![CI for specs](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml)
       [![CI for interpreter & tests](https://github.com/WebAssembly/spec/actions/workflows/ci-interpreter.yml/badge.svg)](https://github.com/WebAssembly/spec/actions/workflows/ci-interpreter.yml)
