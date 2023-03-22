@@ -98,7 +98,8 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
    1. Edit `README.md`, replacing the first line with the following:
       ```
-      ![Build Status](https://github.com/WebAssembly/<<proposal>>/actions/workflows/main.yml/badge.svg)
+      [![CI for specs](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/spec/actions/workflows/ci-spec.yml)
+      [![CI for interpreter & tests](https://github.com/WebAssembly/spec/actions/workflows/ci-interpreter.yml/badge.svg)](https://github.com/WebAssembly/spec/actions/workflows/ci-interpreter.yml)
 
       # <<Title>> Proposal for WebAssembly
 
