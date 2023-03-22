@@ -134,7 +134,7 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
 6. Turn off running tests with node.js in CI:
 
-   1. Edit `.github/workflows/main.yml`, changine the line saying
+   1. Edit `.github/workflows/ci-interpreter.yml`, changing the line saying
       ```
       - run: cd interpreter && opam exec make JS=node all
       ```
