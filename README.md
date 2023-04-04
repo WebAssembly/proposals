@@ -54,7 +54,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Type Imports][type-imports]                           | Andreas Rossberg                                                                  |
 | [Component Model][component-model]                     | Luke Wagner                                                                       |
 | [WebAssembly C and C++ API][wasm_c_api]                | Andreas Rossberg                                                                  |
-| [Extended Name Section][extended-name-section]         | Andrew Scheidecker                                                                |
+| [Extended Name Section][extended-name-section]         | Ashley Nelson                                                                |
 | [Flexible Vectors][flexible-vectors]                   | Petr Penzin                                                                       |
 | [Call Tags][call-tags]                                 | Ross Tate                                                                         |
 | [Stack Switching][stack-switching]                     | Francis McCabe & Sam Lindley                                                      |
