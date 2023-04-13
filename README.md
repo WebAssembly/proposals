@@ -16,10 +16,11 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 ### Phase 4 - Standardize the Feature (WG)
 
-| Proposal                                                   | Champion         |
-| -----------------------------------------------------------| ---------------- |
-| [Tail call][tail_call]                                     | Andreas Rossberg |
-| [Extended Constant Expressions][extended-const]            | Sam Clegg        |
+| Proposal                                                   | Champion                 |
+| -----------------------------------------------------------| ------------------------ |
+| [Tail call][tail_call]                                     | Andreas Rossberg         |
+| [Extended Constant Expressions][extended-const]            | Sam Clegg                |
+| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
@@ -31,7 +32,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Exception handling][exception_handling]                   | Heejin Ahn                   |
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe               |
 | [Branch Hinting][branch-hinting]                           | Yuri Iozzelli                |
-| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng     |
 | [Typed Function References][function_references]           | Andreas Rossberg             |
 | [Garbage collection][garbage_collection]                   | Andreas Rossberg             |
 | [Threads][threads]                                         | Conrad Watt                  |
