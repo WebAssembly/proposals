@@ -63,6 +63,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Memory control][memory-control]                       | Deepti Gandluri                                                                   |
 | [Reference-Typed Strings][stringref]                   | Andy Wingo                                                                        |
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
+| [JS String Builtins][js-string-builtins]               | Ryan Hunt                                                                         |
 
 
 ### Phase 0 - Pre-Proposal (CG)
