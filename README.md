@@ -111,3 +111,5 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [memory-control]: https://github.com/WebAssembly/memory-control
 [stringref]: https://github.com/WebAssembly/stringref
 [profiles]: https://github.com/WebAssembly/profiles
+[js-string-builtins]: https://github.com/WebAssembly/js-string-builtins
+
