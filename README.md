@@ -46,6 +46,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
+| [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -54,7 +55,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Type Imports][type-imports]                           | Andreas Rossberg                                                                  |
 | [Component Model][component-model]                     | Luke Wagner                                                                       |
 | [WebAssembly C and C++ API][wasm_c_api]                | Andreas Rossberg                                                                  |
-| [Extended Name Section][extended-name-section]         | Ashley Nelson                                                                |
 | [Flexible Vectors][flexible-vectors]                   | Petr Penzin                                                                       |
 | [Call Tags][call-tags]                                 | Ross Tate                                                                         |
 | [Stack Switching][stack-switching]                     | Francis McCabe & Sam Lindley                                                      |
