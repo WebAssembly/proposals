@@ -28,7 +28,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Multiple memories][multi-memory]                          | Andreas Rossberg             |
 | [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg             |
 | [Memory64][memory64]                                       | Sam Clegg                    |
-| [Exception handling][exception_handling]                   | Heejin Ahn                   |
+| [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer      |
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe               |
 | [Branch Hinting][branch-hinting]                           | Yuri Iozzelli                |
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng     |
