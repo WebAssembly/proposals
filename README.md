@@ -20,6 +20,8 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | -----------------------------------------------------------| ---------------- |
 | [Tail call][tail_call]                                     | Andreas Rossberg |
 | [Extended Constant Expressions][extended-const]            | Sam Clegg        |
+| [Typed Function References][function_references]           | Andreas Rossberg |
+| [Garbage collection][garbage_collection]                   | Andreas Rossberg |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
@@ -32,8 +34,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe               |
 | [Branch Hinting][branch-hinting]                           | Yuri Iozzelli                |
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng     |
-| [Typed Function References][function_references]           | Andreas Rossberg             |
-| [Garbage collection][garbage_collection]                   | Andreas Rossberg             |
 | [Threads][threads]                                         | Conrad Watt                  |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                  |
