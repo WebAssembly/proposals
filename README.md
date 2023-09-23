@@ -64,6 +64,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Reference-Typed Strings][stringref]                   | Andy Wingo                                                                        |
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
 | [JS String Builtins][js-string-builtins]               | Ryan Hunt                                                                         |
+| [Rounding Variants][rounding-mode-control]             | Kloud Koder                                                                       |
 
 
 ### Phase 0 - Pre-Proposal (CG)
@@ -112,4 +113,5 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [stringref]: https://github.com/WebAssembly/stringref
 [profiles]: https://github.com/WebAssembly/profiles
 [js-string-builtins]: https://github.com/WebAssembly/js-string-builtins
+[rounding-mode-control]: https://github.com/WebAssembly/rounding-mode-control
 
