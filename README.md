@@ -16,10 +16,12 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 ### Phase 4 - Standardize the Feature (WG)
 
-| Proposal                                                   | Champion                 |
-| -----------------------------------------------------------| ------------------------ |
-| [Tail call][tail_call]                                     | Andreas Rossberg         |
-| [Extended Constant Expressions][extended-const]            | Sam Clegg                |
+| Proposal                                                   | Champion         |
+| -----------------------------------------------------------| ---------------- |
+| [Tail call][tail_call]                                     | Andreas Rossberg |
+| [Extended Constant Expressions][extended-const]            | Sam Clegg        |
+| [Typed Function References][function_references]           | Andreas Rossberg |
+| [Garbage collection][garbage_collection]                   | Andreas Rossberg |
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng |
 
 ### Phase 3 - Implementation Phase (CG + WG)
@@ -29,11 +31,9 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Multiple memories][multi-memory]                          | Andreas Rossberg             |
 | [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg             |
 | [Memory64][memory64]                                       | Sam Clegg                    |
-| [Exception handling][exception_handling]                   | Heejin Ahn                   |
+| [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer      |
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe               |
 | [Branch Hinting][branch-hinting]                           | Yuri Iozzelli                |
-| [Typed Function References][function_references]           | Andreas Rossberg             |
-| [Garbage collection][garbage_collection]                   | Andreas Rossberg             |
 | [Threads][threads]                                         | Conrad Watt                  |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                  |
@@ -46,6 +46,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
+| [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -54,8 +55,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Type Imports][type-imports]                           | Andreas Rossberg                                                                  |
 | [Component Model][component-model]                     | Luke Wagner                                                                       |
 | [WebAssembly C and C++ API][wasm_c_api]                | Andreas Rossberg                                                                  |
-| [Extended Name Section][extended-name-section]         | Ashley Nelson                                                                |
-| [Flexible Vectors][flexible-vectors]                   | Petr Penzin                                                                       |
+| [Flexible Vectors][flexible-vectors]                   | Petr Penzin & Tal Garfinkel                                                       |
 | [Call Tags][call-tags]                                 | Ross Tate                                                                         |
 | [Stack Switching][stack-switching]                     | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                         | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
@@ -63,6 +63,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Memory control][memory-control]                       | Deepti Gandluri                                                                   |
 | [Reference-Typed Strings][stringref]                   | Andy Wingo                                                                        |
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
+| [JS String Builtins][js-string-builtins]               | Ryan Hunt                                                                         |
 
 
 ### Phase 0 - Pre-Proposal (CG)
@@ -110,3 +111,5 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [memory-control]: https://github.com/WebAssembly/memory-control
 [stringref]: https://github.com/WebAssembly/stringref
 [profiles]: https://github.com/WebAssembly/profiles
+[js-string-builtins]: https://github.com/WebAssembly/js-string-builtins
+
