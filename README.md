@@ -66,6 +66,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [JS String Builtins][js-string-builtins]               | Ryan Hunt                                                                         |
 | [Rounding Variants][rounding-mode-control]             | Kloud Koder                                                                       |
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
+| [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
 
 
 ### Phase 0 - Pre-Proposal (CG)
@@ -116,3 +117,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [js-string-builtins]: https://github.com/WebAssembly/js-string-builtins
 [rounding-mode-control]: https://github.com/WebAssembly/rounding-mode-control
 [shared-everything-threads]: https://github.com/WebAssembly/shared-everything-threads
+[compilation-hints]: https://github.com/WebAssembly/compilation-hints
