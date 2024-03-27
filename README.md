@@ -68,6 +68,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
 | [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
+| [Custom Page Sizes][custom-page-sizes]                 | Nick Fitzgerald                                                                   |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -119,3 +120,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [shared-everything-threads]: https://github.com/WebAssembly/shared-everything-threads
 [frozen-values]: https://github.com/WebAssembly/frozen-values
 [compilation-hints]: https://github.com/WebAssembly/compilation-hints
+[custom-page-sizes]: https://github.com/WebAssembly/custom-page-sizes
