@@ -69,6 +69,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
 | [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
 | [Custom Page Sizes][custom-page-sizes]                 | Nick Fitzgerald                                                                   |
+| [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -121,3 +122,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [frozen-values]: https://github.com/WebAssembly/frozen-values
 [compilation-hints]: https://github.com/WebAssembly/compilation-hints
 [custom-page-sizes]: https://github.com/WebAssembly/custom-page-sizes
+[half-precision]: https://github.com/WebAssembly/half-precision
