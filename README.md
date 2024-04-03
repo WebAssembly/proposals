@@ -60,7 +60,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Stack Switching][stack-switching]                     | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                         | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Customization for GC Objects][gc-js-customization] | Asumu Takikawa                                                                    |
-| [Memory control][memory-control]                       | Deepti Gandluri                                                                   |
+| [Memory control][memory-control]                       | Deepti Gandluri & Ben Visness                                                     |
 | [Reference-Typed Strings][stringref]                   | Andy Wingo                                                                        |
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
 | [JS String Builtins][js-string-builtins]               | Ryan Hunt                                                                         |
