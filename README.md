@@ -47,6 +47,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
 | [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
+| [JS String Builtins][js-string-builtins]                       | Ryan Hunt                    |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -63,7 +64,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Memory control][memory-control]                       | Deepti Gandluri & Ben Visness                                                     |
 | [Reference-Typed Strings][stringref]                   | Andy Wingo                                                                        |
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
-| [JS String Builtins][js-string-builtins]               | Ryan Hunt                                                                         |
 | [Rounding Variants][rounding-mode-control]             | Kloud Koder                                                                       |
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
