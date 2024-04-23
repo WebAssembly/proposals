@@ -78,7 +78,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 ## Implementation status
 
-Roadmap is available on https://webassembly.org/roadmap/
+Implementation status of most proposals in various wasm engines is available on https://webassembly.org/features/
 
 ## Contributing new proposals
 
