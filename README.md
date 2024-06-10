@@ -25,16 +25,16 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Multiple memories][multi-memory]                          | Andreas Rossberg         |
 | [Threads][threads]                                         | Conrad Watt              |
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng |
+| [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg         |
+| [Branch Hinting][branch-hinting]                           | Yuri Iozzelli            |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                   | Champion                             |
 | -----------------------------------------------------------| ------------------------------------ |
-| [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg                     |
 | [Memory64][memory64]                                       | Sam Clegg                            |
 | [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer              |
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe                       |
-| [Branch Hinting][branch-hinting]                           | Yuri Iozzelli                        |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe         |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
