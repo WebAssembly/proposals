@@ -38,7 +38,8 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe         |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
-| [JS String Builtins][js-string-builtins]                       | Ryan Hunt                    |
+| [JS String Builtins][js-string-builtins]                   | Ryan Hunt                    
+        |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
