@@ -7,14 +7,9 @@
 
 Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/main/process/phases.md).
 
-### Phase 5 - The Feature is Standardized (WG)
+### Phase 4 - Standardize the Feature (WG)
 
 _These proposals have not yet been merged to the spec. Merged proposals are listed in [Finished Proposals](finished-proposals.md)._
-
-| Proposal                                                   | Champion        |
-| -----------------------------------------------------------| --------------- |
-
-### Phase 4 - Standardize the Feature (WG)
 
 | Proposal                                                   | Champion                 |
 | -----------------------------------------------------------| -------------------------|
