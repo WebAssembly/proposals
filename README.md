@@ -27,13 +27,13 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng |
 | [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg         |
 | [Branch Hinting][branch-hinting]                           | Yuri Iozzelli            |
+| [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer              |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                   | Champion                             |
 | -----------------------------------------------------------| ------------------------------------ |
 | [Memory64][memory64]                                       | Sam Clegg                            |
-| [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer              |
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe                       |
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe         |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
