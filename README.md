@@ -11,23 +11,23 @@ Proposals follow [this process document](https://github.com/WebAssembly/meetings
 
 _These proposals have not yet been merged to the spec. Merged proposals are listed in [Finished Proposals](finished-proposals.md)._
 
-| Proposal                                                   | Champion        |
-| -----------------------------------------------------------| --------------- |
-
-### Phase 4 - Standardize the Feature (WG)
-
 | Proposal                                                   | Champion                 |
-| -----------------------------------------------------------| -------------------------|
+| -----------------------------------------------------------| ------------------------ |
 | [Tail call][tail_call]                                     | Andreas Rossberg         |
 | [Extended Constant Expressions][extended-const]            | Sam Clegg                |
 | [Typed Function References][function_references]           | Andreas Rossberg         |
 | [Garbage collection][garbage_collection]                   | Andreas Rossberg         |
 | [Multiple memories][multi-memory]                          | Andreas Rossberg         |
-| [Threads][threads]                                         | Conrad Watt              |
 | [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng |
 | [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg         |
 | [Branch Hinting][branch-hinting]                           | Yuri Iozzelli            |
-| [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer              |
+
+### Phase 4 - Standardize the Feature (WG)
+
+| Proposal                                                   | Champion                 |
+| -----------------------------------------------------------| -------------------------|
+| [Threads][threads]                                         | Conrad Watt              |
+| [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer  |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
