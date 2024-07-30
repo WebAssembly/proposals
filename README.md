@@ -48,6 +48,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
 | [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
+| [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -68,7 +69,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
 | [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
-| [Custom Page Sizes][custom-page-sizes]                 | Nick Fitzgerald                                                                   |
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
 
