@@ -28,6 +28,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | -----------------------------------------------------------| -------------------------|
 | [Threads][threads]                                         | Conrad Watt              |
 | [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer  |
+| [JS String Builtins][js-string-builtins]                   | Ryan Hunt                |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
@@ -38,7 +39,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [JS Promise Integration][js-promise-integration]           | Ross Tate and Francis McCabe         |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
-| [JS String Builtins][js-string-builtins]                   | Ryan Hunt                            |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -49,6 +49,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
 | [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
+| [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -59,7 +60,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [WebAssembly C and C++ API][wasm_c_api]                | Andreas Rossberg                                                                  |
 | [Flexible Vectors][flexible-vectors]                   | Petr Penzin & Tal Garfinkel                                                       |
 | [Call Tags][call-tags]                                 | Ross Tate                                                                         |
-| [Stack Switching][stack-switching]                     | Francis McCabe & Sam Lindley                                                      |
 | [Constant Time][constant-time]                         | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt |
 | [JS Customization for GC Objects][gc-js-customization] | Asumu Takikawa                                                                    |
 | [Memory control][memory-control]                       | Deepti Gandluri & Ben Visness                                                     |
