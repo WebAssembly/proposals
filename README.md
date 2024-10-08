@@ -50,6 +50,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 | [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
+| [Wide Arithmetic][wide-arithmetic]                             | Alex Crichton and Jamey Sharp|
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -71,7 +72,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
-| [128-Bit Arithmetic][128-bit-arithmetic]               | Alex Crichton and Jamey Sharp                                                     |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -126,4 +126,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [custom-page-sizes]: https://github.com/WebAssembly/custom-page-sizes
 [half-precision]: https://github.com/WebAssembly/half-precision
 [compact-import-section]: https://github.com/WebAssembly/compact-import-section
-[128-bit-arithmetic]: https://github.com/WebAssembly/128-bit-arithmetic
+[wide-arithmetic]: https://github.com/WebAssembly/wide-arithmetic
