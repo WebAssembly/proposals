@@ -29,12 +29,12 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Threads][threads]                                         | Conrad Watt              |
 | [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer  |
 | [JS String Builtins][js-string-builtins]                   | Ryan Hunt                |
+| [Memory64][memory64]                                       | Sam Clegg                |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                   | Champion                             |
 | -----------------------------------------------------------| ------------------------------------ |
-| [Memory64][memory64]                                       | Sam Clegg                            |
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe                       |
 | [JS Promise Integration][js-promise-integration]           | Francis McCabe                       |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
