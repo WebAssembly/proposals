@@ -2,16 +2,16 @@
 
 Finished proposals are proposals that have reached phase 4, and are included in the latest draft of [the specification](http://webassembly.github.io/spec/).
 
-| Proposal                                                             | Champion         | Meeting notes        |
-| -------------------------------------------------------------------- | ---------------- | ---------------------|
-| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        | [WG 2018-06-06][WG-06-06] |
-| [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       | [WG 2020-03-11][WG-03-11] |
-| [Sign-extension operators][sign-extension_operators]                           | Ben Smith        | [WG 2020-03-11][WG-03-11] |
-| [Multi-value][multi-value]                                                     | Andreas Rossberg | [WG 2020-03-11][WG-03-11] |
-| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG 2020-06-09][WG-06-09]
-| [Reference Types][reference_types]                                             | Andreas Rossberg | [WG 2021-02-10][WG-02-10-2021] |
-| [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        | [WG 2021-02-10][WG-02-10-2021] |
-| [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan | [WG 2021-07-14][WG-07-14-2021] |
+| Proposal                                                             | Champion         | Meeting notes        | Affected specs |
+| -------------------------------------------------------------------- | ---------------- | ---------------------|----------------
+| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        | [WG 2018-06-06][WG-06-06] | core, js-api
+| [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       | [WG 2020-03-11][WG-03-11] | core
+| [Sign-extension operators][sign-extension_operators]                           | Ben Smith        | [WG 2020-03-11][WG-03-11] | core
+| [Multi-value][multi-value]                                                     | Andreas Rossberg | [WG 2020-03-11][WG-03-11] | core, js-api
+| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG 2020-06-09][WG-06-09] | js-api
+| [Reference Types][reference_types]                                             | Andreas Rossberg | [WG 2021-02-10][WG-02-10-2021] | core, js-api
+| [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        | [WG 2021-02-10][WG-02-10-2021] | core
+| [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan | [WG 2021-07-14][WG-07-14-2021] | core, js-api
 
 See also the [active proposals](README.md) and [inactive proposals](inactive-proposals.md) documents.
 
