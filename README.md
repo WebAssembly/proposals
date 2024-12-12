@@ -78,6 +78,13 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | Proposal                                                    | Champion                         |
 | ----------------------------------------------------------- | -------------------------------- |
 
+Not all Phase 0 proposals are tracked here, as the only entry requirement
+to Phase 0 is that [someone has an idea]. The first step in the Phase 0
+process is to file an issue in the [design repository issue tracker].
+
+[someone has an idea]: https://github.com/WebAssembly/meetings/blob/main/process/phases.md#0-pre-proposal-individual-contributorj
+[design repository issue tracker]: https://github.com/WebAssembly/design/issues
+
 ## Implementation status
 
 Implementation status of most proposals in various wasm engines is available on https://webassembly.org/features/
