@@ -75,8 +75,9 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 ### Phase 0 - Pre-Proposal (CG)
 
-| Proposal                                                    | Champion                         |
-| ----------------------------------------------------------- | -------------------------------- |
+Phase 0 proposals are tracked in the [design repository issue tracker].
+
+[design repository issue tracker]: https://github.com/WebAssembly/design/issues
 
 ## Implementation status
 
