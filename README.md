@@ -51,6 +51,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 | [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
 | [Wide Arithmetic][wide-arithmetic]                             | Alex Crichton and Jamey Sharp|
+| [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -66,7 +67,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Memory control][memory-control]                       | Deepti Gandluri & Ben Visness                                                     |
 | [Reference-Typed Strings][stringref]                   | Andy Wingo                                                                        |
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
-| [Rounding Variants][rounding-mode-control]             | Kloud Koder                                                                       |
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
 | [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
