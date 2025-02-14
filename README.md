@@ -72,6 +72,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
+| [Custom RTTs and JS Interop][custom-rtts]              | Thomas Lively                                                                     |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -125,6 +126,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [frozen-values]: https://github.com/WebAssembly/frozen-values
 [compilation-hints]: https://github.com/WebAssembly/compilation-hints
 [custom-page-sizes]: https://github.com/WebAssembly/custom-page-sizes
+[custom-rtts]: https://github.com/WebAssembly/custom-rtts
 [half-precision]: https://github.com/WebAssembly/half-precision
 [compact-import-section]: https://github.com/WebAssembly/compact-import-section
 [wide-arithmetic]: https://github.com/WebAssembly/wide-arithmetic
