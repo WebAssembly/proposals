@@ -39,6 +39,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [JS Promise Integration][js-promise-integration]           | Francis McCabe                       |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
+| [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -50,7 +51,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 | [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
-| [Wide Arithmetic][wide-arithmetic]                             | Alex Crichton and Jamey Sharp|
 | [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
 
 ### Phase 1 - Feature Proposal (CG)
