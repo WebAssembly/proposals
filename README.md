@@ -52,6 +52,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 | [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
 | [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
+| [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -69,7 +70,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
-| [Compilation Hints][compilation-hints]                 | Emanuel Ziegler                                                                   |
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
 | [Custom RTTs and JS Interop][custom-rtts]              | Thomas Lively                                                                     |
