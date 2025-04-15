@@ -30,13 +30,13 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer  |
 | [JS String Builtins][js-string-builtins]                   | Ryan Hunt                |
 | [Memory64][memory64]                                       | Sam Clegg                |
+| [JS Promise Integration][js-promise-integration]           | Francis McCabe           |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                   | Champion                             |
 | -----------------------------------------------------------| ------------------------------------ |
 | [Web Content Security Policy][content-security-policy]     | Francis McCabe                       |
-| [JS Promise Integration][js-promise-integration]           | Francis McCabe                       |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
