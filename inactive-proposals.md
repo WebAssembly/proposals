@@ -10,6 +10,9 @@ Inactive proposals are proposals that at one point were presented to the communi
 | [Module Linking][module_linking]         | Luke Wagner and Andreas Rossberg | Suspended in favor of the [Component Model][component_model] |
 | [Interface Types][interface_types]       | Luke Wagner and Francis McCabe | Suspended in favor of the [Component Model][component_model] |
 | [Funclets: Flexible Intraprocedural Control Flow][funclets] | Dan Gohman  | Withdrawn in favor of multiloop[[1][multiloop-1]][[2][multiloop-2]] |
+| [Call Tags][call-tags]                                      | Ross Tate   | Inactive                                                            |
+| [Constant Time][constant-time]                              | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt | Inactive |
+| [JS Customization for GC Objects][gc-js-customization]      | Asumu Takikawa | Withdrawn in favor of [Custom Descriptors][custom-descs] |
 
 
 See also the [active proposals](README.md) and [finished proposals](finished-proposals.md) documents.
@@ -24,3 +27,7 @@ See also the [active proposals](README.md) and [finished proposals](finished-pro
 [funclets]: https://github.com/WebAssembly/funclets
 [multiloop-1]: https://github.com/WebAssembly/meetings/blob/8f06ff4d8c1f8af28a37fd1f2ab4b7df30741f76/main/2021/CG-03-16.md
 [multiloop-2]: https://github.com/WebAssembly/meetings/blob/8f06ff4d8c1f8af28a37fd1f2ab4b7df30741f76/main/2021/CG-03-30.md
+[call-tags]: https://github.com/WebAssembly/call-tags
+[constant-time]: https://github.com/WebAssembly/constant-time
+[gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
+[custom-descs]: https://github.com/WebAssembly/custom-descriptors
