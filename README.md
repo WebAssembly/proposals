@@ -47,7 +47,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | ---------------------------------------------------------------| -----------------------------|
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
-| [Instrument and Tracing Technology][instrument-tracing]        | Richard Winterton            |
 | [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 | [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
@@ -104,7 +103,6 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [memory64]: https://github.com/WebAssembly/memory64
 [flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
 [numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
-[instrument-tracing]: https://github.com/WebAssembly/instrument-tracing
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
 [branch-hinting]: https://github.com/WebAssembly/branch-hinting
 [extended-const]: https://github.com/WebAssembly/extended-const
