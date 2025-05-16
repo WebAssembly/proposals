@@ -1,3 +1,4 @@
+
 # Inactive Proposals
 
 Inactive proposals are proposals that at one point were presented to the community group but were subsequently abandoned, withdrawn, or rejected.
@@ -13,6 +14,8 @@ Inactive proposals are proposals that at one point were presented to the communi
 | [Call Tags][call-tags]                                      | Ross Tate   | Inactive                                                            |
 | [Constant Time][constant-time]                              | Sunjay Cauligi, Garrett Gu, John Renner, Hovav Shacham, Deian Stefan, Conrad Watt | Inactive |
 | [JS Customization for GC Objects][gc-js-customization]      | Asumu Takikawa | Withdrawn in favor of [Custom Descriptors][custom-descs] |
+| [Instrument and Tracing Technology][instrument-tracing]     | Richard Winterton | Inactive |
+
 
 
 See also the [active proposals](README.md) and [finished proposals](finished-proposals.md) documents.
@@ -31,3 +34,4 @@ See also the [active proposals](README.md) and [finished proposals](finished-pro
 [constant-time]: https://github.com/WebAssembly/constant-time
 [gc-js-customization]: https://github.com/WebAssembly/gc-js-customization
 [custom-descs]: https://github.com/WebAssembly/custom-descriptors
+[instrument-tracing]: https://github.com/WebAssembly/instrument-tracing
