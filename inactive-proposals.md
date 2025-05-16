@@ -1,4 +1,3 @@
-
 # Inactive Proposals
 
 Inactive proposals are proposals that at one point were presented to the community group but were subsequently abandoned, withdrawn, or rejected.
