@@ -52,6 +52,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
 | [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
 | [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
+| [Custom Descriptors and JS Interop][custom-descs]              | Thomas Lively                |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -68,7 +69,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
-| [Custom Descriptors and JS Interop][custom-descs]      | Thomas Lively                                                                     |
 
 ### Phase 0 - Pre-Proposal (CG)
 
