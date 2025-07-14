@@ -69,6 +69,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
+| [JS Primitive Builtins][js-primitive-builtins]         | Sébastien Doeraene                                                                |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -95,6 +96,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [multi-memory]: https://github.com/WebAssembly/multi-memory
 [tail_call]: https://github.com/WebAssembly/tail-call
 [threads]: https://github.com/webassembly/threads
+[js-primitive-builtins]: https://github.com/WebAssembly/js-primitive-builtins
 [js-types]: https://github.com/WebAssembly/js-types
 [wasm_c_api]: https://github.com/WebAssembly/wasm-c-api
 [content-security-policy]: https://github.com/WebAssembly/content-security-policy
