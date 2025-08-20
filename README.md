@@ -31,12 +31,12 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | -----------------------------------------------------------| -------------------------|
 | [Threads][threads]                                         | Conrad Watt              |
 | [JS Promise Integration][js-promise-integration]           | Francis McCabe           |
+| [Web Content Security Policy][content-security-policy]     | Francis McCabe           |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                   | Champion                             |
 | -----------------------------------------------------------| ------------------------------------ |
-| [Web Content Security Policy][content-security-policy]     | Francis McCabe                       |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
