@@ -2,28 +2,28 @@
 
 Finished proposals are proposals that have reached phase 4, and are included in the latest draft of [the specification](http://webassembly.github.io/spec/).
 
-| Proposal                                                             | Champion         | Meeting notes        | Affected specs |
-| -------------------------------------------------------------------- | ---------------- | ---------------------|----------------
-| [MVP][mvp]                                                           | The Wasm CG      | [WG 2017-12-06][WG-2017-12-06] | core, js-api, web-api
-| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        | [WG 2018-06-06][WG-2018-06-06] | core, js-api
-| [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       | [WG 2020-03-11][WG-2020-03-11] | core
-| [Sign-extension operators][sign-extension_operators]                           | Ben Smith        | [WG 2020-03-11][WG-2020-03-11] | core
-| [Multi-value][multi-value]                                                     | Andreas Rossberg | [WG 2020-03-11][WG-2020-03-11] | core, js-api
-| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG 2020-06-09][WG-2020-06-09] | js-api
-| [Reference Types][reference_types]                                             | Andreas Rossberg | [WG 2021-02-10][WG-2021-02-10] | core, js-api
-| [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        | [WG 2021-02-10][WG-2021-02-10] | core
-| [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan | [WG 2021-07-14][WG-2021-07-14] | core, js-api
-| [Tail call][tail_call]                                               | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core
-| [Extended Constant Expressions][extended-const]                      | Sam Clegg                | [WG 2024-07-10][WG-2024-07-10] | core
-| [Typed Function References][function_references]                     | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core, js-api
-| [Garbage collection][garbage_collection]                             | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core, js-api
-| [Multiple memories][multi-memory]                                    | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core, js-api
-| [Relaxed SIMD][relaxed-simd]                                         | Marat Dukhan & Zhi An Ng | [WG 2024-07-10][WG-2024-07-10] | core
-| [Custom Annotation Syntax in the Text Format][annotations]           | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core
-| [Branch Hinting][branch-hinting]                                     | Yuri Iozzelli            | [WG 2024-07-10][WG-2024-07-10] | core
-| [Exception handling][exception_handling]                             | Heejin Ahn & Ben Titzer  | [WG 2025-07-23][WG-2025-07-23] | core, js-api
-| [JS String Builtins][js-string-builtins]                             | Ryan Hunt                | [WG 2025-07-23][WG-2025-07-23] | core, js-api
-| [Memory64][memory64]                                                 | Sam Clegg                | [WG 2025-07-23][WG-2025-07-23] | core
+| Proposal                                                             | Champion         | Meeting notes        | Affected specs | Core Version |
+| -------------------------------------------------------------------- | ---------------- | ---------------------|----------------|---------|
+| [MVP][mvp]                                                           | The Wasm CG      | [WG 2017-12-06][WG-2017-12-06] | core, js-api, web-api | 1.0 |
+| [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        | [WG 2018-06-06][WG-2018-06-06] | core, js-api | 1.0 |
+| [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       | [WG 2020-03-11][WG-2020-03-11] | core | 2.0 |
+| [Sign-extension operators][sign-extension_operators]                           | Ben Smith        | [WG 2020-03-11][WG-2020-03-11] | core | 2.0 |
+| [Multi-value][multi-value]                                                     | Andreas Rossberg | [WG 2020-03-11][WG-2020-03-11] | core, js-api | 2.0 |
+| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG 2020-06-09][WG-2020-06-09] | js-api | - |
+| [Reference Types][reference_types]                                             | Andreas Rossberg | [WG 2021-02-10][WG-2021-02-10] | core, js-api | 2.0 |
+| [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        | [WG 2021-02-10][WG-2021-02-10] | core | 2.0 |
+| [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan | [WG 2021-07-14][WG-2021-07-14] | core, js-api | 2.0 |
+| [Tail call][tail_call]                                               | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core | 3.0 |
+| [Extended Constant Expressions][extended-const]                      | Sam Clegg                | [WG 2024-07-10][WG-2024-07-10] | core | 3.0 |
+| [Typed Function References][function_references]                     | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core, js-api | 3.0 |
+| [Garbage collection][garbage_collection]                             | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core, js-api | 3.0 |
+| [Multiple memories][multi-memory]                                    | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core, js-api | 3.0 |
+| [Relaxed SIMD][relaxed-simd]                                         | Marat Dukhan & Zhi An Ng | [WG 2024-07-10][WG-2024-07-10] | core | 3.0 |
+| [Custom Annotation Syntax in the Text Format][annotations]           | Andreas Rossberg         | [WG 2024-07-10][WG-2024-07-10] | core | 3.0 |
+| [Branch Hinting][branch-hinting]                                     | Yuri Iozzelli            | [WG 2024-07-10][WG-2024-07-10] | core | 3.0 |
+| [Exception handling][exception_handling]                             | Heejin Ahn & Ben Titzer  | [WG 2025-07-23][WG-2025-07-23] | core, js-api | 3.0 |
+| [JS String Builtins][js-string-builtins]                             | Ryan Hunt                | [WG 2025-07-23][WG-2025-07-23] | core, js-api | 3.0 |
+| [Memory64][memory64]                                                 | Sam Clegg                | [WG 2025-07-23][WG-2025-07-23] | core | 3.0 |
 
 See also the [active proposals](README.md) and [inactive proposals](inactive-proposals.md) documents.
 
