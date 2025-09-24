@@ -13,17 +13,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 | Proposal                                                   | Champion                 |
 | -----------------------------------------------------------| ------------------------ |
-| [Tail call][tail_call]                                     | Andreas Rossberg         |
-| [Extended Constant Expressions][extended-const]            | Sam Clegg                |
-| [Typed Function References][function_references]           | Andreas Rossberg         |
-| [Garbage collection][garbage_collection]                   | Andreas Rossberg         |
-| [Multiple memories][multi-memory]                          | Andreas Rossberg         |
-| [Relaxed SIMD][relaxed-simd]                               | Marat Dukhan & Zhi An Ng |
-| [Custom Annotation Syntax in the Text Format][annotations] | Andreas Rossberg         |
-| [Branch Hinting][branch-hinting]                           | Yuri Iozzelli            |
-| [Exception handling][exception_handling]                   | Heejin Ahn & Ben Titzer  |
-| [JS String Builtins][js-string-builtins]                   | Ryan Hunt                |
-| [Memory64][memory64]                                       | Sam Clegg                |
 
 ### Phase 4 - Standardize the Feature (WG)
 
