@@ -25,7 +25,6 @@ Finished proposals are proposals that have reached phase 4, and are included in 
 | [JS String Builtins][js-string-builtins]                             | Ryan Hunt                | [WG 2025-07-23][WG-2025-07-23] | core, js-api
 | [Memory64][memory64]                                                 | Sam Clegg                | [WG 2025-07-23][WG-2025-07-23] | core
 
-
 See also the [active proposals](README.md) and [inactive proposals](inactive-proposals.md) documents.
 
 [mvp]: https://github.com/WebAssembly/design/blob/main/MVP.md
