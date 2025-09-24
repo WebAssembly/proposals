@@ -3,7 +3,7 @@
 Finished proposals are proposals that have reached phase 4, and are included in the latest draft of [the specification](http://webassembly.github.io/spec/).
 
 | Proposal                                                             | Champion         | Meeting notes        | Affected specs | Spec Version |
-| -------------------------------------------------------------------- | ---------------- | ---------------------|----------------|---------|
+| -------------------------------------------------------------------- | ---------------- | ---------------------|----------------|:-------:|
 | [MVP][mvp]                                                           | The Wasm CG      | [WG 2017-12-06][WG-2017-12-06] | core, js-api, web-api | 1.0 |
 | [Import/Export of Mutable Globals][import_export_of_mutable_globals] | Ben Smith        | [WG 2018-06-06][WG-2018-06-06] | core, js-api | 1.0 |
 | [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       | [WG 2020-03-11][WG-2020-03-11] | core | 2.0 |
