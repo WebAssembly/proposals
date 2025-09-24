@@ -74,16 +74,10 @@ Implementation status of most proposals in various wasm engines is available on 
 
 Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/main/Contributing.md) for the most up-to-date information on contributing proposals to standard.
 
-[annotations]: https://github.com/WebAssembly/annotations
 [ecmascript_module_integration]: https://github.com/WebAssembly/esm-integration
-[exception_handling]: https://github.com/WebAssembly/exception-handling
 [feature_detection]: https://github.com/WebAssembly/feature-detection
-[function_references]: https://github.com/WebAssembly/function-references
 [type-imports]: https://github.com/WebAssembly/proposal-type-imports
-[garbage_collection]: https://github.com/WebAssembly/gc
 [component-model]: https://github.com/WebAssembly/component-model
-[multi-memory]: https://github.com/WebAssembly/multi-memory
-[tail_call]: https://github.com/WebAssembly/tail-call
 [threads]: https://github.com/webassembly/threads
 [js-primitive-builtins]: https://github.com/WebAssembly/js-primitive-builtins
 [js-types]: https://github.com/WebAssembly/js-types
@@ -91,19 +85,14 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [content-security-policy]: https://github.com/WebAssembly/content-security-policy
 [webassembly_specification]: https://github.com/WebAssembly/spec
 [extended-name-section]: https://github.com/WebAssembly/extended-name-section
-[memory64]: https://github.com/WebAssembly/memory64
 [flexible-vectors]: https://github.com/WebAssembly/flexible-vectors
 [numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
-[branch-hinting]: https://github.com/WebAssembly/branch-hinting
-[extended-const]: https://github.com/WebAssembly/extended-const
-[relaxed-simd]: https://github.com/WebAssembly/relaxed-simd
 [stack-switching]: https://github.com/WebAssembly/stack-switching
 [js-promise-integration]: https://github.com/WebAssembly/js-promise-integration
 [memory-control]: https://github.com/WebAssembly/memory-control
 [stringref]: https://github.com/WebAssembly/stringref
 [profiles]: https://github.com/WebAssembly/profiles
-[js-string-builtins]: https://github.com/WebAssembly/js-string-builtins
 [rounding-mode-control]: https://github.com/WebAssembly/rounding-mode-control
 [shared-everything-threads]: https://github.com/WebAssembly/shared-everything-threads
 [frozen-values]: https://github.com/WebAssembly/frozen-values

@@ -37,6 +37,17 @@ See also the [active proposals](README.md) and [inactive proposals](inactive-pro
 [reference_types]: https://github.com/WebAssembly/reference-types
 [bulk_memory_operations]: https://github.com/WebAssembly/bulk-memory-operations
 [fixed-width_simd]: https://github.com/webassembly/simd
+[tail_call]: https://github.com/WebAssembly/tail-call
+[extended-const]: https://github.com/WebAssembly/extended-const
+[function_references]: https://github.com/WebAssembly/function-references
+[garbage_collection]: https://github.com/WebAssembly/gc
+[multi-memory]: https://github.com/WebAssembly/multi-memory
+[relaxed-simd]: https://github.com/WebAssembly/relaxed-simd
+[annotations]: https://github.com/WebAssembly/annotations
+[branch-hinting]: https://github.com/WebAssembly/branch-hinting
+[exception_handling]: https://github.com/WebAssembly/exception-handling
+[js-string-builtins]: https://github.com/WebAssembly/js-string-builtins
+[memory64]: https://github.com/WebAssembly/memory64
 [WG-2017-12-06]: https://github.com/WebAssembly/meetings/blob/main/main/2017/WG-12-06.md
 [WG-2018-06-06]: https://github.com/WebAssembly/meetings/blob/main/main/2018/WG-06-06.md#discussion-on-status-of-the-working-draft
 [WG-2020-03-11]: https://github.com/WebAssembly/meetings/blob/main/main/2020/WG-03-11.md
