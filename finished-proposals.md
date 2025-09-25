@@ -9,7 +9,7 @@ Finished proposals are proposals that have reached phase 4, and are included in 
 | [Non-trapping float-to-int conversions][non-trapping_float-to-int_conversions] | Dan Gohman       | [WG 2020-03-11][WG-2020-03-11] | core | 2.0 |
 | [Sign-extension operators][sign-extension_operators]                           | Ben Smith        | [WG 2020-03-11][WG-2020-03-11] | core | 2.0 |
 | [Multi-value][multi-value]                                                     | Andreas Rossberg | [WG 2020-03-11][WG-2020-03-11] | core, js-api | 2.0 |
-| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG 2020-06-09][WG-2020-06-09] | js-api | - |
+| [JavaScript BigInt to WebAssembly i64 integration][javascript_bigint_to_webassembly_i64_integration] | Dan Ehrenberg & Sven Sauleau           | [WG 2020-06-09][WG-2020-06-09] | js-api | 2.0 |
 | [Reference Types][reference_types]                                             | Andreas Rossberg | [WG 2021-02-10][WG-2021-02-10] | core, js-api | 2.0 |
 | [Bulk memory operations][bulk_memory_operations]                               | Ben Smith        | [WG 2021-02-10][WG-2021-02-10] | core | 2.0 |
 | [Fixed-width SIMD][fixed-width_simd]                                           | Deepti Gandluri and Arun Purushan | [WG 2021-07-14][WG-2021-07-14] | core, js-api | 2.0 |
