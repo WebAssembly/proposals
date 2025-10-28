@@ -59,6 +59,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
 | [JS Primitive Builtins][js-primitive-builtins]         | Sébastien Doeraene                                                                |
+| [More Array Constructors][more-array-constructors]     | Nick Fitzgerald                                                                   |
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -102,3 +103,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [half-precision]: https://github.com/WebAssembly/half-precision
 [compact-import-section]: https://github.com/WebAssembly/compact-import-section
 [wide-arithmetic]: https://github.com/WebAssembly/wide-arithmetic
+[more-array-constructors]: https://github.com/WebAssembly/more-array-constructors/
