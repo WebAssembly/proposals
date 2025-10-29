@@ -60,6 +60,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
 | [JS Primitive Builtins][js-primitive-builtins]         | Sébastien Doeraene                                                                |
 | [More Array Constructors][more-array-constructors]     | Nick Fitzgerald                                                                   |
+| [JIT Interface][jit-interface]                         | Ben Titzer                                                                   |
 
 ### Phase 0 - Pre-Proposal (CG)
 
