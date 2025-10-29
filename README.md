@@ -105,3 +105,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [compact-import-section]: https://github.com/WebAssembly/compact-import-section
 [wide-arithmetic]: https://github.com/WebAssembly/wide-arithmetic
 [more-array-constructors]: https://github.com/WebAssembly/more-array-constructors/
+[jit-interface]: https://github.com/WebAssembly/jit-interface
