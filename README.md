@@ -36,7 +36,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | ---------------------------------------------------------------| -----------------------------|
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
-| [Extended Name Section][extended-name-section]                 | Ashley Nelson                |
+| [Extended Name Section][extended-name-section]                 | Ben Visness                  |
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 | [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
 | [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
