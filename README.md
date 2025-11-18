@@ -43,6 +43,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
 | [Custom Descriptors and JS Interop][custom-descs]              | Thomas Lively                |
 | [JS Primitive Builtins][js-primitive-builtins]                 | Sébastien Doeraene           |
+| [Compact Import Section][compact-import-section]               | Ryan Hunt                    |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -58,7 +59,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
-| [Compact Import Section][compact-import-section]       | Ryan Hunt                                                                         |
 | [More Array Constructors][more-array-constructors]     | Nick Fitzgerald                                                                   |
 | [JIT Interface][jit-interface]                         | Ben Titzer                                                                        |
 | [Multibyte Array Access][multibyte-array-access]       | Brendan Dahl                                                                      |
