@@ -29,7 +29,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
-| [Stack Switching][stack-switching]                          | Francis McCabe & Sam Lindley        |
+| [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley         |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
