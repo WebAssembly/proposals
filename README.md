@@ -29,6 +29,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
+| [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley         |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -38,7 +39,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Extended Name Section][extended-name-section]                 | Ben Visness                  |
 | [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
-| [Stack Switching][stack-switching]                             | Francis McCabe & Sam Lindley |
 | [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
 | [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
 | [Custom Descriptors and JS Interop][custom-descs]              | Thomas Lively                |
