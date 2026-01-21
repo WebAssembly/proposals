@@ -30,6 +30,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley         |
+| [Compact Import Section][compact-import-section]               | Ryan Hunt                    |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -43,7 +44,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
 | [Custom Descriptors and JS Interop][custom-descs]              | Thomas Lively                |
 | [JS Primitive Builtins][js-primitive-builtins]                 | Sébastien Doeraene           |
-| [Compact Import Section][compact-import-section]               | Ryan Hunt                    |
 
 ### Phase 1 - Feature Proposal (CG)
 
