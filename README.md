@@ -31,6 +31,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley         |
 | [Compact Import Section][compact-import-section]               | Ryan Hunt                    |
+| [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -39,7 +40,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Relaxed dead code validation][relaxed-dead-code-validation]   | Conrad Watt and Ross Tate    |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat]   | Ezzat Chamudi                |
 | [Extended Name Section][extended-name-section]                 | Ben Visness                  |
-| [Custom Page Sizes][custom-page-sizes]                         | Nick Fitzgerald              |
 | [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
 | [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
 | [Custom Descriptors and JS Interop][custom-descs]              | Thomas Lively                |
