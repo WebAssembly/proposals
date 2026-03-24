@@ -26,7 +26,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 | Proposal                                                   | Champion                             |
 | -----------------------------------------------------------| ------------------------------------ |
-| [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                          |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley         |
@@ -62,6 +61,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [More Array Constructors][more-array-constructors]     | Nick Fitzgerald                                                                   |
 | [JIT Interface][jit-interface]                         | Ben Titzer                                                                        |
 | [Multibyte Array Access][multibyte-array-access]       | Brendan Dahl                                                                      |
+| [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                                                                   |
 
 ### Phase 0 - Pre-Proposal (CG)
 
