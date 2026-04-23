@@ -62,6 +62,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [JIT Interface][jit-interface]                         | Ben Titzer                                                                        |
 | [Multibyte Array Access][multibyte-array-access]       | Brendan Dahl                                                                      |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                                                                   |
+| [JS Text Encoding Builtins][js-text-encoding-builtins] | Daxpedda                                                                          | 
 
 ### Phase 0 - Pre-Proposal (CG)
 
@@ -108,3 +109,4 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [more-array-constructors]: https://github.com/WebAssembly/more-array-constructors/
 [jit-interface]: https://github.com/WebAssembly/jit-interface
 [multibyte-array-access]: https://github.com/WebAssembly/multibyte-array-access
+[js-text-encoding-builtins]: https://github.com/WebAssembly/js-text-encoding-builtins
