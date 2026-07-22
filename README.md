@@ -13,14 +13,14 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 | Proposal                                                   | Champion                 |
 | -----------------------------------------------------------| ------------------------ |
+| [JS Promise Integration][js-promise-integration]           | Francis McCabe           |
+| [Web Content Security Policy][content-security-policy]     | Francis McCabe           |
 
 ### Phase 4 - Standardize the Feature (WG)
 
 | Proposal                                                   | Champion                 |
 | -----------------------------------------------------------| -------------------------|
 | [Threads][threads]                                         | Conrad Watt              |
-| [JS Promise Integration][js-promise-integration]           | Francis McCabe           |
-| [Web Content Security Policy][content-security-policy]     | Francis McCabe           |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
