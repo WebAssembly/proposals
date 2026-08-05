@@ -45,6 +45,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [JS Primitive Builtins][js-primitive-builtins]                 | Sébastien Doeraene           |
 | [Relaxed Atomics][relaxed-atomics]                             | Conrad Watt & Rezvan Mahdavi Hezaveh|
 | [Multibyte Array Access][multibyte-array-access]               | Brendan Dahl                        |
+| [FP16][fp16]                                                   | Brendan Dahl                        |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -59,7 +60,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Profiles][profiles]                                   | Andreas Rossberg                                                                  |
 | [Shared-Everything Threads][shared-everything-threads] | Andrew Brown, Conrad Watt, and Thomas Lively                                      |
 | [Frozen Values][frozen-values]                         | Léo Andrès and Pierre Chambart                                                    |
-| [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [More Array Constructors][more-array-constructors]     | Nick Fitzgerald                                                                   |
 | [JIT Interface][jit-interface]                         | Ben Titzer                                                                        |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                                                                   |
@@ -104,7 +104,7 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [compilation-hints]: https://github.com/WebAssembly/compilation-hints
 [custom-page-sizes]: https://github.com/WebAssembly/custom-page-sizes
 [custom-descs]: https://github.com/WebAssembly/custom-descriptors
-[half-precision]: https://github.com/WebAssembly/half-precision
+[fp16]: https://github.com/WebAssembly/half-precision
 [compact-import-section]: https://github.com/WebAssembly/compact-import-section
 [wide-arithmetic]: https://github.com/WebAssembly/wide-arithmetic
 [more-array-constructors]: https://github.com/WebAssembly/more-array-constructors/
