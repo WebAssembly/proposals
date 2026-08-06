@@ -13,14 +13,14 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 | Proposal                                                   | Champion                 |
 | -----------------------------------------------------------| ------------------------ |
+| [JS Promise Integration][js-promise-integration]           | Francis McCabe           |
+| [Web Content Security Policy][content-security-policy]     | Francis McCabe           |
 
 ### Phase 4 - Standardize the Feature (WG)
 
 | Proposal                                                   | Champion                 |
 | -----------------------------------------------------------| -------------------------|
 | [Threads][threads]                                         | Conrad Watt              |
-| [JS Promise Integration][js-promise-integration]           | Francis McCabe           |
-| [Web Content Security Policy][content-security-policy]     | Francis McCabe           |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
@@ -44,6 +44,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
 | [JS Primitive Builtins][js-primitive-builtins]                 | Sébastien Doeraene           |
 | [Relaxed Atomics][relaxed-atomics]                             | Conrad Watt & Rezvan Mahdavi Hezaveh|
+| [Multibyte Array Access][multibyte-array-access]               | Brendan Dahl                        |
 
 ### Phase 1 - Feature Proposal (CG)
 
@@ -61,7 +62,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Half Precision][half-precision]                       | Ilya Rezvov                                                                       |
 | [More Array Constructors][more-array-constructors]     | Nick Fitzgerald                                                                   |
 | [JIT Interface][jit-interface]                         | Ben Titzer                                                                        |
-| [Multibyte Array Access][multibyte-array-access]       | Brendan Dahl                                                                      |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                                                                   |
 | [JS Text Encoding Builtins][js-text-encoding-builtins] | Daxpedda                                                                          | 
 
