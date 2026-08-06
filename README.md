@@ -43,7 +43,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Rounding Variants][rounding-mode-control]                     | Kloud Koder                  |
 | [Compilation Hints][compilation-hints]                         | Emanuel Ziegler              |
 | [JS Primitive Builtins][js-primitive-builtins]                 | Sébastien Doeraene           |
-| [Relaxed Atomics][relaxed-atomics]                             | Conrad Watt & Rezvan Mahdavi Hezaveh|
+| [Acquire-Release Atomics][acquire-release-atomics]             | Conrad Watt & Rezvan Mahdavi Hezaveh|
 | [Multibyte Array Access][multibyte-array-access]               | Brendan Dahl                        |
 | [FP16][fp16]                                                   | Brendan Dahl                        |
 
@@ -111,5 +111,5 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [jit-interface]: https://github.com/WebAssembly/jit-interface
 [multibyte-array-access]: https://github.com/WebAssembly/multibyte-array-access
 [js-text-encoding-builtins]: https://github.com/WebAssembly/js-text-encoding-builtins
-[relaxed-atomics]: https://github.com/WebAssembly/relaxed-atomics
+[acquire-release-atomics]: https://github.com/WebAssembly/acquire-release-atomics
 
