@@ -22,13 +22,13 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | -----------------------------------------------------------| -------------------------------------|
 | [Threads][threads]                                         | Conrad Watt                          |
 | [Compact Import Section][compact-import-section]           | Ryan Hunt                            |
+| [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
 | Proposal                                                   | Champion                             |
 | -----------------------------------------------------------| ------------------------------------ |
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
-| [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley         |
 | [Custom Page Sizes][custom-page-sizes]                     | Nick Fitzgerald                      |
 | [Custom Descriptors and JS Interop][custom-descs]          | Thomas Lively                        |
@@ -63,7 +63,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [More Array Constructors][more-array-constructors]     | Nick Fitzgerald                                                                   |
 | [JIT Interface][jit-interface]                         | Ben Titzer                                                                        |
 | [Type Reflection for WebAssembly JavaScript API][js-types] | Ilya Rezvov                                                                   |
-| [JS Text Encoding Builtins][js-text-encoding-builtins] | Daxpedda                                                                          | 
+| [JS Text Encoding Builtins][js-text-encoding-builtins] | Daxpedda                                                                          |
 
 ### Phase 0 - Pre-Proposal (CG)
 
