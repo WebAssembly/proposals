@@ -18,9 +18,10 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 
 ### Phase 4 - Standardize the Feature (WG)
 
-| Proposal                                                   | Champion                 |
-| -----------------------------------------------------------| -------------------------|
-| [Threads][threads]                                         | Conrad Watt              |
+| Proposal                                                   | Champion                             |
+| -----------------------------------------------------------| -------------------------------------|
+| [Threads][threads]                                         | Conrad Watt                          |
+| [Compact Import Section][compact-import-section]           | Ryan Hunt                            |
 
 ### Phase 3 - Implementation Phase (CG + WG)
 
@@ -29,7 +30,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [ESM Integration][ecmascript_module_integration]           | Asumu Takikawa, Ms2ger & Guy Bedford |
 | [Wide Arithmetic][wide-arithmetic]                         | Alex Crichton and Jamey Sharp        |
 | [Stack Switching][stack-switching]                         | Francis McCabe & Sam Lindley         |
-| [Compact Import Section][compact-import-section]           | Ryan Hunt                            |
 | [Custom Page Sizes][custom-page-sizes]                     | Nick Fitzgerald                      |
 | [Custom Descriptors and JS Interop][custom-descs]          | Thomas Lively                        |
 
