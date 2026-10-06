@@ -158,13 +158,15 @@ Every proposal repository is supposed to be a fork of the main `spec` repo. Unfo
 
 Add the proposal to the list of active proposals by creating a respective PR.
 
-1. Go to https://github.com/WebAssembly/proposals
+1. Clone https://github.com/WebAssembly/proposals
 
-2. Edit `README.md` in UI:
+2. Add an entry for the proposal under `"proposals"` in `proposals.json`, with `"name"`, `"url"`, `"phase": 1`, and `"champions"`.
+   The format is defined by `proposals.schema.json`, which editors that support JSON Schema use to validate and autocomplete the file.
 
-   1. Add line for the proposal in table for Phase 0
+3. Run `./generate_markdown.py` to regenerate `README.md`.
+   If the `jsonschema` Python package is installed (`pip install jsonschema`), this also validates `proposals.json` against the schema.
 
-   2. Create a PR
+4. Commit `proposals.json` and `README.md` and create a PR.
 
 
 ## Setting up CI and GitHub Pages
@@ -282,7 +284,7 @@ If the merge conflicts are complex, you may want to have it reviewed. In that ca
 ## Progressing a Proposal Stages
 
 Progress needs to be voted on by the Wasm [CG meeting](https://WebAssembly/meetings).
-When the CG agrees to advance a proposal, update its status by creating a respective PR modifying `README.md` on the https://github.com/WebAssembly/proposals repo.
+When the CG agrees to advance a proposal, update its `"phase"` in `proposals.json`, run `./generate_markdown.py` to regenerate `README.md`, and create a PR on the https://github.com/WebAssembly/proposals repo.
 
 
 ## Merging a Proposal into the Spec
@@ -308,12 +310,12 @@ After merging, archive the proposal repository:
 
 Finally, update the proposals list:
 
-Add the proposal to the list of active proposals by creating a respective PR.
+1. Clone https://github.com/WebAssembly/proposals
 
-1. Go to https://github.com/WebAssembly/proposals
+2. Update the proposal's entry in `proposals.json`:
 
-2. Edit `README.md` and `finished-proposals.md`:
+   1. Set `"phase"` to `"finished"`, and add `"meeting_notes"`, `"affected_specs"`, and `"spec_version"`.
 
-   1. Move the proposal from the former to the latter.
+   2. Run `./generate_markdown.py` to regenerate `README.md` and `finished-proposals.md`.
 
-   2. Create a PR
+   3. Commit the changes and create a PR.
