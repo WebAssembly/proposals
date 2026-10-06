@@ -97,7 +97,7 @@
     "extended-name-section": {
       "name": "Extended Name Section",
       "url": "https://github.com/WebAssembly/extended-name-section",
-      "phase": 3,
+      "phase": 2,
       "champions": [
         "Ben Visness"
       ]
