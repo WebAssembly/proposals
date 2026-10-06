@@ -38,12 +38,12 @@ jobs:
           # For same-repo PRs that don't modify any of the Markdown files,
           # regenerate the Markdown files and commit any updates to the PR branch.
           # Otherwise, run --check so we don't clobber manual Markdown edits.
-          if [ "$IS_SAME_REPO_PR" = "true" ] && git diff --quiet "origin/${BASE_REF}...HEAD" -- README.md finished-proposals.md inactive-proposals.md; then
+          if [ "$IS_SAME_REPO_PR" = "true" ] && git diff --quiet "origin/${BASE_REF}...HEAD" -- '*.md'; then
             python generate_markdown.py
-            if ! git diff --quiet -- README.md finished-proposals.md inactive-proposals.md; then
+            if ! git diff --quiet -- '*.md'; then
               git config user.name 'github-actions[bot]'
               git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-              git add README.md finished-proposals.md inactive-proposals.md
+              git add '*.md'
               git commit -m 'Regenerate Markdown files from proposals.json'
               git push
             fi
