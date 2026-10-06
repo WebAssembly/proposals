@@ -38,7 +38,6 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | [Stack Switching][stack-switching]                | Francis McCabe and Sam Lindley          |
 | [Custom Page Sizes][custom-page-sizes]            | Nick Fitzgerald                         |
 | [Custom Descriptors and JS Interop][custom-descs] | Thomas Lively                           |
-| [Extended Name Section][extended-name-section]    | Ben Visness                             |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -46,6 +45,7 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | ------------------------------------------------------------ | -------------------------------------- |
 | [Relaxed dead code validation][relaxed-dead-code-validation] | Conrad Watt and Ross Tate              |
 | [Numeric Values in WAT Data Segments][numeric-values-in-wat] | Ezzat Chamudi                          |
+| [Extended Name Section][extended-name-section]               | Ben Visness                            |
 | [Rounding Variants][rounding-mode-control]                   | Kloud Koder                            |
 | [Compilation Hints][compilation-hints]                       | Emanuel Ziegler                        |
 | [JS Primitive Builtins][js-primitive-builtins]               | Sébastien Doeraene                     |
@@ -95,9 +95,9 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [stack-switching]: https://github.com/WebAssembly/stack-switching
 [custom-page-sizes]: https://github.com/WebAssembly/custom-page-sizes
 [custom-descs]: https://github.com/WebAssembly/custom-descriptors
-[extended-name-section]: https://github.com/WebAssembly/extended-name-section
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
 [numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
+[extended-name-section]: https://github.com/WebAssembly/extended-name-section
 [rounding-mode-control]: https://github.com/WebAssembly/rounding-mode-control
 [compilation-hints]: https://github.com/WebAssembly/compilation-hints
 [js-primitive-builtins]: https://github.com/WebAssembly/js-primitive-builtins
