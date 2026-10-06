@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/WebAssembly/proposals/raw/main/proposals.schema.json",
+  "title": "WebAssembly proposals",
+  "description": "WebAssembly proposals and their phases. README.md, finished-proposals.md, and inactive-proposals.md are generated from this data by generate_markdown.py.",
+  "type": "object",
+  "definitions": {
+    "name": {
+      "description": "Name of the proposal.",
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "description": "Link to the proposal's repository or overview document.",
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "champions": {
+      "description": "The proposal's champions.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "active-proposal": {
+      "description": "A proposal in phases 1 through 5 that has not been merged into the spec yet.",
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/name" },
+        "url": { "$ref": "#/definitions/url" },
+        "phase": { "enum": [1, 2, 3, 4, 5] },
+        "champions": { "$ref": "#/definitions/champions" }
+      },
+      "required": ["name", "url", "phase", "champions"],
+      "additionalProperties": false
+    },
+    "finished-proposal": {
+      "description": "A proposal that has been merged into the spec.",
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/name" },
+        "url": { "$ref": "#/definitions/url" },
+        "phase": { "const": "finished" },
+        "champions": { "$ref": "#/definitions/champions" },
+        "meeting_notes": {
+          "description": "The WG meeting at which the proposal was accepted into the spec.",
+          "type": "object",
+          "properties": {
+            "date": {
+              "description": "Date of the meeting, as YYYY-MM-DD.",
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "url": {
+              "description": "Link to the meeting notes.",
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            }
+          },
+          "required": ["date", "url"],
+          "additionalProperties": false
+        },
+        "affected_specs": {
+          "description": "The specifications changed by the proposal.",
+          "type": "array",
+          "items": { "enum": ["core", "js-api", "web-api"] },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "spec_version": {
+          "description": "Version of the spec that first included the proposal, e.g. \"3.0\".",
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+$"
+        }
+      },
+      "required": [
+        "name",
+        "url",
+        "phase",
+        "champions",
+        "meeting_notes",
+        "affected_specs",
+        "spec_version"
+      ],
+      "additionalProperties": false
+    },
+    "inactive-proposal": {
+      "description": "A proposal that was abandoned, withdrawn, or rejected.",
+      "type": "object",
+      "properties": {
+        "name": { "$ref": "#/definitions/name" },
+        "url": { "$ref": "#/definitions/url" },
+        "phase": { "const": "inactive" },
+        "champions": { "$ref": "#/definitions/champions" },
+        "rationale": {
+          "description": "Why the proposal is inactive. May contain inline Markdown, such as links.",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["name", "url", "phase", "champions", "rationale"],
+      "additionalProperties": false
+    },
+    "proposal": {
+      "description": "A WebAssembly proposal. The fields it needs depend on its phase.",
+      "type": "object",
+      "properties": {
+        "phase": {
+          "description": "Phase of the proposal, as defined in https://github.com/WebAssembly/meetings/blob/main/process/phases.md. \"finished\" means the proposal has been merged into the spec, and \"inactive\" means it was abandoned, withdrawn, or rejected.",
+          "enum": [1, 2, 3, 4, 5, "finished", "inactive"]
+        }
+      },
+      "if": {
+        "properties": { "phase": { "const": "finished" } },
+        "required": ["phase"]
+      },
+      "then": { "$ref": "#/definitions/finished-proposal" },
+      "else": {
+        "if": {
+          "properties": { "phase": { "const": "inactive" } },
+          "required": ["phase"]
+        },
+        "then": { "$ref": "#/definitions/inactive-proposal" },
+        "else": { "$ref": "#/definitions/active-proposal" }
+      }
+    }
+  },
+  "properties": {
+    "$schema": { "type": "string", "format": "uri-reference" },
+    "proposals": {
+      "description": "Proposals keyed by ID. The ID is used as the Markdown link reference in the generated files. Each generated table lists its proposals in the order they appear here.",
+      "type": "object",
+      "propertyNames": { "pattern": "^[A-Za-z0-9_-]+$" },
+      "additionalProperties": { "$ref": "#/definitions/proposal" }
+    }
+  },
+  "required": ["proposals"],
+  "additionalProperties": false
+}

@@ -1,0 +1,304 @@
+#!/usr/bin/env python3
+"""Generate README.md, finished-proposals.md, and inactive-proposals.md from proposals.json."""
+
+from __future__ import annotations
+
+import argparse
+import difflib
+import json
+from pathlib import Path
+import sys
+
+REPO_DIR = Path(__file__).resolve().parent
+PROPOSALS_JSON = REPO_DIR / 'proposals.json'
+PROPOSALS_SCHEMA = REPO_DIR / 'proposals.schema.json'
+
+PHASE_SECTIONS = [
+    (
+        5,
+        '### Phase 5 - The Feature is Standardized (WG)',
+        '_These proposals have not yet been merged to the spec. Merged proposals are listed in [Finished Proposals](finished-proposals.md)._',
+    ),
+    (4, '### Phase 4 - Standardize the Feature (WG)', None),
+    (3, '### Phase 3 - Implementation Phase (CG + WG)', None),
+    (2, '### Phase 2 - Proposed Spec Text Available (CG + WG)', None),
+    (1, '### Phase 1 - Feature Proposal (CG)', None),
+]
+
+
+def validate(data: object, require_jsonschema: bool) -> bool:
+    """Validates data against proposals.schema.json.
+
+    This needs the third-party jsonschema package. If it isn't installed,
+    validation is skipped with a warning, or fails if require_jsonschema is set.
+    """
+    try:
+        import jsonschema
+    except ImportError:
+        hint = 'install it with `pip install jsonschema`'
+        if require_jsonschema:
+            print(
+                f'error: validating {PROPOSALS_JSON.name} requires the jsonschema package; {hint}',
+                file=sys.stderr,
+            )
+            return False
+        print(
+            f'warning: not validating {PROPOSALS_JSON.name} because the jsonschema package is not installed; {hint}',
+            file=sys.stderr,
+        )
+        return True
+
+    with open(PROPOSALS_SCHEMA, encoding='utf-8') as f:
+        schema = json.load(f)
+    validator_class = jsonschema.validators.validator_for(schema)
+    validator_class.check_schema(schema)
+    validator = validator_class(schema, format_checker=jsonschema.FormatChecker())
+    errors = sorted(validator.iter_errors(data), key=lambda error: error.json_path)
+    for error in errors:
+        print(f'error: {PROPOSALS_JSON.name}: {error.json_path}: {error.message}', file=sys.stderr)
+    return not errors
+
+
+def format_champions(champions: list[str]) -> str:
+    if not champions:
+        return ''
+    if len(champions) == 1:
+        return champions[0]
+    if len(champions) == 2:
+        return f'{champions[0]} and {champions[1]}'
+    return f"{', '.join(champions[:-1])}, and {champions[-1]}"
+
+
+def format_table(
+    headers: list[str],
+    rows: list[list[str]],
+    alignments: list[str] | None = None,
+) -> str:
+    if alignments is None:
+        alignments = ['left'] * len(headers)
+
+    widths = [len(h) for h in headers]
+    for row in rows:
+        for i, cell in enumerate(row):
+            widths[i] = max(widths[i], len(cell))
+
+    header_cells = [f' {h.ljust(widths[i])} ' for i, h in enumerate(headers)]
+    sep_cells = []
+    for i, align in enumerate(alignments):
+        if align == 'center':
+            sep_cells.append(f":{'-' * widths[i]}:")
+        elif align == 'right':
+            sep_cells.append(f" {'-' * widths[i]}:")
+        else:
+            sep_cells.append(f" {'-' * widths[i]} ")
+
+    lines = [
+        '|' + '|'.join(header_cells) + '|',
+        '|' + '|'.join(sep_cells) + '|',
+    ]
+    for row in rows:
+        cells = [f' {cell.ljust(widths[i])} ' for i, cell in enumerate(row)]
+        lines.append('|' + '|'.join(cells) + '|')
+    return '\n'.join(lines)
+
+
+def generate_readme(proposals: dict[str, dict]) -> str:
+    lines = [
+        '# [WebAssembly][webassembly_specification] proposals',
+        '',
+        '- [Finished Proposals](finished-proposals.md)',
+        '- [Inactive Proposals](inactive-proposals.md)',
+        '',
+        '## Active proposals',
+        '',
+        'Proposals follow [this process document](https://github.com/WebAssembly/meetings/blob/main/process/phases.md).',
+        '',
+    ]
+
+    active_links: list[tuple[str, str]] = []
+
+    for phase, heading, note in PHASE_SECTIONS:
+        lines.append(heading)
+        lines.append('')
+        if note:
+            lines.append(note)
+            lines.append('')
+
+        rows = []
+        for prop_id, prop in proposals.items():
+            if prop['phase'] == phase:
+                rows.append(
+                    [
+                        f"[{prop['name']}][{prop_id}]",
+                        format_champions(prop['champions']),
+                    ]
+                )
+                active_links.append((prop_id, prop['url']))
+
+        lines.append(format_table(['Proposal', 'Champion'], rows))
+        lines.append('')
+
+    lines.extend(
+        [
+            '### Phase 0 - Pre-Proposal (CG)',
+            '',
+            'Phase 0 proposals are tracked in the [design repository issue tracker].',
+            '',
+            '[design repository issue tracker]: https://github.com/WebAssembly/design/issues',
+            '',
+            '## Implementation status',
+            '',
+            'Implementation status of most proposals in various wasm engines is available on https://webassembly.org/features/',
+            '',
+            '## Contributing new proposals',
+            '',
+            'Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/blob/main/Contributing.md) for the most up-to-date information on contributing proposals to standard.',
+            '',
+            '[webassembly_specification]: https://github.com/WebAssembly/spec',
+        ]
+    )
+
+    for prop_id, url in active_links:
+        lines.append(f'[{prop_id}]: {url}')
+
+    return '\n'.join(lines) + '\n'
+
+
+def generate_finished(proposals: dict[str, dict]) -> str:
+    rows = []
+    prop_links: list[tuple[str, str]] = []
+    note_links: dict[str, str] = {}
+
+    for prop_id, prop in proposals.items():
+        if prop['phase'] != 'finished':
+            continue
+        date = prop['meeting_notes']['date']
+        note_id = f'WG-{date}'
+        note_links[note_id] = prop['meeting_notes']['url']
+        rows.append(
+            [
+                f"[{prop['name']}][{prop_id}]",
+                format_champions(prop['champions']),
+                f'[WG {date}][{note_id}]',
+                ', '.join(prop['affected_specs']),
+                prop['spec_version'],
+            ]
+        )
+        prop_links.append((prop_id, prop['url']))
+
+    table = format_table(
+        ['Proposal', 'Champion', 'Meeting notes', 'Affected specs', 'Spec Version'],
+        rows,
+        alignments=['left', 'left', 'left', 'left', 'center'],
+    )
+
+    lines = [
+        '# Finished Proposals',
+        '',
+        'Finished proposals are proposals that have reached phase 4, and are included in the latest draft of [the specification](http://webassembly.github.io/spec/).',
+        '',
+        table,
+        '',
+        'See also the [active proposals](README.md) and [inactive proposals](inactive-proposals.md) documents.',
+        '',
+    ]
+
+    for prop_id, url in prop_links:
+        lines.append(f'[{prop_id}]: {url}')
+    for note_id, url in note_links.items():
+        lines.append(f'[{note_id}]: {url}')
+
+    return '\n'.join(lines) + '\n'
+
+
+def generate_inactive(proposals: dict[str, dict]) -> str:
+    rows = []
+    prop_links: list[tuple[str, str]] = []
+
+    for prop_id, prop in proposals.items():
+        if prop['phase'] != 'inactive':
+            continue
+        rows.append(
+            [
+                f"[{prop['name']}][{prop_id}]",
+                format_champions(prop['champions']),
+                prop['rationale'],
+            ]
+        )
+        prop_links.append((prop_id, prop['url']))
+
+    table = format_table(['Proposal', 'Champion', 'Rationale'], rows)
+
+    lines = [
+        '# Inactive Proposals',
+        '',
+        'Inactive proposals are proposals that at one point were presented to the community group but were subsequently abandoned, withdrawn, or rejected.',
+        '',
+        table,
+        '',
+        'See also the [active proposals](README.md) and [finished proposals](finished-proposals.md) documents.',
+        '',
+    ]
+
+    for prop_id, url in prop_links:
+        lines.append(f'[{prop_id}]: {url}')
+
+    return '\n'.join(lines) + '\n'
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        '--check',
+        action='store_true',
+        help=(
+            'Validate proposals.json against proposals.schema.json (requires the '
+            'jsonschema package) and check that the Markdown files are up to date, '
+            'without modifying them.'
+        ),
+    )
+    args = parser.parse_args()
+
+    with open(PROPOSALS_JSON, encoding='utf-8') as f:
+        data = json.load(f)
+
+    if not validate(data, require_jsonschema=args.check):
+        return 1
+
+    proposals = data['proposals']
+    outputs = {
+        REPO_DIR / 'README.md': generate_readme(proposals),
+        REPO_DIR / 'finished-proposals.md': generate_finished(proposals),
+        REPO_DIR / 'inactive-proposals.md': generate_inactive(proposals),
+    }
+
+    if args.check:
+        out_of_date = []
+        for path, expected in outputs.items():
+            actual = path.read_text(encoding='utf-8') if path.exists() else ''
+            if actual != expected:
+                out_of_date.append(path.name)
+                diff = difflib.unified_diff(
+                    actual.splitlines(keepends=True),
+                    expected.splitlines(keepends=True),
+                    fromfile=f'a/{path.name}',
+                    tofile=f'b/{path.name}',
+                )
+                sys.stderr.writelines(diff)
+        if out_of_date:
+            print(
+                f"\nOut-of-date files: {', '.join(out_of_date)}. "
+                'Run ./generate_markdown.py to update.',
+                file=sys.stderr,
+            )
+            return 1
+        return 0
+
+    for path, content in outputs.items():
+        path.write_text(content, encoding='utf-8')
+
+    return 0
+
+
+if __name__ == '__main__':
+    sys.exit(main())

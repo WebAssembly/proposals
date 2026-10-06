@@ -1,0 +1,696 @@
+{
+  "$schema": "./proposals.schema.json",
+  "proposals": {
+    "js-promise-integration": {
+      "name": "JS Promise Integration",
+      "url": "https://github.com/WebAssembly/js-promise-integration",
+      "phase": 5,
+      "champions": [
+        "Francis McCabe"
+      ]
+    },
+    "content-security-policy": {
+      "name": "Web Content Security Policy",
+      "url": "https://github.com/WebAssembly/content-security-policy",
+      "phase": 5,
+      "champions": [
+        "Francis McCabe"
+      ]
+    },
+    "threads": {
+      "name": "Threads",
+      "url": "https://github.com/webassembly/threads",
+      "phase": 4,
+      "champions": [
+        "Conrad Watt"
+      ]
+    },
+    "compact-import-section": {
+      "name": "Compact Import Section",
+      "url": "https://github.com/WebAssembly/compact-import-section",
+      "phase": 4,
+      "champions": [
+        "Ryan Hunt"
+      ]
+    },
+    "wide-arithmetic": {
+      "name": "Wide Arithmetic",
+      "url": "https://github.com/WebAssembly/wide-arithmetic",
+      "phase": 4,
+      "champions": [
+        "Alex Crichton",
+        "Jamey Sharp"
+      ]
+    },
+    "ecmascript_module_integration": {
+      "name": "ESM Integration",
+      "url": "https://github.com/WebAssembly/esm-integration",
+      "phase": 3,
+      "champions": [
+        "Asumu Takikawa",
+        "Ms2ger",
+        "Guy Bedford"
+      ]
+    },
+    "stack-switching": {
+      "name": "Stack Switching",
+      "url": "https://github.com/WebAssembly/stack-switching",
+      "phase": 3,
+      "champions": [
+        "Francis McCabe",
+        "Sam Lindley"
+      ]
+    },
+    "custom-page-sizes": {
+      "name": "Custom Page Sizes",
+      "url": "https://github.com/WebAssembly/custom-page-sizes",
+      "phase": 3,
+      "champions": [
+        "Nick Fitzgerald"
+      ]
+    },
+    "custom-descs": {
+      "name": "Custom Descriptors and JS Interop",
+      "url": "https://github.com/WebAssembly/custom-descriptors",
+      "phase": 3,
+      "champions": [
+        "Thomas Lively"
+      ]
+    },
+    "relaxed-dead-code-validation": {
+      "name": "Relaxed dead code validation",
+      "url": "https://github.com/WebAssembly/relaxed-dead-code-validation",
+      "phase": 2,
+      "champions": [
+        "Conrad Watt",
+        "Ross Tate"
+      ]
+    },
+    "numeric-values-in-wat": {
+      "name": "Numeric Values in WAT Data Segments",
+      "url": "https://github.com/WebAssembly/wat-numeric-values",
+      "phase": 2,
+      "champions": [
+        "Ezzat Chamudi"
+      ]
+    },
+    "extended-name-section": {
+      "name": "Extended Name Section",
+      "url": "https://github.com/WebAssembly/extended-name-section",
+      "phase": 2,
+      "champions": [
+        "Ben Visness"
+      ]
+    },
+    "rounding-mode-control": {
+      "name": "Rounding Variants",
+      "url": "https://github.com/WebAssembly/rounding-mode-control",
+      "phase": 2,
+      "champions": [
+        "Kloud Koder"
+      ]
+    },
+    "compilation-hints": {
+      "name": "Compilation Hints",
+      "url": "https://github.com/WebAssembly/compilation-hints",
+      "phase": 2,
+      "champions": [
+        "Emanuel Ziegler"
+      ]
+    },
+    "js-primitive-builtins": {
+      "name": "JS Primitive Builtins",
+      "url": "https://github.com/WebAssembly/js-primitive-builtins",
+      "phase": 2,
+      "champions": [
+        "Sébastien Doeraene"
+      ]
+    },
+    "acquire-release-atomics": {
+      "name": "Acquire-Release Atomics",
+      "url": "https://github.com/WebAssembly/acquire-release-atomics",
+      "phase": 2,
+      "champions": [
+        "Conrad Watt",
+        "Rezvan Mahdavi Hezaveh"
+      ]
+    },
+    "multibyte-array-access": {
+      "name": "Multibyte Array Access",
+      "url": "https://github.com/WebAssembly/multibyte-array-access",
+      "phase": 2,
+      "champions": [
+        "Brendan Dahl"
+      ]
+    },
+    "fp16": {
+      "name": "FP16",
+      "url": "https://github.com/WebAssembly/half-precision",
+      "phase": 2,
+      "champions": [
+        "Brendan Dahl"
+      ]
+    },
+    "type-imports": {
+      "name": "Type Imports",
+      "url": "https://github.com/WebAssembly/proposal-type-imports",
+      "phase": 1,
+      "champions": [
+        "Andreas Rossberg"
+      ]
+    },
+    "component-model": {
+      "name": "Component Model",
+      "url": "https://github.com/WebAssembly/component-model",
+      "phase": 1,
+      "champions": [
+        "Luke Wagner"
+      ]
+    },
+    "wasm_c_api": {
+      "name": "WebAssembly C and C++ API",
+      "url": "https://github.com/WebAssembly/wasm-c-api",
+      "phase": 1,
+      "champions": [
+        "Andreas Rossberg"
+      ]
+    },
+    "flexible-vectors": {
+      "name": "Flexible Vectors",
+      "url": "https://github.com/WebAssembly/flexible-vectors",
+      "phase": 1,
+      "champions": [
+        "Petr Penzin",
+        "Tal Garfinkel"
+      ]
+    },
+    "memory-control": {
+      "name": "Memory control",
+      "url": "https://github.com/WebAssembly/memory-control",
+      "phase": 1,
+      "champions": [
+        "Deepti Gandluri",
+        "Ben Visness"
+      ]
+    },
+    "stringref": {
+      "name": "Reference-Typed Strings",
+      "url": "https://github.com/WebAssembly/stringref",
+      "phase": 1,
+      "champions": [
+        "Andy Wingo"
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "url": "https://github.com/WebAssembly/profiles",
+      "phase": 1,
+      "champions": [
+        "Andreas Rossberg"
+      ]
+    },
+    "shared-everything-threads": {
+      "name": "Shared-Everything Threads",
+      "url": "https://github.com/WebAssembly/shared-everything-threads",
+      "phase": 1,
+      "champions": [
+        "Andrew Brown",
+        "Conrad Watt",
+        "Thomas Lively"
+      ]
+    },
+    "frozen-values": {
+      "name": "Frozen Values",
+      "url": "https://github.com/WebAssembly/frozen-values",
+      "phase": 1,
+      "champions": [
+        "Léo Andrès",
+        "Pierre Chambart"
+      ]
+    },
+    "more-array-constructors": {
+      "name": "More Array Constructors",
+      "url": "https://github.com/WebAssembly/more-array-constructors/",
+      "phase": 1,
+      "champions": [
+        "Nick Fitzgerald"
+      ]
+    },
+    "jit-interface": {
+      "name": "JIT Interface",
+      "url": "https://github.com/WebAssembly/jit-interface",
+      "phase": 1,
+      "champions": [
+        "Ben Titzer"
+      ]
+    },
+    "js-types": {
+      "name": "Type Reflection for WebAssembly JavaScript API",
+      "url": "https://github.com/WebAssembly/js-types",
+      "phase": 1,
+      "champions": [
+        "Ilya Rezvov"
+      ]
+    },
+    "js-text-encoding-builtins": {
+      "name": "JS Text Encoding Builtins",
+      "url": "https://github.com/WebAssembly/js-text-encoding-builtins",
+      "phase": 1,
+      "champions": [
+        "Daxpedda"
+      ]
+    },
+    "mvp": {
+      "name": "MVP",
+      "url": "https://github.com/WebAssembly/design/blob/main/MVP.md",
+      "phase": "finished",
+      "champions": [
+        "The Wasm CG"
+      ],
+      "meeting_notes": {
+        "date": "2017-12-06",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2017/WG-12-06.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api",
+        "web-api"
+      ],
+      "spec_version": "1.0"
+    },
+    "import_export_of_mutable_globals": {
+      "name": "Import/Export of Mutable Globals",
+      "url": "https://github.com/WebAssembly/mutable-global",
+      "phase": "finished",
+      "champions": [
+        "Ben Smith"
+      ],
+      "meeting_notes": {
+        "date": "2018-06-06",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2018/WG-06-06.md#discussion-on-status-of-the-working-draft"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "1.0"
+    },
+    "non-trapping_float-to-int_conversions": {
+      "name": "Non-trapping float-to-int conversions",
+      "url": "https://github.com/WebAssembly/nontrapping-float-to-int-conversions",
+      "phase": "finished",
+      "champions": [
+        "Dan Gohman"
+      ],
+      "meeting_notes": {
+        "date": "2020-03-11",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2020/WG-03-11.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "2.0"
+    },
+    "sign-extension_operators": {
+      "name": "Sign-extension operators",
+      "url": "https://github.com/WebAssembly/sign-extension-ops",
+      "phase": "finished",
+      "champions": [
+        "Ben Smith"
+      ],
+      "meeting_notes": {
+        "date": "2020-03-11",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2020/WG-03-11.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "2.0"
+    },
+    "multi-value": {
+      "name": "Multi-value",
+      "url": "https://github.com/WebAssembly/multi-value",
+      "phase": "finished",
+      "champions": [
+        "Andreas Rossberg"
+      ],
+      "meeting_notes": {
+        "date": "2020-03-11",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2020/WG-03-11.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "2.0"
+    },
+    "javascript_bigint_to_webassembly_i64_integration": {
+      "name": "JavaScript BigInt to WebAssembly i64 integration",
+      "url": "https://github.com/WebAssembly/JS-BigInt-integration",
+      "phase": "finished",
+      "champions": [
+        "Dan Ehrenberg",
+        "Sven Sauleau"
+      ],
+      "meeting_notes": {
+        "date": "2020-06-09",
+        "url": "https://lists.w3.org/Archives/Public/public-webassembly/2020Jun/0000.html"
+      },
+      "affected_specs": [
+        "js-api"
+      ],
+      "spec_version": "2.0"
+    },
+    "reference_types": {
+      "name": "Reference Types",
+      "url": "https://github.com/WebAssembly/reference-types",
+      "phase": "finished",
+      "champions": [
+        "Andreas Rossberg"
+      ],
+      "meeting_notes": {
+        "date": "2021-02-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2021/WG-02-10.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "2.0"
+    },
+    "bulk_memory_operations": {
+      "name": "Bulk memory operations",
+      "url": "https://github.com/WebAssembly/bulk-memory-operations",
+      "phase": "finished",
+      "champions": [
+        "Ben Smith"
+      ],
+      "meeting_notes": {
+        "date": "2021-02-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2021/WG-02-10.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "2.0"
+    },
+    "fixed-width_simd": {
+      "name": "Fixed-width SIMD",
+      "url": "https://github.com/webassembly/simd",
+      "phase": "finished",
+      "champions": [
+        "Deepti Gandluri",
+        "Arun Purushan"
+      ],
+      "meeting_notes": {
+        "date": "2021-07-14",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2021/WG-07-14.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "2.0"
+    },
+    "tail_call": {
+      "name": "Tail call",
+      "url": "https://github.com/WebAssembly/tail-call",
+      "phase": "finished",
+      "champions": [
+        "Andreas Rossberg"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "3.0"
+    },
+    "extended-const": {
+      "name": "Extended Constant Expressions",
+      "url": "https://github.com/WebAssembly/extended-const",
+      "phase": "finished",
+      "champions": [
+        "Sam Clegg"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "3.0"
+    },
+    "function_references": {
+      "name": "Typed Function References",
+      "url": "https://github.com/WebAssembly/function-references",
+      "phase": "finished",
+      "champions": [
+        "Andreas Rossberg"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "3.0"
+    },
+    "garbage_collection": {
+      "name": "Garbage collection",
+      "url": "https://github.com/WebAssembly/gc",
+      "phase": "finished",
+      "champions": [
+        "Andreas Rossberg"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "3.0"
+    },
+    "multi-memory": {
+      "name": "Multiple memories",
+      "url": "https://github.com/WebAssembly/multi-memory",
+      "phase": "finished",
+      "champions": [
+        "Andreas Rossberg"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "3.0"
+    },
+    "relaxed-simd": {
+      "name": "Relaxed SIMD",
+      "url": "https://github.com/WebAssembly/relaxed-simd",
+      "phase": "finished",
+      "champions": [
+        "Marat Dukhan",
+        "Zhi An Ng"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "3.0"
+    },
+    "annotations": {
+      "name": "Custom Annotation Syntax in the Text Format",
+      "url": "https://github.com/WebAssembly/annotations",
+      "phase": "finished",
+      "champions": [
+        "Andreas Rossberg"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "3.0"
+    },
+    "branch-hinting": {
+      "name": "Branch Hinting",
+      "url": "https://github.com/WebAssembly/branch-hinting",
+      "phase": "finished",
+      "champions": [
+        "Yuri Iozzelli"
+      ],
+      "meeting_notes": {
+        "date": "2024-07-10",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2024/WG-07-10.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "3.0"
+    },
+    "exception_handling": {
+      "name": "Exception handling",
+      "url": "https://github.com/WebAssembly/exception-handling",
+      "phase": "finished",
+      "champions": [
+        "Heejin Ahn",
+        "Ben Titzer"
+      ],
+      "meeting_notes": {
+        "date": "2025-07-23",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2025/WG-07-23.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "3.0"
+    },
+    "js-string-builtins": {
+      "name": "JS String Builtins",
+      "url": "https://github.com/WebAssembly/js-string-builtins",
+      "phase": "finished",
+      "champions": [
+        "Ryan Hunt"
+      ],
+      "meeting_notes": {
+        "date": "2025-07-23",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2025/WG-07-23.md"
+      },
+      "affected_specs": [
+        "core",
+        "js-api"
+      ],
+      "spec_version": "3.0"
+    },
+    "memory64": {
+      "name": "Memory64",
+      "url": "https://github.com/WebAssembly/memory64",
+      "phase": "finished",
+      "champions": [
+        "Sam Clegg"
+      ],
+      "meeting_notes": {
+        "date": "2025-07-23",
+        "url": "https://github.com/WebAssembly/meetings/blob/main/main/2025/WG-07-23.md"
+      },
+      "affected_specs": [
+        "core"
+      ],
+      "spec_version": "3.0"
+    },
+    "unmanaged_closures": {
+      "name": "Unmanaged closures",
+      "url": "https://github.com/WebAssembly/proposals/issues/6",
+      "phase": "inactive",
+      "champions": [
+        "Mark Miller"
+      ],
+      "rationale": "Withdrawn in favor of [Typed Function References](https://github.com/WebAssembly/function-references)"
+    },
+    "cond_sections": {
+      "name": "Conditional sections",
+      "url": "https://github.com/WebAssembly/conditional-sections",
+      "phase": "inactive",
+      "champions": [
+        "Thomas Lively"
+      ],
+      "rationale": "Withdrawn in favor of [Feature detection](https://github.com/WebAssembly/feature-detection)"
+    },
+    "feature_detection": {
+      "name": "Feature Detection",
+      "url": "https://github.com/WebAssembly/feature-detection",
+      "phase": "inactive",
+      "champions": [
+        "Thomas Lively"
+      ],
+      "rationale": "Withdrawn for lack of consensus"
+    },
+    "module_linking": {
+      "name": "Module Linking",
+      "url": "https://github.com/WebAssembly/module-linking",
+      "phase": "inactive",
+      "champions": [
+        "Luke Wagner",
+        "Andreas Rossberg"
+      ],
+      "rationale": "Suspended in favor of the [Component Model](https://github.com/WebAssembly/component-model)"
+    },
+    "interface_types": {
+      "name": "Interface Types",
+      "url": "https://github.com/WebAssembly/interface-types",
+      "phase": "inactive",
+      "champions": [
+        "Luke Wagner",
+        "Francis McCabe"
+      ],
+      "rationale": "Suspended in favor of the [Component Model](https://github.com/WebAssembly/component-model)"
+    },
+    "funclets": {
+      "name": "Funclets: Flexible Intraprocedural Control Flow",
+      "url": "https://github.com/WebAssembly/funclets",
+      "phase": "inactive",
+      "champions": [
+        "Dan Gohman"
+      ],
+      "rationale": "Withdrawn in favor of multiloop[[1](https://github.com/WebAssembly/meetings/blob/8f06ff4d8c1f8af28a37fd1f2ab4b7df30741f76/main/2021/CG-03-16.md)][[2](https://github.com/WebAssembly/meetings/blob/8f06ff4d8c1f8af28a37fd1f2ab4b7df30741f76/main/2021/CG-03-30.md)]"
+    },
+    "call-tags": {
+      "name": "Call Tags",
+      "url": "https://github.com/WebAssembly/call-tags",
+      "phase": "inactive",
+      "champions": [
+        "Ross Tate"
+      ],
+      "rationale": "Inactive"
+    },
+    "constant-time": {
+      "name": "Constant Time",
+      "url": "https://github.com/WebAssembly/constant-time",
+      "phase": "inactive",
+      "champions": [
+        "Sunjay Cauligi",
+        "Garrett Gu",
+        "John Renner",
+        "Hovav Shacham",
+        "Deian Stefan",
+        "Conrad Watt"
+      ],
+      "rationale": "Inactive"
+    },
+    "gc-js-customization": {
+      "name": "JS Customization for GC Objects",
+      "url": "https://github.com/WebAssembly/gc-js-customization",
+      "phase": "inactive",
+      "champions": [
+        "Asumu Takikawa"
+      ],
+      "rationale": "Withdrawn in favor of [Custom Descriptors](https://github.com/WebAssembly/custom-descriptors)"
+    },
+    "instrument-tracing": {
+      "name": "Instrument and Tracing Technology",
+      "url": "https://github.com/WebAssembly/instrument-tracing",
+      "phase": "inactive",
+      "champions": [
+        "Richard Winterton"
+      ],
+      "rationale": "Inactive"
+    }
+  }
+}
