@@ -11,11 +11,16 @@ jobs:
     name: Check proposals.json and generated Markdown
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
 
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          # For same-repo PRs, check out the actual PR branch (head_ref) so CI
+          # can push commits to it; for fork PRs and pushes, use github.ref.
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.head_ref || github.ref }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -25,5 +30,23 @@ jobs:
       - name: Install jsonschema
         run: pip install jsonschema
 
-      - name: Validate proposals.json and check that Markdown files are up to date
-        run: python generate_markdown.py --check
+      - name: Validate proposals.json and check or update Markdown files
+        env:
+          IS_SAME_REPO_PR: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository }}
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          # For same-repo PRs that don't modify any of the Markdown files,
+          # regenerate the Markdown files and commit any updates to the PR branch.
+          # Otherwise, run --check so we don't clobber manual Markdown edits.
+          if [ "$IS_SAME_REPO_PR" = "true" ] && git diff --quiet "origin/${BASE_REF}...HEAD" -- '*.md'; then
+            python generate_markdown.py
+            if ! git diff --quiet -- '*.md'; then
+              git config user.name 'github-actions[bot]'
+              git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+              git add '*.md'
+              git commit -m 'Regenerate Markdown files from proposals.json'
+              git push
+            fi
+          else
+            python generate_markdown.py --check
+          fi

@@ -168,6 +168,8 @@ Add the proposal to the list of active proposals by creating a respective PR.
 
 4. Commit `proposals.json` and `README.md` and create a PR.
 
+**Note:** If you have write access to `WebAssembly/proposals` and create the PR on a branch in the repo (for example, by editing `proposals.json` directly in the GitHub web UI), you can skip running `./generate_markdown.py` locally and CI will commit the regenerated Markdown files to your PR automatically.
+
 
 ## Setting up CI and GitHub Pages
 
