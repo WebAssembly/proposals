@@ -36,9 +36,9 @@ _These proposals have not yet been merged to the spec. Merged proposals are list
 | ------------------------------------------------- | --------------------------------------- |
 | [ESM Integration][ecmascript_module_integration]  | Asumu Takikawa, Ms2ger, and Guy Bedford |
 | [Stack Switching][stack-switching]                | Francis McCabe and Sam Lindley          |
+| [Extended Name Section][extended-name-section]    | Ben Visness                             |
 | [Custom Page Sizes][custom-page-sizes]            | Nick Fitzgerald                         |
 | [Custom Descriptors and JS Interop][custom-descs] | Thomas Lively                           |
-| [Extended Name Section][extended-name-section]    | Ben Visness                             |
 
 ### Phase 2 - Proposed Spec Text Available (CG + WG)
 
@@ -93,9 +93,9 @@ Please see [Contributing to WebAssembly](https://github.com/WebAssembly/design/b
 [wide-arithmetic]: https://github.com/WebAssembly/wide-arithmetic
 [ecmascript_module_integration]: https://github.com/WebAssembly/esm-integration
 [stack-switching]: https://github.com/WebAssembly/stack-switching
+[extended-name-section]: https://github.com/WebAssembly/extended-name-section
 [custom-page-sizes]: https://github.com/WebAssembly/custom-page-sizes
 [custom-descs]: https://github.com/WebAssembly/custom-descriptors
-[extended-name-section]: https://github.com/WebAssembly/extended-name-section
 [relaxed-dead-code-validation]: https://github.com/WebAssembly/relaxed-dead-code-validation
 [numeric-values-in-wat]: https://github.com/WebAssembly/wat-numeric-values
 [rounding-mode-control]: https://github.com/WebAssembly/rounding-mode-control
