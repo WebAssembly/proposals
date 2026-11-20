@@ -61,6 +61,14 @@
         "Sam Lindley"
       ]
     },
+    "extended-name-section": {
+      "name": "Extended Name Section",
+      "url": "https://github.com/WebAssembly/extended-name-section",
+      "phase": 3,
+      "champions": [
+        "Ben Visness"
+      ]
+    },    
     "custom-page-sizes": {
       "name": "Custom Page Sizes",
       "url": "https://github.com/WebAssembly/custom-page-sizes",
@@ -92,14 +100,6 @@
       "phase": 2,
       "champions": [
         "Ezzat Chamudi"
-      ]
-    },
-    "extended-name-section": {
-      "name": "Extended Name Section",
-      "url": "https://github.com/WebAssembly/extended-name-section",
-      "phase": 2,
-      "champions": [
-        "Ben Visness"
       ]
     },
     "rounding-mode-control": {
